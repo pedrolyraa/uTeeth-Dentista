@@ -12,7 +12,10 @@
         android:theme="@style/Theme.UTeethDentista"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
+            android:name=".LoginFragment"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity2"
             android:exported="true"
             android:label="@string/app_name"
             android:theme="@style/Theme.UTeethDentista.NoActionBar">

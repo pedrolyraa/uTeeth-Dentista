@@ -24,9 +24,13 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
+        android:testOnly="true"
         android:theme="@style/Theme.UTeethDentista" >
         <activity
-            android:name="br.edu.puc.uteethdentista.MainActivity"
+            android:name="br.edu.puc.uteethdentista.LoginFragment"
+            android:exported="false" />
+        <activity
+            android:name="br.edu.puc.uteethdentista.MainActivity2"
             android:exported="true"
             android:label="@string/app_name"
             android:theme="@style/Theme.UTeethDentista.NoActionBar" >

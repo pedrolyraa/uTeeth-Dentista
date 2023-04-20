@@ -1,30 +1,10 @@
 [
     {
-        "merged": "C:\\Users\\22014370\\.gradle\\daemon\\7.5\\br.edu.puc.uteethdentista.app-mergeDebugResources-44:\\layout\\activity_main.xml",
-        "source": "C:\\Users\\22014370\\.gradle\\daemon\\7.5\\br.edu.puc.uteethdentista.app-main-47:\\layout\\activity_main.xml"
-    },
-    {
         "merged": "br.edu.puc.uteethdentista.app-mergeDebugResources-44:/layout/activity_login_fragment.xml",
         "source": "br.edu.puc.uteethdentista.app-main-47:/layout/activity_login_fragment.xml"
     },
     {
-        "merged": "C:\\Users\\22014370\\.gradle\\daemon\\7.5\\br.edu.puc.uteethdentista.app-mergeDebugResources-44:\\layout\\fragment_logaroucriarconta.xml",
-        "source": "C:\\Users\\22014370\\.gradle\\daemon\\7.5\\br.edu.puc.uteethdentista.app-main-47:\\layout\\fragment_logaroucriarconta.xml"
-    },
-    {
-        "merged": "C:\\Users\\22014370\\.gradle\\daemon\\7.5\\br.edu.puc.uteethdentista.app-mergeDebugResources-44:\\layout\\content_main.xml",
-        "source": "C:\\Users\\22014370\\.gradle\\daemon\\7.5\\br.edu.puc.uteethdentista.app-main-47:\\layout\\content_main.xml"
-    },
-    {
-        "merged": "C:\\Users\\22014370\\.gradle\\daemon\\7.5\\br.edu.puc.uteethdentista.app-mergeDebugResources-44:\\layout\\activity_main2.xml",
-        "source": "C:\\Users\\22014370\\.gradle\\daemon\\7.5\\br.edu.puc.uteethdentista.app-main-47:\\layout\\activity_main2.xml"
-    },
-    {
-        "merged": "C:\\Users\\22014370\\.gradle\\daemon\\7.5\\br.edu.puc.uteethdentista.app-mergeDebugResources-44:\\layout\\fragment_criarconta.xml",
-        "source": "C:\\Users\\22014370\\.gradle\\daemon\\7.5\\br.edu.puc.uteethdentista.app-main-47:\\layout\\fragment_criarconta.xml"
-    },
-    {
-        "merged": "C:\\Users\\22014370\\.gradle\\daemon\\7.5\\br.edu.puc.uteethdentista.app-mergeDebugResources-44:\\layout\\activity_login_fragment.xml",
-        "source": "C:\\Users\\22014370\\.gradle\\daemon\\7.5\\br.edu.puc.uteethdentista.app-main-47:\\layout\\activity_login_fragment.xml"
+        "merged": "br.edu.puc.uteethdentista.app-mergeDebugResources-44:/layout/activity_main2.xml",
+        "source": "br.edu.puc.uteethdentista.app-main-47:/layout/activity_main2.xml"
     }
 ]

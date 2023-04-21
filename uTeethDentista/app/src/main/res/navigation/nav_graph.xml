@@ -7,22 +7,34 @@
 
     <fragment
         android:id="@+id/LogarOuCriarConta"
-        android:name="br.edu.puc.uteethdentista.LogarOuCriarContaFragment"
+        android:name="br.edu.puc.uteethdentista.LoginFragment"
         android:label="@string/first_fragment_label"
-        tools:layout="@layout/fragment_logaroucriarconta">
+        tools:layout="@layout/fragment_login">
 
         <action
             android:id="@+id/action_FirstFragment_to_SecondFragment"
             app:destination="@id/CriarConta" />
     </fragment>
+
     <fragment
         android:id="@+id/CriarConta"
         android:name="br.edu.puc.uteethdentista.CriarContaFragment"
         android:label="@string/second_fragment_label"
-        tools:layout="@layout/fragment_criarconta">
+        tools:layout="@layout/fragment_criar_conta">
 
         <action
             android:id="@+id/action_SecondFragment_to_FirstFragment"
             app:destination="@id/LogarOuCriarConta" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/Home"
+        android:name="br.edu.puc.uteethdentista.HomeFragment"
+        android:label="Terceiro Fragment"
+        tools:layout="@layout/fragment_home">
+
+        <action
+            android:id="@+id/action_TerceiroFragment_to_FirstFragment"
+            app:destination="@+id/LogarOuCriarConta"/>
     </fragment>
 </navigation>

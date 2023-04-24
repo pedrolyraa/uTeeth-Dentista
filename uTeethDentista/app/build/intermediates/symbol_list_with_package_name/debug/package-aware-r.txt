@@ -2778,9 +2778,8 @@ drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable ic_search_black_24
-drawable logo_a
 drawable logo_a2
-drawable logo_b
+drawable logo_transparente
 drawable m3_appbar_background
 drawable m3_avd_hide_password
 drawable m3_avd_show_password
@@ -2861,6 +2860,7 @@ id BOTTOM_START
 id CTRL
 id CriarConta
 id FUNCTION
+id Home
 id LogarOuCriarConta
 id META
 id NO_DEBUG
@@ -2910,6 +2910,7 @@ id actionDownUp
 id actionUp
 id action_FirstFragment_to_SecondFragment
 id action_SecondFragment_to_FirstFragment
+id action_TerceiroFragment_to_FirstFragment
 id action_bar
 id action_bar_activity_content
 id action_bar_container
@@ -2959,6 +2960,8 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
+id btn_criar
+id btn_entrar
 id buttonPanel
 id cache_measures
 id callMeasure
@@ -3066,6 +3069,8 @@ id graph_wrap
 id group_divider
 id grouping
 id groups
+id guideline
+id guideline2
 id header_title
 id hideable
 id home
@@ -3078,7 +3083,7 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
-id imageView
+id img_uteethlogo
 id immediateStop
 id included
 id indeterminate
@@ -3293,6 +3298,8 @@ id stretch
 id submenuarrow
 id submit_area
 id supportScrollUp
+id tV_crie_sua_conta
+id tV_entreConta
 id tabMode
 id tag_accessibility_actions
 id tag_accessibility_clickable_spans
@@ -3314,7 +3321,6 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
-id textView
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -3324,6 +3330,9 @@ id textinput_helper_text
 id textinput_placeholder
 id textinput_prefix_text
 id textinput_suffix_text
+id ti_confirmar_senha
+id ti_email
+id ti_senha
 id time
 id title
 id titleDividerNoCustom
@@ -3340,6 +3349,12 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
+id tv_confirmar_senha
+id tv_criarconta
+id tv_email
+id tv_opcoesconta
+id tv_semconta
+id tv_senha
 id unchecked
 id uniform
 id unlabeled
@@ -3470,7 +3485,6 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
-layout activity_login_fragment
 layout activity_main2
 layout custom_dialog
 layout design_bottom_navigation_item
@@ -3488,6 +3502,9 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
+layout fragment_criar_conta
+layout fragment_home
+layout fragment_login
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
 layout m3_alert_dialog_title
@@ -3601,6 +3618,7 @@ string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
 string first_fragment_label
+string hello_blank_fragment
 string hello_first_fragment
 string hello_second_fragment
 string hide_bottom_view_on_scroll_behavior

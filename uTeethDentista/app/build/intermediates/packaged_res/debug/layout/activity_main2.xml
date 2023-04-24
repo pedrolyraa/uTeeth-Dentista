@@ -10,10 +10,10 @@
     tools:context=".MainActivity2">
 
     <ImageView
-        android:layout_width="304dp"
-        android:layout_height="100dp"
+        android:layout_width="307dp"
+        android:layout_height="151dp"
         android:layout_gravity="center"
         android:contentDescription="logo"
-        android:src="@drawable/logo_b" />
+        android:src="@drawable/logo_transparente"/>
 
 </LinearLayout>

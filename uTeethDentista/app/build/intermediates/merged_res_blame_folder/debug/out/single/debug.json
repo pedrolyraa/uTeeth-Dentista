@@ -4,6 +4,10 @@
         "source": "br.edu.puc.uteethdentista.app-main-47:/mipmap-xxxhdpi/ic_launcher.webp"
     },
     {
+        "merged": "br.edu.puc.uteethdentista.app-merged_res-45:/layout_fragment_criar_conta.xml.flat",
+        "source": "br.edu.puc.uteethdentista.app-main-47:/layout/fragment_criar_conta.xml"
+    },
+    {
         "merged": "br.edu.puc.uteethdentista.app-merged_res-45:/mipmap-anydpi-v26_ic_launcher.xml.flat",
         "source": "br.edu.puc.uteethdentista.app-main-47:/mipmap-anydpi-v26/ic_launcher.xml"
     },
@@ -40,16 +44,12 @@
         "source": "br.edu.puc.uteethdentista.app-main-47:/drawable/gradient_background.xml"
     },
     {
-        "merged": "br.edu.puc.uteethdentista.app-merged_res-45:/layout_activity_login_fragment.xml.flat",
-        "source": "br.edu.puc.uteethdentista.app-main-47:/layout/activity_login_fragment.xml"
+        "merged": "br.edu.puc.uteethdentista.app-merged_res-45:/layout_fragment_login.xml.flat",
+        "source": "br.edu.puc.uteethdentista.app-main-47:/layout/fragment_login.xml"
     },
     {
         "merged": "br.edu.puc.uteethdentista.app-merged_res-45:/menu_menu_main.xml.flat",
         "source": "br.edu.puc.uteethdentista.app-main-47:/menu/menu_main.xml"
-    },
-    {
-        "merged": "br.edu.puc.uteethdentista.app-merged_res-45:/drawable_logo_a.webp.flat",
-        "source": "br.edu.puc.uteethdentista.app-main-47:/drawable/logo_a.webp"
     },
     {
         "merged": "br.edu.puc.uteethdentista.app-merged_res-45:/mipmap-xhdpi_ic_launcher_round.webp.flat",
@@ -76,12 +76,12 @@
         "source": "br.edu.puc.uteethdentista.app-main-47:/mipmap-xxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "br.edu.puc.uteethdentista.app-merged_res-45:/drawable_logo_b.webp.flat",
-        "source": "br.edu.puc.uteethdentista.app-main-47:/drawable/logo_b.webp"
-    },
-    {
         "merged": "br.edu.puc.uteethdentista.app-merged_res-45:/drawable_ic_launcher_background.xml.flat",
         "source": "br.edu.puc.uteethdentista.app-main-47:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "br.edu.puc.uteethdentista.app-merged_res-45:/drawable_logo_transparente.png.flat",
+        "source": "br.edu.puc.uteethdentista.app-main-47:/drawable/logo_transparente.png"
     },
     {
         "merged": "br.edu.puc.uteethdentista.app-merged_res-45:/mipmap-anydpi-v33_ic_launcher.xml.flat",
@@ -94,6 +94,10 @@
     {
         "merged": "br.edu.puc.uteethdentista.app-merged_res-45:/mipmap-hdpi_ic_launcher_round.webp.flat",
         "source": "br.edu.puc.uteethdentista.app-main-47:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "br.edu.puc.uteethdentista.app-merged_res-45:/layout_fragment_home.xml.flat",
+        "source": "br.edu.puc.uteethdentista.app-main-47:/layout/fragment_home.xml"
     },
     {
         "merged": "br.edu.puc.uteethdentista.app-merged_res-45:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",

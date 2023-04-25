@@ -14,6 +14,10 @@
         <action
             android:id="@+id/action_FirstFragment_to_SecondFragment"
             app:destination="@id/CriarConta" />
+        <action
+            android:id="@+id/action_login_to_info"
+            app:destination="@id/Home"/>
+
     </fragment>
 
     <fragment
@@ -23,7 +27,7 @@
         tools:layout="@layout/fragment_criar_conta">
 
         <action
-            android:id="@+id/action_SecondFragment_to_FirstFragment"
+            android:id="@+id/action_signup_to_login"
             app:destination="@id/LogarOuCriarConta" />
     </fragment>
 

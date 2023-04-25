@@ -7,7 +7,7 @@
     android:orientation="vertical"
     android:background="@drawable/gradient_background"
     android:gravity="center"
-    tools:context=".MainActivity2">
+    tools:context=".MainActivity">
 
     <ImageView
         android:layout_width="307dp"

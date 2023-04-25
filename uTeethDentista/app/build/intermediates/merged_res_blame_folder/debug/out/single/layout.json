@@ -1,31 +1,18 @@
 [
     {
-<<<<<<< Updated upstream
-        "merged": "br.edu.puc.uteethdentista.app-mergeDebugResources-44:/layout/activity_login_fragment.xml",
-        "source": "br.edu.puc.uteethdentista.app-main-47:/layout/activity_login_fragment.xml"
+        "merged": "br.edu.puc.uteethdentista.app-mergeDebugResources-44:/layout/fragment_criar_conta.xml",
+        "source": "br.edu.puc.uteethdentista.app-main-47:/layout/fragment_criar_conta.xml"
+    },
+    {
+        "merged": "br.edu.puc.uteethdentista.app-mergeDebugResources-44:/layout/fragment_home.xml",
+        "source": "br.edu.puc.uteethdentista.app-main-47:/layout/fragment_home.xml"
     },
     {
         "merged": "br.edu.puc.uteethdentista.app-mergeDebugResources-44:/layout/activity_main2.xml",
         "source": "br.edu.puc.uteethdentista.app-main-47:/layout/activity_main2.xml"
-=======
-        "merged": "C:\\Users\\pedri\\.gradle\\daemon\\7.5\\br.edu.puc.uteethdentista.app-mergeDebugResources-44:\\layout\\fragment_home.xml",
-        "source": "C:\\Users\\pedri\\.gradle\\daemon\\7.5\\br.edu.puc.uteethdentista.app-main-47:\\layout\\fragment_home.xml"
-    },
-    {
-        "merged": "C:\\Users\\pedri\\.gradle\\daemon\\7.5\\br.edu.puc.uteethdentista.app-mergeDebugResources-44:\\layout\\fragment_login.xml",
-        "source": "C:\\Users\\pedri\\.gradle\\daemon\\7.5\\br.edu.puc.uteethdentista.app-main-47:\\layout\\fragment_login.xml"
-    },
-    {
-        "merged": "C:\\Users\\pedri\\.gradle\\daemon\\7.5\\br.edu.puc.uteethdentista.app-mergeDebugResources-44:\\layout\\activity_main2.xml",
-        "source": "C:\\Users\\pedri\\.gradle\\daemon\\7.5\\br.edu.puc.uteethdentista.app-main-47:\\layout\\activity_main2.xml"
-    },
-    {
-        "merged": "C:\\Users\\pedri\\.gradle\\daemon\\7.5\\br.edu.puc.uteethdentista.app-mergeDebugResources-44:\\layout\\fragment_criar_conta.xml",
-        "source": "C:\\Users\\pedri\\.gradle\\daemon\\7.5\\br.edu.puc.uteethdentista.app-main-47:\\layout\\fragment_criar_conta.xml"
     },
     {
         "merged": "br.edu.puc.uteethdentista.app-mergeDebugResources-44:/layout/fragment_login.xml",
         "source": "br.edu.puc.uteethdentista.app-main-47:/layout/fragment_login.xml"
->>>>>>> Stashed changes
     }
 ]

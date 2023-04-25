@@ -22,7 +22,7 @@
 15-->[androidx.core:core:1.9.0] C:\Users\pedri\.gradle\caches\transforms-3\c73afc1fa215d9ca128620a3c01802b0\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
 16
 17    <application
-17-->D:\Users\pedri\OneDrive\Documentos\Projeto Integrador 3\uTeethDentista\uTeeth-Dentista\uTeethDentista\app\src\main\AndroidManifest.xml:5:5-28:19
+17-->D:\Users\pedri\OneDrive\Documentos\Projeto Integrador 3\uTeethDentista\uTeeth-Dentista\uTeethDentista\app\src\main\AndroidManifest.xml:5:5-32:19
 18        android:allowBackup="true"
 18-->D:\Users\pedri\OneDrive\Documentos\Projeto Integrador 3\uTeethDentista\uTeeth-Dentista\uTeethDentista\app\src\main\AndroidManifest.xml:6:9-35
 19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -70,40 +70,47 @@
 41            </intent-filter>
 42        </activity>
 43
-44        <uses-library
-44-->[androidx.window:window:1.0.0] C:\Users\pedri\.gradle\caches\transforms-3\57ca3fa706d0531e32e0a842a9463d39\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
-45            android:name="androidx.window.extensions"
-45-->[androidx.window:window:1.0.0] C:\Users\pedri\.gradle\caches\transforms-3\57ca3fa706d0531e32e0a842a9463d39\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
-46            android:required="false" />
-46-->[androidx.window:window:1.0.0] C:\Users\pedri\.gradle\caches\transforms-3\57ca3fa706d0531e32e0a842a9463d39\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
-47        <uses-library
-47-->[androidx.window:window:1.0.0] C:\Users\pedri\.gradle\caches\transforms-3\57ca3fa706d0531e32e0a842a9463d39\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
-48            android:name="androidx.window.sidecar"
-48-->[androidx.window:window:1.0.0] C:\Users\pedri\.gradle\caches\transforms-3\57ca3fa706d0531e32e0a842a9463d39\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
-49            android:required="false" />
-49-->[androidx.window:window:1.0.0] C:\Users\pedri\.gradle\caches\transforms-3\57ca3fa706d0531e32e0a842a9463d39\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
-50
-51        <provider
-51-->[androidx.emoji2:emoji2:1.2.0] C:\Users\pedri\.gradle\caches\transforms-3\66814d0c9c223a08105bc116aeb53dd5\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
-52            android:name="androidx.startup.InitializationProvider"
-52-->[androidx.emoji2:emoji2:1.2.0] C:\Users\pedri\.gradle\caches\transforms-3\66814d0c9c223a08105bc116aeb53dd5\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
-53            android:authorities="br.edu.puc.uteethdentista.androidx-startup"
-53-->[androidx.emoji2:emoji2:1.2.0] C:\Users\pedri\.gradle\caches\transforms-3\66814d0c9c223a08105bc116aeb53dd5\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
-54            android:exported="false" >
-54-->[androidx.emoji2:emoji2:1.2.0] C:\Users\pedri\.gradle\caches\transforms-3\66814d0c9c223a08105bc116aeb53dd5\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
-55            <meta-data
-55-->[androidx.emoji2:emoji2:1.2.0] C:\Users\pedri\.gradle\caches\transforms-3\66814d0c9c223a08105bc116aeb53dd5\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
-56                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-56-->[androidx.emoji2:emoji2:1.2.0] C:\Users\pedri\.gradle\caches\transforms-3\66814d0c9c223a08105bc116aeb53dd5\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
-57                android:value="androidx.startup" />
-57-->[androidx.emoji2:emoji2:1.2.0] C:\Users\pedri\.gradle\caches\transforms-3\66814d0c9c223a08105bc116aeb53dd5\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
-58            <meta-data
-58-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\pedri\.gradle\caches\transforms-3\d64e7ca6b93f4a6c092b1dd37cf249d6\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
-59                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-59-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\pedri\.gradle\caches\transforms-3\d64e7ca6b93f4a6c092b1dd37cf249d6\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
-60                android:value="androidx.startup" />
-60-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\pedri\.gradle\caches\transforms-3\d64e7ca6b93f4a6c092b1dd37cf249d6\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
-61        </provider>
-62    </application>
-63
-64</manifest>
+44        <meta-data
+44-->D:\Users\pedri\OneDrive\Documentos\Projeto Integrador 3\uTeethDentista\uTeeth-Dentista\uTeethDentista\app\src\main\AndroidManifest.xml:29:9-31:57
+45            android:name="preloaded_fonts"
+45-->D:\Users\pedri\OneDrive\Documentos\Projeto Integrador 3\uTeethDentista\uTeeth-Dentista\uTeethDentista\app\src\main\AndroidManifest.xml:30:13-43
+46            android:resource="@array/preloaded_fonts" />
+46-->D:\Users\pedri\OneDrive\Documentos\Projeto Integrador 3\uTeethDentista\uTeeth-Dentista\uTeethDentista\app\src\main\AndroidManifest.xml:31:13-54
+47
+48        <uses-library
+48-->[androidx.window:window:1.0.0] C:\Users\pedri\.gradle\caches\transforms-3\57ca3fa706d0531e32e0a842a9463d39\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
+49            android:name="androidx.window.extensions"
+49-->[androidx.window:window:1.0.0] C:\Users\pedri\.gradle\caches\transforms-3\57ca3fa706d0531e32e0a842a9463d39\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
+50            android:required="false" />
+50-->[androidx.window:window:1.0.0] C:\Users\pedri\.gradle\caches\transforms-3\57ca3fa706d0531e32e0a842a9463d39\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
+51        <uses-library
+51-->[androidx.window:window:1.0.0] C:\Users\pedri\.gradle\caches\transforms-3\57ca3fa706d0531e32e0a842a9463d39\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
+52            android:name="androidx.window.sidecar"
+52-->[androidx.window:window:1.0.0] C:\Users\pedri\.gradle\caches\transforms-3\57ca3fa706d0531e32e0a842a9463d39\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
+53            android:required="false" />
+53-->[androidx.window:window:1.0.0] C:\Users\pedri\.gradle\caches\transforms-3\57ca3fa706d0531e32e0a842a9463d39\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
+54
+55        <provider
+55-->[androidx.emoji2:emoji2:1.2.0] C:\Users\pedri\.gradle\caches\transforms-3\66814d0c9c223a08105bc116aeb53dd5\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+56            android:name="androidx.startup.InitializationProvider"
+56-->[androidx.emoji2:emoji2:1.2.0] C:\Users\pedri\.gradle\caches\transforms-3\66814d0c9c223a08105bc116aeb53dd5\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+57            android:authorities="br.edu.puc.uteethdentista.androidx-startup"
+57-->[androidx.emoji2:emoji2:1.2.0] C:\Users\pedri\.gradle\caches\transforms-3\66814d0c9c223a08105bc116aeb53dd5\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+58            android:exported="false" >
+58-->[androidx.emoji2:emoji2:1.2.0] C:\Users\pedri\.gradle\caches\transforms-3\66814d0c9c223a08105bc116aeb53dd5\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+59            <meta-data
+59-->[androidx.emoji2:emoji2:1.2.0] C:\Users\pedri\.gradle\caches\transforms-3\66814d0c9c223a08105bc116aeb53dd5\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+60                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+60-->[androidx.emoji2:emoji2:1.2.0] C:\Users\pedri\.gradle\caches\transforms-3\66814d0c9c223a08105bc116aeb53dd5\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+61                android:value="androidx.startup" />
+61-->[androidx.emoji2:emoji2:1.2.0] C:\Users\pedri\.gradle\caches\transforms-3\66814d0c9c223a08105bc116aeb53dd5\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+62            <meta-data
+62-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\pedri\.gradle\caches\transforms-3\d64e7ca6b93f4a6c092b1dd37cf249d6\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+63                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+63-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\pedri\.gradle\caches\transforms-3\d64e7ca6b93f4a6c092b1dd37cf249d6\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+64                android:value="androidx.startup" />
+64-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\pedri\.gradle\caches\transforms-3\d64e7ca6b93f4a6c092b1dd37cf249d6\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+65        </provider>
+66    </application>
+67
+68</manifest>

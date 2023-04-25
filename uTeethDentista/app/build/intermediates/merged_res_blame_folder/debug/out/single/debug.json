@@ -1,138 +1,142 @@
 [
     {
-        "merged": "C:\\Users\\pedri\\.gradle\\daemon\\7.5\\br.edu.puc.uteethdentista.app-merged_res-45:\\mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\pedri\\.gradle\\daemon\\7.5\\br.edu.puc.uteethdentista.app-main-47:\\mipmap-hdpi\\ic_launcher_round.webp"
+        "merged": "br.edu.puc.uteethdentista.app-merged_res-45:/drawable_uteeth_png.png.flat",
+        "source": "br.edu.puc.uteethdentista.app-main-47:/drawable/uteeth_png.png"
     },
     {
-<<<<<<< Updated upstream
+        "merged": "br.edu.puc.uteethdentista.app-merged_res-45:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "br.edu.puc.uteethdentista.app-main-47:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "br.edu.puc.uteethdentista.app-merged_res-45:/drawable_gradient_background_corners.xml.flat",
+        "source": "br.edu.puc.uteethdentista.app-main-47:/drawable/gradient_background_corners.xml"
+    },
+    {
+        "merged": "br.edu.puc.uteethdentista.app-merged_res-45:/drawable_container_components.xml.flat",
+        "source": "br.edu.puc.uteethdentista.app-main-47:/drawable/container_components.xml"
+    },
+    {
+        "merged": "br.edu.puc.uteethdentista.app-merged_res-45:/layout_fragment_criar_conta.xml.flat",
+        "source": "br.edu.puc.uteethdentista.app-main-47:/layout/fragment_criar_conta.xml"
+    },
+    {
         "merged": "br.edu.puc.uteethdentista.app-merged_res-45:/mipmap-anydpi-v26_ic_launcher.xml.flat",
         "source": "br.edu.puc.uteethdentista.app-main-47:/mipmap-anydpi-v26/ic_launcher.xml"
-=======
-        "merged": "C:\\Users\\pedri\\.gradle\\daemon\\7.5\\br.edu.puc.uteethdentista.app-merged_res-45:\\mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\pedri\\.gradle\\daemon\\7.5\\br.edu.puc.uteethdentista.app-main-47:\\mipmap-xhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\pedri\\.gradle\\daemon\\7.5\\br.edu.puc.uteethdentista.app-merged_res-45:\\mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\pedri\\.gradle\\daemon\\7.5\\br.edu.puc.uteethdentista.app-main-47:\\mipmap-mdpi\\ic_launcher.webp"
->>>>>>> Stashed changes
+        "merged": "br.edu.puc.uteethdentista.app-merged_res-45:/drawable_logo_a2.webp.flat",
+        "source": "br.edu.puc.uteethdentista.app-main-47:/drawable/logo_a2.webp"
     },
     {
-        "merged": "C:\\Users\\pedri\\.gradle\\daemon\\7.5\\br.edu.puc.uteethdentista.app-merged_res-45:\\navigation_nav_graph.xml.flat",
-        "source": "C:\\Users\\pedri\\.gradle\\daemon\\7.5\\br.edu.puc.uteethdentista.app-main-47:\\navigation\\nav_graph.xml"
+        "merged": "br.edu.puc.uteethdentista.app-merged_res-45:/font_poppins_light.xml.flat",
+        "source": "br.edu.puc.uteethdentista.app-main-47:/font/poppins_light.xml"
     },
     {
-        "merged": "C:\\Users\\pedri\\.gradle\\daemon\\7.5\\br.edu.puc.uteethdentista.app-merged_res-45:\\mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\pedri\\.gradle\\daemon\\7.5\\br.edu.puc.uteethdentista.app-main-47:\\mipmap-mdpi\\ic_launcher_round.webp"
+        "merged": "br.edu.puc.uteethdentista.app-merged_res-45:/xml_backup_rules.xml.flat",
+        "source": "br.edu.puc.uteethdentista.app-main-47:/xml/backup_rules.xml"
     },
     {
-        "merged": "C:\\Users\\pedri\\.gradle\\daemon\\7.5\\br.edu.puc.uteethdentista.app-merged_res-45:\\drawable_logo_transparente.png.flat",
-        "source": "C:\\Users\\pedri\\.gradle\\daemon\\7.5\\br.edu.puc.uteethdentista.app-main-47:\\drawable\\logo_transparente.png"
+        "merged": "br.edu.puc.uteethdentista.app-merged_res-45:/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "br.edu.puc.uteethdentista.app-main-47:/drawable-v24/ic_launcher_foreground.xml"
     },
     {
-        "merged": "C:\\Users\\pedri\\.gradle\\daemon\\7.5\\br.edu.puc.uteethdentista.app-merged_res-45:\\layout_fragment_criar_conta.xml.flat",
-        "source": "C:\\Users\\pedri\\.gradle\\daemon\\7.5\\br.edu.puc.uteethdentista.app-main-47:\\layout\\fragment_criar_conta.xml"
+        "merged": "br.edu.puc.uteethdentista.app-merged_res-45:/xml_data_extraction_rules.xml.flat",
+        "source": "br.edu.puc.uteethdentista.app-main-47:/xml/data_extraction_rules.xml"
     },
     {
-        "merged": "C:\\Users\\pedri\\.gradle\\daemon\\7.5\\br.edu.puc.uteethdentista.app-merged_res-45:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\pedri\\.gradle\\daemon\\7.5\\br.edu.puc.uteethdentista.app-main-47:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+        "merged": "br.edu.puc.uteethdentista.app-merged_res-45:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "br.edu.puc.uteethdentista.app-main-47:/mipmap-mdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\pedri\\.gradle\\daemon\\7.5\\br.edu.puc.uteethdentista.app-merged_res-45:\\layout_activity_main2.xml.flat",
-        "source": "C:\\Users\\pedri\\.gradle\\daemon\\7.5\\br.edu.puc.uteethdentista.app-main-47:\\layout\\activity_main2.xml"
+        "merged": "br.edu.puc.uteethdentista.app-merged_res-45:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "br.edu.puc.uteethdentista.app-main-47:/mipmap-xhdpi/ic_launcher.webp"
     },
     {
-        "merged": "br.edu.puc.uteethdentista.app-merged_res-45:/layout_activity_login_fragment.xml.flat",
-        "source": "br.edu.puc.uteethdentista.app-main-47:/layout/activity_login_fragment.xml"
+        "merged": "br.edu.puc.uteethdentista.app-merged_res-45:/navigation_nav_graph.xml.flat",
+        "source": "br.edu.puc.uteethdentista.app-main-47:/navigation/nav_graph.xml"
     },
     {
-        "merged": "C:\\Users\\pedri\\.gradle\\daemon\\7.5\\br.edu.puc.uteethdentista.app-merged_res-45:\\drawable-v24_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\pedri\\.gradle\\daemon\\7.5\\br.edu.puc.uteethdentista.app-main-47:\\drawable-v24\\ic_launcher_foreground.xml"
+        "merged": "br.edu.puc.uteethdentista.app-merged_res-45:/font_poppins.xml.flat",
+        "source": "br.edu.puc.uteethdentista.app-main-47:/font/poppins.xml"
     },
     {
-<<<<<<< Updated upstream
-        "merged": "br.edu.puc.uteethdentista.app-merged_res-45:/drawable_logo_a.webp.flat",
-        "source": "br.edu.puc.uteethdentista.app-main-47:/drawable/logo_a.webp"
+        "merged": "br.edu.puc.uteethdentista.app-merged_res-45:/drawable_gradient_background.xml.flat",
+        "source": "br.edu.puc.uteethdentista.app-main-47:/drawable/gradient_background.xml"
+    },
+    {
+        "merged": "br.edu.puc.uteethdentista.app-merged_res-45:/layout_fragment_login.xml.flat",
+        "source": "br.edu.puc.uteethdentista.app-main-47:/layout/fragment_login.xml"
+    },
+    {
+        "merged": "br.edu.puc.uteethdentista.app-merged_res-45:/menu_menu_main.xml.flat",
+        "source": "br.edu.puc.uteethdentista.app-main-47:/menu/menu_main.xml"
     },
     {
         "merged": "br.edu.puc.uteethdentista.app-merged_res-45:/mipmap-xhdpi_ic_launcher_round.webp.flat",
         "source": "br.edu.puc.uteethdentista.app-main-47:/mipmap-xhdpi/ic_launcher_round.webp"
-=======
-        "merged": "C:\\Users\\pedri\\.gradle\\daemon\\7.5\\br.edu.puc.uteethdentista.app-merged_res-45:\\drawable_gradient_background.xml.flat",
-        "source": "C:\\Users\\pedri\\.gradle\\daemon\\7.5\\br.edu.puc.uteethdentista.app-main-47:\\drawable\\gradient_background.xml"
->>>>>>> Stashed changes
     },
     {
-        "merged": "C:\\Users\\pedri\\.gradle\\daemon\\7.5\\br.edu.puc.uteethdentista.app-merged_res-45:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\pedri\\.gradle\\daemon\\7.5\\br.edu.puc.uteethdentista.app-main-47:\\mipmap-xhdpi\\ic_launcher_round.webp"
+        "merged": "br.edu.puc.uteethdentista.app-merged_res-45:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "br.edu.puc.uteethdentista.app-main-47:/mipmap-hdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\pedri\\.gradle\\daemon\\7.5\\br.edu.puc.uteethdentista.app-merged_res-45:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\pedri\\.gradle\\daemon\\7.5\\br.edu.puc.uteethdentista.app-main-47:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+        "merged": "br.edu.puc.uteethdentista.app-merged_res-45:/font_poppins_medium.xml.flat",
+        "source": "br.edu.puc.uteethdentista.app-main-47:/font/poppins_medium.xml"
     },
     {
-        "merged": "C:\\Users\\pedri\\.gradle\\daemon\\7.5\\br.edu.puc.uteethdentista.app-merged_res-45:\\mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\pedri\\.gradle\\daemon\\7.5\\br.edu.puc.uteethdentista.app-main-47:\\mipmap-xxhdpi\\ic_launcher.webp"
+        "merged": "br.edu.puc.uteethdentista.app-merged_res-45:/layout_activity_main2.xml.flat",
+        "source": "br.edu.puc.uteethdentista.app-main-47:/layout/activity_main2.xml"
     },
     {
-        "merged": "C:\\Users\\pedri\\.gradle\\daemon\\7.5\\br.edu.puc.uteethdentista.app-merged_res-45:\\xml_data_extraction_rules.xml.flat",
-        "source": "C:\\Users\\pedri\\.gradle\\daemon\\7.5\\br.edu.puc.uteethdentista.app-main-47:\\xml\\data_extraction_rules.xml"
+        "merged": "br.edu.puc.uteethdentista.app-merged_res-45:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "br.edu.puc.uteethdentista.app-main-47:/mipmap-xxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\pedri\\.gradle\\daemon\\7.5\\br.edu.puc.uteethdentista.app-merged_res-45:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\pedri\\.gradle\\daemon\\7.5\\br.edu.puc.uteethdentista.app-main-47:\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "br.edu.puc.uteethdentista.app-merged_res-45:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "br.edu.puc.uteethdentista.app-main-47:/mipmap-mdpi/ic_launcher_round.webp"
     },
     {
-<<<<<<< Updated upstream
-        "merged": "br.edu.puc.uteethdentista.app-merged_res-45:/drawable_logo_b.webp.flat",
-        "source": "br.edu.puc.uteethdentista.app-main-47:/drawable/logo_b.webp"
+        "merged": "br.edu.puc.uteethdentista.app-merged_res-45:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "br.edu.puc.uteethdentista.app-main-47:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "br.edu.puc.uteethdentista.app-merged_res-45:/drawable_logo_azul.png.flat",
+        "source": "br.edu.puc.uteethdentista.app-main-47:/drawable/logo_azul.png"
+    },
+    {
+        "merged": "br.edu.puc.uteethdentista.app-merged_res-45:/drawable_container_white.xml.flat",
+        "source": "br.edu.puc.uteethdentista.app-main-47:/drawable/container_white.xml"
+    },
+    {
+        "merged": "br.edu.puc.uteethdentista.app-merged_res-45:/font_poppins_semibold.xml.flat",
+        "source": "br.edu.puc.uteethdentista.app-main-47:/font/poppins_semibold.xml"
+    },
+    {
+        "merged": "br.edu.puc.uteethdentista.app-merged_res-45:/drawable_undraw_png.png.flat",
+        "source": "br.edu.puc.uteethdentista.app-main-47:/drawable/undraw_png.png"
     },
     {
         "merged": "br.edu.puc.uteethdentista.app-merged_res-45:/drawable_ic_launcher_background.xml.flat",
         "source": "br.edu.puc.uteethdentista.app-main-47:/drawable/ic_launcher_background.xml"
-=======
-        "merged": "C:\\Users\\pedri\\.gradle\\daemon\\7.5\\br.edu.puc.uteethdentista.app-merged_res-45:\\layout_fragment_login.xml.flat",
-        "source": "C:\\Users\\pedri\\.gradle\\daemon\\7.5\\br.edu.puc.uteethdentista.app-main-47:\\layout\\fragment_login.xml"
     },
     {
-        "merged": "C:\\Users\\pedri\\.gradle\\daemon\\7.5\\br.edu.puc.uteethdentista.app-merged_res-45:\\menu_menu_main.xml.flat",
-        "source": "C:\\Users\\pedri\\.gradle\\daemon\\7.5\\br.edu.puc.uteethdentista.app-main-47:\\menu\\menu_main.xml"
->>>>>>> Stashed changes
+        "merged": "br.edu.puc.uteethdentista.app-merged_res-45:/mipmap-anydpi-v33_ic_launcher.xml.flat",
+        "source": "br.edu.puc.uteethdentista.app-main-47:/mipmap-anydpi-v33/ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\pedri\\.gradle\\daemon\\7.5\\br.edu.puc.uteethdentista.app-merged_res-45:\\drawable_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\pedri\\.gradle\\daemon\\7.5\\br.edu.puc.uteethdentista.app-main-47:\\drawable\\ic_launcher_background.xml"
+        "merged": "br.edu.puc.uteethdentista.app-merged_res-45:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "br.edu.puc.uteethdentista.app-main-47:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\pedri\\.gradle\\daemon\\7.5\\br.edu.puc.uteethdentista.app-merged_res-45:\\drawable_logo_a2.webp.flat",
-        "source": "C:\\Users\\pedri\\.gradle\\daemon\\7.5\\br.edu.puc.uteethdentista.app-main-47:\\drawable\\logo_a2.webp"
+        "merged": "br.edu.puc.uteethdentista.app-merged_res-45:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "br.edu.puc.uteethdentista.app-main-47:/mipmap-hdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\pedri\\.gradle\\daemon\\7.5\\br.edu.puc.uteethdentista.app-merged_res-45:\\mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\pedri\\.gradle\\daemon\\7.5\\br.edu.puc.uteethdentista.app-main-47:\\mipmap-hdpi\\ic_launcher.webp"
+        "merged": "br.edu.puc.uteethdentista.app-merged_res-45:/layout_fragment_home.xml.flat",
+        "source": "br.edu.puc.uteethdentista.app-main-47:/layout/fragment_home.xml"
     },
     {
-<<<<<<< Updated upstream
         "merged": "br.edu.puc.uteethdentista.app-merged_res-45:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
         "source": "br.edu.puc.uteethdentista.app-main-47:/mipmap-xxxhdpi/ic_launcher_round.webp"
-=======
-        "merged": "C:\\Users\\pedri\\.gradle\\daemon\\7.5\\br.edu.puc.uteethdentista.app-merged_res-45:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\pedri\\.gradle\\daemon\\7.5\\br.edu.puc.uteethdentista.app-main-47:\\mipmap-xxxhdpi\\ic_launcher.webp"
-    },
-    {
-        "merged": "C:\\Users\\pedri\\.gradle\\daemon\\7.5\\br.edu.puc.uteethdentista.app-merged_res-45:\\xml_backup_rules.xml.flat",
-        "source": "C:\\Users\\pedri\\.gradle\\daemon\\7.5\\br.edu.puc.uteethdentista.app-main-47:\\xml\\backup_rules.xml"
-    },
-    {
-        "merged": "C:\\Users\\pedri\\.gradle\\daemon\\7.5\\br.edu.puc.uteethdentista.app-merged_res-45:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\pedri\\.gradle\\daemon\\7.5\\br.edu.puc.uteethdentista.app-main-47:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
-    },
-    {
-        "merged": "C:\\Users\\pedri\\.gradle\\daemon\\7.5\\br.edu.puc.uteethdentista.app-merged_res-45:\\layout_fragment_home.xml.flat",
-        "source": "C:\\Users\\pedri\\.gradle\\daemon\\7.5\\br.edu.puc.uteethdentista.app-main-47:\\layout\\fragment_home.xml"
-    },
-    {
-        "merged": "C:\\Users\\pedri\\.gradle\\daemon\\7.5\\br.edu.puc.uteethdentista.app-merged_res-45:\\mipmap-anydpi-v33_ic_launcher.xml.flat",
-        "source": "C:\\Users\\pedri\\.gradle\\daemon\\7.5\\br.edu.puc.uteethdentista.app-main-47:\\mipmap-anydpi-v33\\ic_launcher.xml"
->>>>>>> Stashed changes
     }
 ]

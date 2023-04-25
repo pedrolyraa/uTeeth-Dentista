@@ -14,8 +14,8 @@
         android:id="@+id/img_uteethlogo"
         android:layout_width="wrap_content"
         android:layout_height="112dp"
-        android:scaleType="center"
-        app:srcCompat="@drawable/logo_png"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/uteeth_png"
         android:layout_marginTop="5dp"
         tools:ignore="MissingConstraints" />
 

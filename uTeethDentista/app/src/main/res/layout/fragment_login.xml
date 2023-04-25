@@ -1,130 +1,88 @@
 <?xml version="1.0" encoding="utf-8"?>
+<<<<<<< Updated upstream
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+=======
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+>>>>>>> Stashed changes
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+
     tools:context=".LoginFragment">
+
 
     <androidx.appcompat.widget.AppCompatImageView
         android:id="@+id/img_uteethlogo"
-        android:layout_width="429dp"
-        android:layout_height="458dp"
-        app:srcCompat="@drawable/logo_a2"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="-146dp" />
+        android:layout_width="wrap_content"
+        android:layout_height="112dp"
+        android:scaleType="center"
+        app:srcCompat="@drawable/logo_png"
+        android:layout_marginTop="5dp"
+        tools:ignore="MissingConstraints" />
 
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline"
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/img_undraw"
+        android:layout_width="wrap_content"
+        android:layout_height="215dp"
+        android:layout_marginBottom="20dp"
+        app:srcCompat="@drawable/undraw_png"
+        tools:ignore="MissingConstraints" />
+
+
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
-        app:layout_constraintGuide_percent="0.15" />
-
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        app:layout_constraintGuide_percent="0.85" />
-
-    <androidx.appcompat.widget.AppCompatTextView
-        android:id="@+id/tV_entreConta"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Entre com sua conta"
-        android:textAlignment="textStart"
-        android:textStyle="bold"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="57dp"
-        tools:layout_editor_absoluteY="210dp" />
+        android:layout_marginLeft="30dp"
+        android:textSize="20dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Login to your Account" />
 
 
+    <EditText
+        style="@style/edit_text"
+        android:fontFamily="@font/poppins_medium"
+        android:padding="5dp"
+        android:shadowColor="@color/black"
+        android:elevation="5dp"
 
+        android:hint="E-mail">
 
+    </EditText>
 
+    <EditText
+        style="@style/edit_text"
+        android:fontFamily="@font/poppins_medium"
+        android:padding="5dp"
+        android:shadowColor="@color/black"
+        android:elevation="5dp"
 
-    <androidx.appcompat.widget.AppCompatTextView
-        android:id="@+id/tv_email"
-        android:layout_width="267dp"
-        android:layout_height="wrap_content"
-        android:hint="E-mail"
-        android:background="@color/white"
-        android:visibility="visible"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="67dp"
-        tools:layout_editor_absoluteY="244dp"/>
+        android:hint="Password">
 
-    <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/ti_email"
-        android:layout_width="267dp"
-        android:layout_height="wrap_content"
-        app:layout_constraintEnd_toStartOf="@+id/guideline2"
-        app:layout_constraintStart_toStartOf="@+id/guideline"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteY="300dp"/>
+    </EditText>
 
-
-
-    <androidx.appcompat.widget.AppCompatTextView
-        android:id="@+id/tv_senha"
-        android:layout_width="267dp"
-        android:layout_height="wrap_content"
-        android:background="@color/white"
-        android:hint="Senha"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="67dp"
-        tools:layout_editor_absoluteY="332dp" />
-
-    <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/ti_senha"
-        android:layout_width="267dp"
-        android:layout_height="wrap_content"
-        app:layout_constraintEnd_toStartOf="@+id/guideline2"
-        app:layout_constraintHorizontal_bias="0.476"
-        app:layout_constraintStart_toStartOf="@+id/guideline"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteY="384dp" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/btn_entrar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:backgroundTint="@color/purple_500"
-        android:text="Entrar"
+        style="@style/containerComponents"
+        android:text="Sign In"
         android:textColor="@color/white"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="161dp"
-        tools:layout_editor_absoluteY="417dp" />
+        android:textStyle="bold"
+        android:fontFamily="@font/poppins"
+        android:layout_height="65dp"
+        android:elevation="100dp"
+        />
 
-    <androidx.appcompat.widget.AppCompatTextView
-        android:id="@+id/tv_opcoesconta"
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="- Ou entre com -"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="156dp"
-        tools:layout_editor_absoluteY="501dp" />
+        android:text="-Or Sign with-"
+        android:layout_gravity="center"
+        android:fontFamily="@font/poppins_light"
 
-    <androidx.appcompat.widget.AppCompatTextView
-        android:id="@+id/tv_semconta"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Não tem uma conta?"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="120dp"
-        tools:layout_editor_absoluteY="643dp" />
-
-    <androidx.appcompat.widget.AppCompatTextView
-        android:id="@+id/tv_criarconta"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Crie uma"
-        android:textColor="@color/purple_500"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="254dp"
-        tools:layout_editor_absoluteY="643dp" />
+        />
 
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

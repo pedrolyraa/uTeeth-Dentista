@@ -7,10 +7,10 @@ import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
 
-class MainActivity2 : AppCompatActivity() {
+class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main2)
+        setContentView(R.layout.activity_main)
 
         supportActionBar?.hide()
         window.statusBarColor= Color.parseColor("#040957")

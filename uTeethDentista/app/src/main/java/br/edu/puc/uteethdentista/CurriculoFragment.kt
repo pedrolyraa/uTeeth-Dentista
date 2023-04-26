@@ -1,42 +1,45 @@
 package br.edu.puc.uteethdentista
 
+import android.content.Intent
 import android.graphics.Color
+import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
-import android.view.View
-import android.view.ViewGroup
+import br.edu.puc.uteethdentista.databinding.FragmentCurriculoBinding
+import com.google.android.material.snackbar.Snackbar
+import com.google.firebase.FirebaseNetworkException
+import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.auth.FirebaseAuthInvalidCredentialsException
+import com.google.firebase.auth.FirebaseAuthUserCollisionException
+import com.google.firebase.auth.FirebaseAuthWeakPasswordException
+import com.google.firebase.ktx.Firebase
 
-private const val ARG_PARAM1 = "param1"
-private const val ARG_PARAM2 = "param2"
+class CurriculoFragment : AppCompatActivity() {
 
+    private lateinit var binding: FragmentCurriculoBinding
+    //private val auth = FirebaseAuth.getInstance()
 
-class CurriculoFragment : Fragment() {
-    // TODO: Rename and change types of parameters
-    private var param1: String? = null
-    private var param2: String? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        binding = FragmentCurriculoBinding.inflate(layoutInflater)
+        setContentView(binding.root)
 
-        arguments?.let {
-            param1 = it.getString(ARG_PARAM1)
-            param2 = it.getString(ARG_PARAM2)
+        supportActionBar?.hide()
+        window.statusBarColor = Color.parseColor("#FFFFFFFF")
+
+        binding.btnSignUp.setOnClickListener {
+            val intent = Intent(this, LoginFragment::class.java)
+            startActivity(intent)
+            finish()
         }
 
+        binding.imgbArrow.setOnClickListener {
+            val intent = Intent(this, CriarContaFragment::class.java)
+            startActivity(intent)
+            finish()
+
+        }
     }
-
-    override fun onCreateView(
-        inflater: LayoutInflater, container: ViewGroup?,
-        savedInstanceState: Bundle?
-
-
-    ): View? {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_minicurriculo, container, false)
-
-
-    }
-
-
 }
+

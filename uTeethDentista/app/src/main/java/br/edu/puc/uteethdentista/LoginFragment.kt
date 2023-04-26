@@ -25,7 +25,7 @@ class LoginFragment : AppCompatActivity() {
         setContentView(binding.root)
 
 
-        binding.btnSignUp1.setOnClickListener {
+        binding.btnSignUp.setOnClickListener {
             val intent = Intent(this,CriarContaFragment::class.java)
             startActivity(intent)
             finish()

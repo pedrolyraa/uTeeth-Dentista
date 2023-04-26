@@ -114,7 +114,7 @@
     </EditText>
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/btn_sign_up2"
+        android:id="@+id/btn_next"
         style="@style/containerComponents"
         android:text="Next"
         android:textColor="@color/white"

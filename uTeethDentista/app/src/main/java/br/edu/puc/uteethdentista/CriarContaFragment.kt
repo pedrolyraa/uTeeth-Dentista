@@ -29,7 +29,7 @@ class CriarContaFragment : AppCompatActivity() {
         supportActionBar?.hide()
         window.statusBarColor= Color.parseColor("#FFFFFFFF")
 
-        binding.btnSignUp2.setOnClickListener {
+        binding.btnNext.setOnClickListener {
             val intent = Intent(this,CurriculoFragment::class.java)
             startActivity(intent)
             finish()
@@ -40,5 +40,6 @@ class CriarContaFragment : AppCompatActivity() {
             startActivity(intent)
             finish()
         }
+
     }
 }

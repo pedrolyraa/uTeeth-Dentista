@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "br.edu.puc.uteethdentista.app-mergeDebugResources-43:/values-v16/values-v16.xml",
+            "outputFile": "br.edu.puc.uteethdentista.app-mergeDebugResources-54:/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\pedri\\.gradle\\caches\\transforms-3\\c73afc1fa215d9ca128620a3c01802b0\\transformed\\core-1.9.0\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\pedri\\.gradle\\caches\\transforms-3\\6428d17bc81ab870fe289ca552814e8b\\transformed\\core-1.10.0\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\pedri\\.gradle\\caches\\transforms-3\\8d9343f569df63b726615d18b45679d4\\transformed\\appcompat-1.6.1\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\pedri\\.gradle\\caches\\transforms-3\\eccb8a3ce5a0409c55c56bf128322ca4\\transformed\\appcompat-1.6.1\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

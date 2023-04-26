@@ -4,86 +4,77 @@ package br.edu.puc.uteethdentista.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.EditText;
+import android.widget.LinearLayout;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.widget.AppCompatButton;
+import androidx.appcompat.widget.AppCompatImageButton;
 import androidx.appcompat.widget.AppCompatImageView;
-import androidx.appcompat.widget.AppCompatTextView;
-import androidx.constraintlayout.widget.ConstraintLayout;
-import androidx.constraintlayout.widget.Guideline;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import br.edu.puc.uteethdentista.R;
-import com.google.android.material.textfield.TextInputLayout;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
 
 public final class FragmentCriarContaBinding implements ViewBinding {
   @NonNull
-  private final ConstraintLayout rootView;
+  private final LinearLayout rootView;
 
   @NonNull
-  public final AppCompatButton btnCriar;
+  public final AppCompatButton btnSignUp2;
 
   @NonNull
-  public final Guideline guideline;
+  public final EditText etAdress1;
 
   @NonNull
-  public final Guideline guideline2;
+  public final EditText etAdress2;
+
+  @NonNull
+  public final EditText etAdress3;
+
+  @NonNull
+  public final EditText etEmailCreate;
+
+  @NonNull
+  public final EditText etPasswordCreate;
+
+  @NonNull
+  public final EditText etTelefoneCreate;
 
   @NonNull
   public final AppCompatImageView imgUteethlogo;
 
   @NonNull
-  public final AppCompatTextView tVCrieSuaConta;
+  public final AppCompatImageButton imgbArrow;
 
   @NonNull
-  public final TextInputLayout tiConfirmarSenha;
+  public final TextView tvCreate;
 
-  @NonNull
-  public final TextInputLayout tiEmail;
-
-  @NonNull
-  public final TextInputLayout tiSenha;
-
-  @NonNull
-  public final AppCompatTextView tvConfirmarSenha;
-
-  @NonNull
-  public final AppCompatTextView tvEmail;
-
-  @NonNull
-  public final AppCompatTextView tvOpcoesconta;
-
-  @NonNull
-  public final AppCompatTextView tvSenha;
-
-  private FragmentCriarContaBinding(@NonNull ConstraintLayout rootView,
-      @NonNull AppCompatButton btnCriar, @NonNull Guideline guideline,
-      @NonNull Guideline guideline2, @NonNull AppCompatImageView imgUteethlogo,
-      @NonNull AppCompatTextView tVCrieSuaConta, @NonNull TextInputLayout tiConfirmarSenha,
-      @NonNull TextInputLayout tiEmail, @NonNull TextInputLayout tiSenha,
-      @NonNull AppCompatTextView tvConfirmarSenha, @NonNull AppCompatTextView tvEmail,
-      @NonNull AppCompatTextView tvOpcoesconta, @NonNull AppCompatTextView tvSenha) {
+  private FragmentCriarContaBinding(@NonNull LinearLayout rootView,
+      @NonNull AppCompatButton btnSignUp2, @NonNull EditText etAdress1, @NonNull EditText etAdress2,
+      @NonNull EditText etAdress3, @NonNull EditText etEmailCreate,
+      @NonNull EditText etPasswordCreate, @NonNull EditText etTelefoneCreate,
+      @NonNull AppCompatImageView imgUteethlogo, @NonNull AppCompatImageButton imgbArrow,
+      @NonNull TextView tvCreate) {
     this.rootView = rootView;
-    this.btnCriar = btnCriar;
-    this.guideline = guideline;
-    this.guideline2 = guideline2;
+    this.btnSignUp2 = btnSignUp2;
+    this.etAdress1 = etAdress1;
+    this.etAdress2 = etAdress2;
+    this.etAdress3 = etAdress3;
+    this.etEmailCreate = etEmailCreate;
+    this.etPasswordCreate = etPasswordCreate;
+    this.etTelefoneCreate = etTelefoneCreate;
     this.imgUteethlogo = imgUteethlogo;
-    this.tVCrieSuaConta = tVCrieSuaConta;
-    this.tiConfirmarSenha = tiConfirmarSenha;
-    this.tiEmail = tiEmail;
-    this.tiSenha = tiSenha;
-    this.tvConfirmarSenha = tvConfirmarSenha;
-    this.tvEmail = tvEmail;
-    this.tvOpcoesconta = tvOpcoesconta;
-    this.tvSenha = tvSenha;
+    this.imgbArrow = imgbArrow;
+    this.tvCreate = tvCreate;
   }
 
   @Override
   @NonNull
-  public ConstraintLayout getRoot() {
+  public LinearLayout getRoot() {
     return rootView;
   }
 
@@ -108,21 +99,45 @@ public final class FragmentCriarContaBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.btn_criar;
-      AppCompatButton btnCriar = ViewBindings.findChildViewById(rootView, id);
-      if (btnCriar == null) {
+      id = R.id.btn_sign_up2;
+      AppCompatButton btnSignUp2 = ViewBindings.findChildViewById(rootView, id);
+      if (btnSignUp2 == null) {
         break missingId;
       }
 
-      id = R.id.guideline;
-      Guideline guideline = ViewBindings.findChildViewById(rootView, id);
-      if (guideline == null) {
+      id = R.id.et_adress_1;
+      EditText etAdress1 = ViewBindings.findChildViewById(rootView, id);
+      if (etAdress1 == null) {
         break missingId;
       }
 
-      id = R.id.guideline2;
-      Guideline guideline2 = ViewBindings.findChildViewById(rootView, id);
-      if (guideline2 == null) {
+      id = R.id.et_adress_2;
+      EditText etAdress2 = ViewBindings.findChildViewById(rootView, id);
+      if (etAdress2 == null) {
+        break missingId;
+      }
+
+      id = R.id.et_adress_3;
+      EditText etAdress3 = ViewBindings.findChildViewById(rootView, id);
+      if (etAdress3 == null) {
+        break missingId;
+      }
+
+      id = R.id.et_email_create;
+      EditText etEmailCreate = ViewBindings.findChildViewById(rootView, id);
+      if (etEmailCreate == null) {
+        break missingId;
+      }
+
+      id = R.id.et_password_create;
+      EditText etPasswordCreate = ViewBindings.findChildViewById(rootView, id);
+      if (etPasswordCreate == null) {
+        break missingId;
+      }
+
+      id = R.id.et_telefone_create;
+      EditText etTelefoneCreate = ViewBindings.findChildViewById(rootView, id);
+      if (etTelefoneCreate == null) {
         break missingId;
       }
 
@@ -132,57 +147,21 @@ public final class FragmentCriarContaBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.tV_crie_sua_conta;
-      AppCompatTextView tVCrieSuaConta = ViewBindings.findChildViewById(rootView, id);
-      if (tVCrieSuaConta == null) {
+      id = R.id.imgb_arrow;
+      AppCompatImageButton imgbArrow = ViewBindings.findChildViewById(rootView, id);
+      if (imgbArrow == null) {
         break missingId;
       }
 
-      id = R.id.ti_confirmar_senha;
-      TextInputLayout tiConfirmarSenha = ViewBindings.findChildViewById(rootView, id);
-      if (tiConfirmarSenha == null) {
+      id = R.id.tv_create;
+      TextView tvCreate = ViewBindings.findChildViewById(rootView, id);
+      if (tvCreate == null) {
         break missingId;
       }
 
-      id = R.id.ti_email;
-      TextInputLayout tiEmail = ViewBindings.findChildViewById(rootView, id);
-      if (tiEmail == null) {
-        break missingId;
-      }
-
-      id = R.id.ti_senha;
-      TextInputLayout tiSenha = ViewBindings.findChildViewById(rootView, id);
-      if (tiSenha == null) {
-        break missingId;
-      }
-
-      id = R.id.tv_confirmar_senha;
-      AppCompatTextView tvConfirmarSenha = ViewBindings.findChildViewById(rootView, id);
-      if (tvConfirmarSenha == null) {
-        break missingId;
-      }
-
-      id = R.id.tv_email;
-      AppCompatTextView tvEmail = ViewBindings.findChildViewById(rootView, id);
-      if (tvEmail == null) {
-        break missingId;
-      }
-
-      id = R.id.tv_opcoesconta;
-      AppCompatTextView tvOpcoesconta = ViewBindings.findChildViewById(rootView, id);
-      if (tvOpcoesconta == null) {
-        break missingId;
-      }
-
-      id = R.id.tv_senha;
-      AppCompatTextView tvSenha = ViewBindings.findChildViewById(rootView, id);
-      if (tvSenha == null) {
-        break missingId;
-      }
-
-      return new FragmentCriarContaBinding((ConstraintLayout) rootView, btnCriar, guideline,
-          guideline2, imgUteethlogo, tVCrieSuaConta, tiConfirmarSenha, tiEmail, tiSenha,
-          tvConfirmarSenha, tvEmail, tvOpcoesconta, tvSenha);
+      return new FragmentCriarContaBinding((LinearLayout) rootView, btnSignUp2, etAdress1,
+          etAdress2, etAdress3, etEmailCreate, etPasswordCreate, etTelefoneCreate, imgUteethlogo,
+          imgbArrow, tvCreate);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

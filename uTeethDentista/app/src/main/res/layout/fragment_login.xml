@@ -59,7 +59,11 @@
         android:shadowColor="@color/black"
         android:elevation="5dp"
 
-        android:hint="Password">
+        android:hint="Password"
+        app:passwordToggleEnabled="true"
+        app:passwordToggleTint="@color/black"
+        android:inputType="textPassword"
+        >
 
     </EditText>
 
@@ -128,7 +132,7 @@
             android:textSize="20dp" />
 
         <TextView
-            android:id="@+id/btn_sign_up"
+            android:id="@+id/btn_sign_up1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"

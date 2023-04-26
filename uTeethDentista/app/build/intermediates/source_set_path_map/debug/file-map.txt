@@ -1,48 +1,59 @@
-br.edu.puc.uteethdentista.app-viewpager2-1.0.0-0 C:\Users\pedri\.gradle\caches\transforms-3\03d2eddd7c1e665a9f8b90894cf88345\transformed\viewpager2-1.0.0\res
-br.edu.puc.uteethdentista.app-cardview-1.0.0-1 C:\Users\pedri\.gradle\caches\transforms-3\0f83c5d5bf7c6e76956157cb777fbf37\transformed\cardview-1.0.0\res
-br.edu.puc.uteethdentista.app-emoji2-views-helper-1.2.0-2 C:\Users\pedri\.gradle\caches\transforms-3\16a06af682caf3e4461b750d0ec3329b\transformed\emoji2-views-helper-1.2.0\res
-br.edu.puc.uteethdentista.app-core-ktx-1.9.0-3 C:\Users\pedri\.gradle\caches\transforms-3\3804df00b84543228f2beb9eb1b2fe30\transformed\core-ktx-1.9.0\res
-br.edu.puc.uteethdentista.app-coordinatorlayout-1.1.0-4 C:\Users\pedri\.gradle\caches\transforms-3\38d09d4ba0d273158c68be2805b798b3\transformed\coordinatorlayout-1.1.0\res
-br.edu.puc.uteethdentista.app-navigation-runtime-ktx-2.5.3-5 C:\Users\pedri\.gradle\caches\transforms-3\3b5d8a5ef781da1272b9663ed16ab22f\transformed\navigation-runtime-ktx-2.5.3\res
-br.edu.puc.uteethdentista.app-navigation-ui-ktx-2.5.3-6 C:\Users\pedri\.gradle\caches\transforms-3\41574a94ea1ef7a6d4da275f0540b9ba\transformed\navigation-ui-ktx-2.5.3\res
-br.edu.puc.uteethdentista.app-appcompat-resources-1.6.1-7 C:\Users\pedri\.gradle\caches\transforms-3\41dcf42bc854479e43f628ab1a52618d\transformed\appcompat-resources-1.6.1\res
-br.edu.puc.uteethdentista.app-lifecycle-runtime-ktx-2.5.1-8 C:\Users\pedri\.gradle\caches\transforms-3\4ef52ab74c57edbab8998e21f1e805d7\transformed\lifecycle-runtime-ktx-2.5.1\res
-br.edu.puc.uteethdentista.app-recyclerview-1.1.0-9 C:\Users\pedri\.gradle\caches\transforms-3\52d740e8e970387c182bf237433c154a\transformed\recyclerview-1.1.0\res
-br.edu.puc.uteethdentista.app-window-1.0.0-10 C:\Users\pedri\.gradle\caches\transforms-3\57ca3fa706d0531e32e0a842a9463d39\transformed\window-1.0.0\res
-br.edu.puc.uteethdentista.app-emoji2-1.2.0-11 C:\Users\pedri\.gradle\caches\transforms-3\66814d0c9c223a08105bc116aeb53dd5\transformed\emoji2-1.2.0\res
-br.edu.puc.uteethdentista.app-activity-1.6.0-12 C:\Users\pedri\.gradle\caches\transforms-3\6bd59ce5ad314a42b8a1944d4e5257cc\transformed\activity-1.6.0\res
-br.edu.puc.uteethdentista.app-savedstate-1.2.0-13 C:\Users\pedri\.gradle\caches\transforms-3\6c799608a67394e2261b50f8508ea239\transformed\savedstate-1.2.0\res
-br.edu.puc.uteethdentista.app-navigation-ui-2.5.3-14 C:\Users\pedri\.gradle\caches\transforms-3\72d730bcad76fe5e918037e6b9907443\transformed\navigation-ui-2.5.3\res
-br.edu.puc.uteethdentista.app-fragment-1.5.4-15 C:\Users\pedri\.gradle\caches\transforms-3\7abbd1133644b230e3bf09ae3de28c9b\transformed\fragment-1.5.4\res
-br.edu.puc.uteethdentista.app-appcompat-1.6.1-16 C:\Users\pedri\.gradle\caches\transforms-3\8d9343f569df63b726615d18b45679d4\transformed\appcompat-1.6.1\res
-br.edu.puc.uteethdentista.app-fragment-ktx-1.5.4-17 C:\Users\pedri\.gradle\caches\transforms-3\98bef063de863951c70659bfb1216ee7\transformed\fragment-ktx-1.5.4\res
-br.edu.puc.uteethdentista.app-material-1.8.0-18 C:\Users\pedri\.gradle\caches\transforms-3\9ae6143ba7d88d1cbf68916d08d2afcb\transformed\material-1.8.0\res
-br.edu.puc.uteethdentista.app-navigation-common-ktx-2.5.3-19 C:\Users\pedri\.gradle\caches\transforms-3\9f92e8908c55b347327e74f83e73ea3e\transformed\navigation-common-ktx-2.5.3\res
-br.edu.puc.uteethdentista.app-annotation-experimental-1.3.0-20 C:\Users\pedri\.gradle\caches\transforms-3\9fae957ef0e1266a83e5188cb210102e\transformed\annotation-experimental-1.3.0\res
-br.edu.puc.uteethdentista.app-navigation-common-2.5.3-21 C:\Users\pedri\.gradle\caches\transforms-3\a2d0ea161f54ce2794f6cb37fd9ac5fc\transformed\navigation-common-2.5.3\res
-br.edu.puc.uteethdentista.app-lifecycle-livedata-core-ktx-2.5.1-22 C:\Users\pedri\.gradle\caches\transforms-3\b00b6cc4ba5897d5b4f314f68be14c41\transformed\lifecycle-livedata-core-ktx-2.5.1\res
-br.edu.puc.uteethdentista.app-activity-ktx-1.6.0-23 C:\Users\pedri\.gradle\caches\transforms-3\b14ab23ba57da8846e165d547656c285\transformed\activity-ktx-1.6.0\res
-br.edu.puc.uteethdentista.app-lifecycle-viewmodel-2.5.1-24 C:\Users\pedri\.gradle\caches\transforms-3\b510763edb1ef6286222c38b148ec3db\transformed\lifecycle-viewmodel-2.5.1\res
-br.edu.puc.uteethdentista.app-lifecycle-runtime-2.5.1-25 C:\Users\pedri\.gradle\caches\transforms-3\bd2013a7ba3836a0788f3d8b2296a53a\transformed\lifecycle-runtime-2.5.1\res
-br.edu.puc.uteethdentista.app-startup-runtime-1.1.1-26 C:\Users\pedri\.gradle\caches\transforms-3\bdeac150b6ce0fcc7996d2b9a9f9c390\transformed\startup-runtime-1.1.1\res
-br.edu.puc.uteethdentista.app-core-1.9.0-27 C:\Users\pedri\.gradle\caches\transforms-3\c73afc1fa215d9ca128620a3c01802b0\transformed\core-1.9.0\res
-br.edu.puc.uteethdentista.app-slidingpanelayout-1.2.0-28 C:\Users\pedri\.gradle\caches\transforms-3\ca38f58b45fc402f8656681f7fe4298c\transformed\slidingpanelayout-1.2.0\res
-br.edu.puc.uteethdentista.app-savedstate-ktx-1.2.0-29 C:\Users\pedri\.gradle\caches\transforms-3\cc6480639cb5dc42735f8293e1e59a36\transformed\savedstate-ktx-1.2.0\res
-br.edu.puc.uteethdentista.app-navigation-fragment-2.5.3-30 C:\Users\pedri\.gradle\caches\transforms-3\d3b1573ff9bc868ad891562b3ed588c9\transformed\navigation-fragment-2.5.3\res
-br.edu.puc.uteethdentista.app-lifecycle-livedata-core-2.5.1-31 C:\Users\pedri\.gradle\caches\transforms-3\d4c7398b925a7fa33014a3b3d90293a8\transformed\lifecycle-livedata-core-2.5.1\res
-br.edu.puc.uteethdentista.app-lifecycle-process-2.4.1-32 C:\Users\pedri\.gradle\caches\transforms-3\d64e7ca6b93f4a6c092b1dd37cf249d6\transformed\lifecycle-process-2.4.1\res
-br.edu.puc.uteethdentista.app-lifecycle-viewmodel-ktx-2.5.1-33 C:\Users\pedri\.gradle\caches\transforms-3\dc804ff42597da713ad05c49ffae2f0b\transformed\lifecycle-viewmodel-ktx-2.5.1\res
-br.edu.puc.uteethdentista.app-lifecycle-viewmodel-savedstate-2.5.1-34 C:\Users\pedri\.gradle\caches\transforms-3\e563143b9fc1ce0498763a9307e41937\transformed\lifecycle-viewmodel-savedstate-2.5.1\res
-br.edu.puc.uteethdentista.app-navigation-fragment-ktx-2.5.3-35 C:\Users\pedri\.gradle\caches\transforms-3\e7465df4ddb098f48afb45f47e830e80\transformed\navigation-fragment-ktx-2.5.3\res
-br.edu.puc.uteethdentista.app-navigation-runtime-2.5.3-36 C:\Users\pedri\.gradle\caches\transforms-3\ec4bd8c9817634b0c25a157c90449182\transformed\navigation-runtime-2.5.3\res
-br.edu.puc.uteethdentista.app-drawerlayout-1.1.1-37 C:\Users\pedri\.gradle\caches\transforms-3\ee697cd08c56d0500233d93c4fc892de\transformed\drawerlayout-1.1.1\res
-br.edu.puc.uteethdentista.app-transition-1.4.1-38 C:\Users\pedri\.gradle\caches\transforms-3\f488774c27b2117cb63fe7614c6b547d\transformed\transition-1.4.1\res
-br.edu.puc.uteethdentista.app-constraintlayout-2.1.4-39 C:\Users\pedri\.gradle\caches\transforms-3\fe5722c2d28764b765710ac6c318c6e8\transformed\constraintlayout-2.1.4\res
-br.edu.puc.uteethdentista.app-pngs-40 D:\Users\pedri\OneDrive\Documentos\Projeto Integrador 3\uTeethDentista\uTeeth-Dentista\uTeethDentista\app\build\generated\res\pngs\debug
-br.edu.puc.uteethdentista.app-resValues-41 D:\Users\pedri\OneDrive\Documentos\Projeto Integrador 3\uTeethDentista\uTeeth-Dentista\uTeethDentista\app\build\generated\res\resValues\debug
-br.edu.puc.uteethdentista.app-rs-42 D:\Users\pedri\OneDrive\Documentos\Projeto Integrador 3\uTeethDentista\uTeeth-Dentista\uTeethDentista\app\build\generated\res\rs\debug
-br.edu.puc.uteethdentista.app-packageDebugResources-43 D:\Users\pedri\OneDrive\Documentos\Projeto Integrador 3\uTeethDentista\uTeeth-Dentista\uTeethDentista\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
-br.edu.puc.uteethdentista.app-packageDebugResources-44 D:\Users\pedri\OneDrive\Documentos\Projeto Integrador 3\uTeethDentista\uTeeth-Dentista\uTeethDentista\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
-br.edu.puc.uteethdentista.app-merged_res-45 D:\Users\pedri\OneDrive\Documentos\Projeto Integrador 3\uTeethDentista\uTeeth-Dentista\uTeethDentista\app\build\intermediates\merged_res\debug
-br.edu.puc.uteethdentista.app-debug-46 D:\Users\pedri\OneDrive\Documentos\Projeto Integrador 3\uTeethDentista\uTeeth-Dentista\uTeethDentista\app\src\debug\res
-br.edu.puc.uteethdentista.app-main-47 D:\Users\pedri\OneDrive\Documentos\Projeto Integrador 3\uTeethDentista\uTeeth-Dentista\uTeethDentista\app\src\main\res
+br.edu.puc.uteethdentista.app-annotation-experimental-1.3.0-0 C:\Users\pedri\.gradle\caches\transforms-3\0040f7cb5213adf2b234754c531b29c6\transformed\annotation-experimental-1.3.0\res
+br.edu.puc.uteethdentista.app-constraintlayout-2.1.4-1 C:\Users\pedri\.gradle\caches\transforms-3\017780dd3c05450dbe23a09b4c482ddc\transformed\constraintlayout-2.1.4\res
+br.edu.puc.uteethdentista.app-firebase-messaging-23.1.2-2 C:\Users\pedri\.gradle\caches\transforms-3\041c782344ecac780365dc72735cb60b\transformed\firebase-messaging-23.1.2\res
+br.edu.puc.uteethdentista.app-recyclerview-1.1.0-3 C:\Users\pedri\.gradle\caches\transforms-3\05e7c5d1a2b28a89f422c6b3d4ecb006\transformed\recyclerview-1.1.0\res
+br.edu.puc.uteethdentista.app-work-runtime-2.8.1-4 C:\Users\pedri\.gradle\caches\transforms-3\072ffe7dd0787d459062faa15b18a83c\transformed\work-runtime-2.8.1\res
+br.edu.puc.uteethdentista.app-viewpager2-1.0.0-5 C:\Users\pedri\.gradle\caches\transforms-3\0aacb835b55326c9f1f134683d29f1b2\transformed\viewpager2-1.0.0\res
+br.edu.puc.uteethdentista.app-savedstate-ktx-1.2.0-6 C:\Users\pedri\.gradle\caches\transforms-3\11a13567891e105eaf2f11294fd019e7\transformed\savedstate-ktx-1.2.0\res
+br.edu.puc.uteethdentista.app-core-ktx-1.10.0-7 C:\Users\pedri\.gradle\caches\transforms-3\14ff3cd6af5af400e195890747c5b511\transformed\core-ktx-1.10.0\res
+br.edu.puc.uteethdentista.app-navigation-ui-2.5.3-8 C:\Users\pedri\.gradle\caches\transforms-3\1a22265b6978a33d78eaa3b9f11a32ea\transformed\navigation-ui-2.5.3\res
+br.edu.puc.uteethdentista.app-activity-1.6.0-9 C:\Users\pedri\.gradle\caches\transforms-3\2aae513f83b6ecac469c775b867f5653\transformed\activity-1.6.0\res
+br.edu.puc.uteethdentista.app-lifecycle-viewmodel-savedstate-2.5.1-10 C:\Users\pedri\.gradle\caches\transforms-3\2ab184dad80f030aaf49696464f6ed12\transformed\lifecycle-viewmodel-savedstate-2.5.1\res
+br.edu.puc.uteethdentista.app-emoji2-views-helper-1.2.0-11 C:\Users\pedri\.gradle\caches\transforms-3\2afaf57211dc1c985514d4b58d76c25c\transformed\emoji2-views-helper-1.2.0\res
+br.edu.puc.uteethdentista.app-fragment-ktx-1.5.4-12 C:\Users\pedri\.gradle\caches\transforms-3\31abea2930b8a4c88f2608474543077f\transformed\fragment-ktx-1.5.4\res
+br.edu.puc.uteethdentista.app-coordinatorlayout-1.1.0-13 C:\Users\pedri\.gradle\caches\transforms-3\31f2173c9bd12c8e9ae9ab45fed30677\transformed\coordinatorlayout-1.1.0\res
+br.edu.puc.uteethdentista.app-navigation-common-2.5.3-14 C:\Users\pedri\.gradle\caches\transforms-3\38d3e2ba11b675e9663c382a1c7f5d16\transformed\navigation-common-2.5.3\res
+br.edu.puc.uteethdentista.app-appcompat-resources-1.6.1-15 C:\Users\pedri\.gradle\caches\transforms-3\40b1796432b5aacea61b29a71a370aaa\transformed\appcompat-resources-1.6.1\res
+br.edu.puc.uteethdentista.app-browser-1.4.0-16 C:\Users\pedri\.gradle\caches\transforms-3\44e87513b92d367064af36bcf452d972\transformed\browser-1.4.0\res
+br.edu.puc.uteethdentista.app-lifecycle-viewmodel-2.5.1-17 C:\Users\pedri\.gradle\caches\transforms-3\58f8976b6204a457bed9e813ac73ea9b\transformed\lifecycle-viewmodel-2.5.1\res
+br.edu.puc.uteethdentista.app-navigation-common-ktx-2.5.3-18 C:\Users\pedri\.gradle\caches\transforms-3\5a5050681ba411d6ba4f75d51de96140\transformed\navigation-common-ktx-2.5.3\res
+br.edu.puc.uteethdentista.app-work-runtime-ktx-2.8.1-19 C:\Users\pedri\.gradle\caches\transforms-3\5c4eb760ef3f9b0ac93160054d7b6cbc\transformed\work-runtime-ktx-2.8.1\res
+br.edu.puc.uteethdentista.app-room-runtime-2.5.0-20 C:\Users\pedri\.gradle\caches\transforms-3\5e8cf60ec91279dccf84d93e46641235\transformed\room-runtime-2.5.0\res
+br.edu.puc.uteethdentista.app-lifecycle-livedata-core-ktx-2.5.1-21 C:\Users\pedri\.gradle\caches\transforms-3\6266ce96ea4b6b9998953205c90593e1\transformed\lifecycle-livedata-core-ktx-2.5.1\res
+br.edu.puc.uteethdentista.app-sqlite-framework-2.3.0-22 C:\Users\pedri\.gradle\caches\transforms-3\632a524dc5a70f060601416f55470758\transformed\sqlite-framework-2.3.0\res
+br.edu.puc.uteethdentista.app-core-1.10.0-23 C:\Users\pedri\.gradle\caches\transforms-3\6428d17bc81ab870fe289ca552814e8b\transformed\core-1.10.0\res
+br.edu.puc.uteethdentista.app-navigation-ui-ktx-2.5.3-24 C:\Users\pedri\.gradle\caches\transforms-3\6ebc446b9953a992a19f54c125cf9ae5\transformed\navigation-ui-ktx-2.5.3\res
+br.edu.puc.uteethdentista.app-play-services-base-18.1.0-25 C:\Users\pedri\.gradle\caches\transforms-3\6f026cad622696a14640ce40ceabba80\transformed\play-services-base-18.1.0\res
+br.edu.puc.uteethdentista.app-slidingpanelayout-1.2.0-26 C:\Users\pedri\.gradle\caches\transforms-3\729eff68a3b4e1327526d3944f690d96\transformed\slidingpanelayout-1.2.0\res
+br.edu.puc.uteethdentista.app-savedstate-1.2.0-27 C:\Users\pedri\.gradle\caches\transforms-3\781117524fa13d4e5952a8cf218f830d\transformed\savedstate-1.2.0\res
+br.edu.puc.uteethdentista.app-navigation-fragment-ktx-2.5.3-28 C:\Users\pedri\.gradle\caches\transforms-3\7a4b2fe7e6ca3504e6c163d6eb4804fa\transformed\navigation-fragment-ktx-2.5.3\res
+br.edu.puc.uteethdentista.app-cardview-1.0.0-29 C:\Users\pedri\.gradle\caches\transforms-3\7b19ec02f13ac9207492dff3e1679bfe\transformed\cardview-1.0.0\res
+br.edu.puc.uteethdentista.app-firebase-common-20.3.2-30 C:\Users\pedri\.gradle\caches\transforms-3\7ff5c140319dcff9fd54f9ec686bc0c3\transformed\firebase-common-20.3.2\res
+br.edu.puc.uteethdentista.app-lifecycle-process-2.4.1-31 C:\Users\pedri\.gradle\caches\transforms-3\808ab9175fed03cc8433c7bec55b969c\transformed\lifecycle-process-2.4.1\res
+br.edu.puc.uteethdentista.app-lifecycle-viewmodel-ktx-2.5.1-32 C:\Users\pedri\.gradle\caches\transforms-3\83b02fd445dfc28b69bd54cac5acb863\transformed\lifecycle-viewmodel-ktx-2.5.1\res
+br.edu.puc.uteethdentista.app-startup-runtime-1.1.1-33 C:\Users\pedri\.gradle\caches\transforms-3\83dca1040133b8a220a1d66135d0d2fe\transformed\startup-runtime-1.1.1\res
+br.edu.puc.uteethdentista.app-lifecycle-runtime-ktx-2.5.1-34 C:\Users\pedri\.gradle\caches\transforms-3\8db8bfefae19d7607dfd13ea508b7bf9\transformed\lifecycle-runtime-ktx-2.5.1\res
+br.edu.puc.uteethdentista.app-drawerlayout-1.1.1-35 C:\Users\pedri\.gradle\caches\transforms-3\8f80b67232cdaae4ce893628bab09111\transformed\drawerlayout-1.1.1\res
+br.edu.puc.uteethdentista.app-fragment-1.5.4-36 C:\Users\pedri\.gradle\caches\transforms-3\911880e7aa1ff576127be91c0682c30f\transformed\fragment-1.5.4\res
+br.edu.puc.uteethdentista.app-window-1.0.0-37 C:\Users\pedri\.gradle\caches\transforms-3\aca5c851182ea333fa2a3962539f0cbc\transformed\window-1.0.0\res
+br.edu.puc.uteethdentista.app-sqlite-2.3.0-38 C:\Users\pedri\.gradle\caches\transforms-3\b1a5a5078110455eb8c6371ee94676d0\transformed\sqlite-2.3.0\res
+br.edu.puc.uteethdentista.app-material-1.8.0-39 C:\Users\pedri\.gradle\caches\transforms-3\c6d995cf1e82840b8930a7bf683b098e\transformed\material-1.8.0\res
+br.edu.puc.uteethdentista.app-navigation-runtime-2.5.3-40 C:\Users\pedri\.gradle\caches\transforms-3\cb61b8b58357e95f83734fc0d8834428\transformed\navigation-runtime-2.5.3\res
+br.edu.puc.uteethdentista.app-lifecycle-livedata-core-2.5.1-41 C:\Users\pedri\.gradle\caches\transforms-3\d41e17f011d21751c71f09a7b97379e4\transformed\lifecycle-livedata-core-2.5.1\res
+br.edu.puc.uteethdentista.app-lifecycle-runtime-2.5.1-42 C:\Users\pedri\.gradle\caches\transforms-3\d71a9fbc6c0b99902d3989b203974708\transformed\lifecycle-runtime-2.5.1\res
+br.edu.puc.uteethdentista.app-navigation-fragment-2.5.3-43 C:\Users\pedri\.gradle\caches\transforms-3\dea5125b0fdd5ec4dfc20112b3a42c63\transformed\navigation-fragment-2.5.3\res
+br.edu.puc.uteethdentista.app-appcompat-1.6.1-44 C:\Users\pedri\.gradle\caches\transforms-3\eccb8a3ce5a0409c55c56bf128322ca4\transformed\appcompat-1.6.1\res
+br.edu.puc.uteethdentista.app-activity-ktx-1.6.0-45 C:\Users\pedri\.gradle\caches\transforms-3\f0046f051ccd0dae9c1be830ce941a55\transformed\activity-ktx-1.6.0\res
+br.edu.puc.uteethdentista.app-navigation-runtime-ktx-2.5.3-46 C:\Users\pedri\.gradle\caches\transforms-3\f31cdf6a226eaba101563c8cc3788a48\transformed\navigation-runtime-ktx-2.5.3\res
+br.edu.puc.uteethdentista.app-play-services-basement-18.1.0-47 C:\Users\pedri\.gradle\caches\transforms-3\f5939d92c7255ef896f2f527eafa4b7b\transformed\play-services-basement-18.1.0\res
+br.edu.puc.uteethdentista.app-emoji2-1.2.0-48 C:\Users\pedri\.gradle\caches\transforms-3\f71f8f31cc31270c47818d655a6baafe\transformed\emoji2-1.2.0\res
+br.edu.puc.uteethdentista.app-transition-1.4.1-49 C:\Users\pedri\.gradle\caches\transforms-3\f94995d7421bf10bd6fac1e384398a6d\transformed\transition-1.4.1\res
+br.edu.puc.uteethdentista.app-google-services-50 D:\Users\pedri\OneDrive\Documentos\Projeto Integrador 3\uTeethDentista\uTeeth-Dentista\uTeethDentista\app\build\generated\res\google-services\debug
+br.edu.puc.uteethdentista.app-pngs-51 D:\Users\pedri\OneDrive\Documentos\Projeto Integrador 3\uTeethDentista\uTeeth-Dentista\uTeethDentista\app\build\generated\res\pngs\debug
+br.edu.puc.uteethdentista.app-resValues-52 D:\Users\pedri\OneDrive\Documentos\Projeto Integrador 3\uTeethDentista\uTeeth-Dentista\uTeethDentista\app\build\generated\res\resValues\debug
+br.edu.puc.uteethdentista.app-rs-53 D:\Users\pedri\OneDrive\Documentos\Projeto Integrador 3\uTeethDentista\uTeeth-Dentista\uTeethDentista\app\build\generated\res\rs\debug
+br.edu.puc.uteethdentista.app-packageDebugResources-54 D:\Users\pedri\OneDrive\Documentos\Projeto Integrador 3\uTeethDentista\uTeeth-Dentista\uTeethDentista\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+br.edu.puc.uteethdentista.app-packageDebugResources-55 D:\Users\pedri\OneDrive\Documentos\Projeto Integrador 3\uTeethDentista\uTeeth-Dentista\uTeethDentista\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+br.edu.puc.uteethdentista.app-merged_res-56 D:\Users\pedri\OneDrive\Documentos\Projeto Integrador 3\uTeethDentista\uTeeth-Dentista\uTeethDentista\app\build\intermediates\merged_res\debug
+br.edu.puc.uteethdentista.app-debug-57 D:\Users\pedri\OneDrive\Documentos\Projeto Integrador 3\uTeethDentista\uTeeth-Dentista\uTeethDentista\app\src\debug\res
+br.edu.puc.uteethdentista.app-main-58 D:\Users\pedri\OneDrive\Documentos\Projeto Integrador 3\uTeethDentista\uTeeth-Dentista\uTeethDentista\app\src\main\res

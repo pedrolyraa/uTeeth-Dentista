@@ -26,43 +26,19 @@ class CriarContaFragment : AppCompatActivity() {
         binding = FragmentCriarContaBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+        supportActionBar?.hide()
+        window.statusBarColor= Color.parseColor("#FFFFFFFF")
 
-        binding.btnCriar.setOnClickListener{
-            val email = binding.etEmail.text.toString()
-            val senha = binding.etSenha.text.toString()
-            val confirmarSenha = binding.etConfirmarSenha.text.toString()
+        binding.btnSignUp2.setOnClickListener {
+            val intent = Intent(this,CurriculoFragment::class.java)
+            startActivity(intent)
+            finish()
+        }
 
-            if (email.isEmpty() || senha.isEmpty() || confirmarSenha.isEmpty()){
-                val snackbar = Snackbar.make(it, "Preencha todos os campos!", Snackbar.LENGTH_SHORT)
-                snackbar.setBackgroundTint(Color.RED)
-                snackbar.show()
-            }else{
-                auth.createUserWithEmailAndPassword(email, senha).addOnCompleteListener{ cadastro ->
-                    if (cadastro.isSuccessful){
-                        val snackbar = Snackbar.make(it, "Você foi cadastrado!", Snackbar.LENGTH_SHORT)
-                        snackbar.setBackgroundTint(Color.GREEN)
-                        snackbar.show()
-                        binding.etEmail.setText("")
-                        binding.etSenha.setText("")
-                        binding.etConfirmarSenha.setText("")
-                    }
-                }.addOnFailureListener{ exception ->
-                    val mensagemErro = when(exception){
-                        is FirebaseAuthWeakPasswordException -> "Digite uma senha com no mínimo 6 caracteres!"
-                        is FirebaseAuthInvalidCredentialsException -> "Digite um email válido!"
-                        is FirebaseAuthUserCollisionException -> "Esta conta já foi cadastrada!"
-                        is FirebaseNetworkException -> "Sem conexão com a internet!"
-                        else -> "Erro ao cadastrar usuário!"
-                    }
-                    val snackbar = Snackbar.make(it, mensagemErro, Snackbar.LENGTH_SHORT)
-                    snackbar.setBackgroundTint(Color.RED)
-                    snackbar.show()
-
-                }
-                val navegarCadastrar = Intent(this, LoginFragment::class.java)
-                startActivity(navegarCadastrar)
-            }
-
+        binding.imgbArrow.setOnClickListener {
+            val intent = Intent(this,LoginFragment::class.java)
+            startActivity(intent)
+            finish()
         }
     }
 }

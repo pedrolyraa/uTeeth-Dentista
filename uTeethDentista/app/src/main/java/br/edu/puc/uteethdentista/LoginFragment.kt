@@ -17,11 +17,19 @@ class LoginFragment : AppCompatActivity() {
 
 
 
+
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = FragmentLoginBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+
+        binding.btnSignUp1.setOnClickListener {
+            val intent = Intent(this,CriarContaFragment::class.java)
+            startActivity(intent)
+            finish()
+        }
 
         supportActionBar?.hide()
         window.statusBarColor= Color.parseColor("#FFFFFFFF")
@@ -52,11 +60,7 @@ class LoginFragment : AppCompatActivity() {
         finish()
 
 
-        binding.btnSignUp.setOnClickListener {
-            val intent = Intent(this,CriarContaFragment::class.java)
-            startActivity(intent)
-            finish()
-        }
+
 
 
     }

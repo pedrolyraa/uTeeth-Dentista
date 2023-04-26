@@ -10,113 +10,639 @@
 9        android:targetSdkVersion="33" />
 9-->D:\Users\pedri\OneDrive\Documentos\Projeto Integrador 3\uTeethDentista\uTeeth-Dentista\uTeethDentista\app\src\main\AndroidManifest.xml
 10
-11    <permission
-11-->[androidx.core:core:1.9.0] C:\Users\pedri\.gradle\caches\transforms-3\c73afc1fa215d9ca128620a3c01802b0\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
-12        android:name="br.edu.puc.uteethdentista.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-12-->[androidx.core:core:1.9.0] C:\Users\pedri\.gradle\caches\transforms-3\c73afc1fa215d9ca128620a3c01802b0\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
-13        android:protectionLevel="signature" />
-13-->[androidx.core:core:1.9.0] C:\Users\pedri\.gradle\caches\transforms-3\c73afc1fa215d9ca128620a3c01802b0\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
-14
-15    <uses-permission android:name="br.edu.puc.uteethdentista.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-15-->[androidx.core:core:1.9.0] C:\Users\pedri\.gradle\caches\transforms-3\c73afc1fa215d9ca128620a3c01802b0\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
-15-->[androidx.core:core:1.9.0] C:\Users\pedri\.gradle\caches\transforms-3\c73afc1fa215d9ca128620a3c01802b0\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
-16
-17    <application
-17-->D:\Users\pedri\OneDrive\Documentos\Projeto Integrador 3\uTeethDentista\uTeeth-Dentista\uTeethDentista\app\src\main\AndroidManifest.xml:5:5-36:19
-18        android:allowBackup="true"
-18-->D:\Users\pedri\OneDrive\Documentos\Projeto Integrador 3\uTeethDentista\uTeeth-Dentista\uTeethDentista\app\src\main\AndroidManifest.xml:6:9-35
-19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-19-->[androidx.core:core:1.9.0] C:\Users\pedri\.gradle\caches\transforms-3\c73afc1fa215d9ca128620a3c01802b0\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
-20        android:dataExtractionRules="@xml/data_extraction_rules"
-20-->D:\Users\pedri\OneDrive\Documentos\Projeto Integrador 3\uTeethDentista\uTeeth-Dentista\uTeethDentista\app\src\main\AndroidManifest.xml:7:9-65
-21        android:debuggable="true"
-22        android:extractNativeLibs="false"
-23        android:fullBackupContent="@xml/backup_rules"
-23-->D:\Users\pedri\OneDrive\Documentos\Projeto Integrador 3\uTeethDentista\uTeeth-Dentista\uTeethDentista\app\src\main\AndroidManifest.xml:8:9-54
-24        android:icon="@mipmap/ic_launcher"
-24-->D:\Users\pedri\OneDrive\Documentos\Projeto Integrador 3\uTeethDentista\uTeeth-Dentista\uTeethDentista\app\src\main\AndroidManifest.xml:9:9-43
-25        android:label="@string/app_name"
-25-->D:\Users\pedri\OneDrive\Documentos\Projeto Integrador 3\uTeethDentista\uTeeth-Dentista\uTeethDentista\app\src\main\AndroidManifest.xml:10:9-41
-26        android:supportsRtl="true"
-26-->D:\Users\pedri\OneDrive\Documentos\Projeto Integrador 3\uTeethDentista\uTeeth-Dentista\uTeethDentista\app\src\main\AndroidManifest.xml:11:9-35
-27        android:testOnly="true"
-28        android:theme="@style/Theme.UTeethDentista" >
-28-->D:\Users\pedri\OneDrive\Documentos\Projeto Integrador 3\uTeethDentista\uTeeth-Dentista\uTeethDentista\app\src\main\AndroidManifest.xml:12:9-52
-29        <activity
-29-->D:\Users\pedri\OneDrive\Documentos\Projeto Integrador 3\uTeethDentista\uTeeth-Dentista\uTeethDentista\app\src\main\AndroidManifest.xml:15:9-17:40
-30            android:name="br.edu.puc.uteethdentista.CriarContaFragment"
-30-->D:\Users\pedri\OneDrive\Documentos\Projeto Integrador 3\uTeethDentista\uTeeth-Dentista\uTeethDentista\app\src\main\AndroidManifest.xml:16:13-47
-31            android:exported="false" />
-31-->D:\Users\pedri\OneDrive\Documentos\Projeto Integrador 3\uTeethDentista\uTeeth-Dentista\uTeethDentista\app\src\main\AndroidManifest.xml:17:13-37
-32        <activity
-32-->D:\Users\pedri\OneDrive\Documentos\Projeto Integrador 3\uTeethDentista\uTeeth-Dentista\uTeethDentista\app\src\main\AndroidManifest.xml:18:9-20:40
-33            android:name="br.edu.puc.uteethdentista.LoginFragment"
-33-->D:\Users\pedri\OneDrive\Documentos\Projeto Integrador 3\uTeethDentista\uTeeth-Dentista\uTeethDentista\app\src\main\AndroidManifest.xml:19:13-42
-34            android:exported="false" />
-34-->D:\Users\pedri\OneDrive\Documentos\Projeto Integrador 3\uTeethDentista\uTeeth-Dentista\uTeethDentista\app\src\main\AndroidManifest.xml:20:13-37
-35        <activity
-35-->D:\Users\pedri\OneDrive\Documentos\Projeto Integrador 3\uTeethDentista\uTeeth-Dentista\uTeethDentista\app\src\main\AndroidManifest.xml:21:9-31:20
-36            android:name="br.edu.puc.uteethdentista.MainActivity2"
-36-->D:\Users\pedri\OneDrive\Documentos\Projeto Integrador 3\uTeethDentista\uTeeth-Dentista\uTeethDentista\app\src\main\AndroidManifest.xml:22:13-42
-37            android:exported="true"
-37-->D:\Users\pedri\OneDrive\Documentos\Projeto Integrador 3\uTeethDentista\uTeeth-Dentista\uTeethDentista\app\src\main\AndroidManifest.xml:23:13-36
-38            android:label="@string/app_name"
-38-->D:\Users\pedri\OneDrive\Documentos\Projeto Integrador 3\uTeethDentista\uTeeth-Dentista\uTeethDentista\app\src\main\AndroidManifest.xml:24:13-45
-39            android:theme="@style/Theme.UTeethDentista.NoActionBar" >
-39-->D:\Users\pedri\OneDrive\Documentos\Projeto Integrador 3\uTeethDentista\uTeeth-Dentista\uTeethDentista\app\src\main\AndroidManifest.xml:25:13-68
-40            <intent-filter>
-40-->D:\Users\pedri\OneDrive\Documentos\Projeto Integrador 3\uTeethDentista\uTeeth-Dentista\uTeethDentista\app\src\main\AndroidManifest.xml:26:13-30:29
-41                <action android:name="android.intent.action.MAIN" />
-41-->D:\Users\pedri\OneDrive\Documentos\Projeto Integrador 3\uTeethDentista\uTeeth-Dentista\uTeethDentista\app\src\main\AndroidManifest.xml:27:17-69
-41-->D:\Users\pedri\OneDrive\Documentos\Projeto Integrador 3\uTeethDentista\uTeeth-Dentista\uTeethDentista\app\src\main\AndroidManifest.xml:27:25-66
-42
-43                <category android:name="android.intent.category.LAUNCHER" />
-43-->D:\Users\pedri\OneDrive\Documentos\Projeto Integrador 3\uTeethDentista\uTeeth-Dentista\uTeethDentista\app\src\main\AndroidManifest.xml:29:17-77
-43-->D:\Users\pedri\OneDrive\Documentos\Projeto Integrador 3\uTeethDentista\uTeeth-Dentista\uTeethDentista\app\src\main\AndroidManifest.xml:29:27-74
-44            </intent-filter>
-45        </activity>
-46
-47        <meta-data
-47-->D:\Users\pedri\OneDrive\Documentos\Projeto Integrador 3\uTeethDentista\uTeeth-Dentista\uTeethDentista\app\src\main\AndroidManifest.xml:33:9-35:57
-48            android:name="preloaded_fonts"
-48-->D:\Users\pedri\OneDrive\Documentos\Projeto Integrador 3\uTeethDentista\uTeeth-Dentista\uTeethDentista\app\src\main\AndroidManifest.xml:34:13-43
-49            android:resource="@array/preloaded_fonts" />
-49-->D:\Users\pedri\OneDrive\Documentos\Projeto Integrador 3\uTeethDentista\uTeeth-Dentista\uTeethDentista\app\src\main\AndroidManifest.xml:35:13-54
-50
-51        <uses-library
-51-->[androidx.window:window:1.0.0] C:\Users\pedri\.gradle\caches\transforms-3\57ca3fa706d0531e32e0a842a9463d39\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
-52            android:name="androidx.window.extensions"
-52-->[androidx.window:window:1.0.0] C:\Users\pedri\.gradle\caches\transforms-3\57ca3fa706d0531e32e0a842a9463d39\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
-53            android:required="false" />
-53-->[androidx.window:window:1.0.0] C:\Users\pedri\.gradle\caches\transforms-3\57ca3fa706d0531e32e0a842a9463d39\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
-54        <uses-library
-54-->[androidx.window:window:1.0.0] C:\Users\pedri\.gradle\caches\transforms-3\57ca3fa706d0531e32e0a842a9463d39\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
-55            android:name="androidx.window.sidecar"
-55-->[androidx.window:window:1.0.0] C:\Users\pedri\.gradle\caches\transforms-3\57ca3fa706d0531e32e0a842a9463d39\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
-56            android:required="false" />
-56-->[androidx.window:window:1.0.0] C:\Users\pedri\.gradle\caches\transforms-3\57ca3fa706d0531e32e0a842a9463d39\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
-57
-58        <provider
-58-->[androidx.emoji2:emoji2:1.2.0] C:\Users\pedri\.gradle\caches\transforms-3\66814d0c9c223a08105bc116aeb53dd5\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
-59            android:name="androidx.startup.InitializationProvider"
-59-->[androidx.emoji2:emoji2:1.2.0] C:\Users\pedri\.gradle\caches\transforms-3\66814d0c9c223a08105bc116aeb53dd5\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
-60            android:authorities="br.edu.puc.uteethdentista.androidx-startup"
-60-->[androidx.emoji2:emoji2:1.2.0] C:\Users\pedri\.gradle\caches\transforms-3\66814d0c9c223a08105bc116aeb53dd5\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
-61            android:exported="false" >
-61-->[androidx.emoji2:emoji2:1.2.0] C:\Users\pedri\.gradle\caches\transforms-3\66814d0c9c223a08105bc116aeb53dd5\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
-62            <meta-data
-62-->[androidx.emoji2:emoji2:1.2.0] C:\Users\pedri\.gradle\caches\transforms-3\66814d0c9c223a08105bc116aeb53dd5\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
-63                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-63-->[androidx.emoji2:emoji2:1.2.0] C:\Users\pedri\.gradle\caches\transforms-3\66814d0c9c223a08105bc116aeb53dd5\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
-64                android:value="androidx.startup" />
-64-->[androidx.emoji2:emoji2:1.2.0] C:\Users\pedri\.gradle\caches\transforms-3\66814d0c9c223a08105bc116aeb53dd5\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
-65            <meta-data
-65-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\pedri\.gradle\caches\transforms-3\d64e7ca6b93f4a6c092b1dd37cf249d6\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
-66                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-66-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\pedri\.gradle\caches\transforms-3\d64e7ca6b93f4a6c092b1dd37cf249d6\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
-67                android:value="androidx.startup" />
-67-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\pedri\.gradle\caches\transforms-3\d64e7ca6b93f4a6c092b1dd37cf249d6\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
-68        </provider>
-69    </application>
-70
-71</manifest>
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->D:\Users\pedri\OneDrive\Documentos\Projeto Integrador 3\uTeethDentista\uTeeth-Dentista\uTeethDentista\app\src\main\AndroidManifest.xml:5:5-66
+11-->D:\Users\pedri\OneDrive\Documentos\Projeto Integrador 3\uTeethDentista\uTeeth-Dentista\uTeethDentista\app\src\main\AndroidManifest.xml:5:22-64
+12
+13    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+14    <!-- <uses-sdk android:minSdkVersion="14" /> -->
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->[com.google.firebase:firebase-firestore:24.4.5] C:\Users\pedri\.gradle\caches\transforms-3\081c159aae7a057cc2a08dc9afa9bd99\transformed\firebase-firestore-24.4.5\AndroidManifest.xml:12:5-79
+15-->[com.google.firebase:firebase-firestore:24.4.5] C:\Users\pedri\.gradle\caches\transforms-3\081c159aae7a057cc2a08dc9afa9bd99\transformed\firebase-firestore-24.4.5\AndroidManifest.xml:12:22-76
+16    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+16-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\pedri\.gradle\caches\transforms-3\041c782344ecac780365dc72735cb60b\transformed\firebase-messaging-23.1.2\AndroidManifest.xml:25:5-77
+16-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\pedri\.gradle\caches\transforms-3\041c782344ecac780365dc72735cb60b\transformed\firebase-messaging-23.1.2\AndroidManifest.xml:25:22-74
+17    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+17-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\pedri\.gradle\caches\transforms-3\041c782344ecac780365dc72735cb60b\transformed\firebase-messaging-23.1.2\AndroidManifest.xml:26:5-68
+17-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\pedri\.gradle\caches\transforms-3\041c782344ecac780365dc72735cb60b\transformed\firebase-messaging-23.1.2\AndroidManifest.xml:26:22-65
+18    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+18-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\pedri\.gradle\caches\transforms-3\041c782344ecac780365dc72735cb60b\transformed\firebase-messaging-23.1.2\AndroidManifest.xml:28:5-82
+18-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\pedri\.gradle\caches\transforms-3\041c782344ecac780365dc72735cb60b\transformed\firebase-messaging-23.1.2\AndroidManifest.xml:28:22-79
+19    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+19-->[com.google.android.gms:play-services-measurement-api:21.2.1] C:\Users\pedri\.gradle\caches\transforms-3\9722ffa165c0268ac8cb3d7e55d4ca41\transformed\play-services-measurement-api-21.2.1\AndroidManifest.xml:25:5-79
+19-->[com.google.android.gms:play-services-measurement-api:21.2.1] C:\Users\pedri\.gradle\caches\transforms-3\9722ffa165c0268ac8cb3d7e55d4ca41\transformed\play-services-measurement-api-21.2.1\AndroidManifest.xml:25:22-76
+20    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+20-->[com.google.android.gms:play-services-measurement:21.2.1] C:\Users\pedri\.gradle\caches\transforms-3\369fc81358055f734a418377a419bcd1\transformed\play-services-measurement-21.2.1\AndroidManifest.xml:26:5-110
+20-->[com.google.android.gms:play-services-measurement:21.2.1] C:\Users\pedri\.gradle\caches\transforms-3\369fc81358055f734a418377a419bcd1\transformed\play-services-measurement-21.2.1\AndroidManifest.xml:26:22-107
+21    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+21-->[androidx.work:work-runtime:2.8.1] C:\Users\pedri\.gradle\caches\transforms-3\072ffe7dd0787d459062faa15b18a83c\transformed\work-runtime-2.8.1\AndroidManifest.xml:25:5-81
+21-->[androidx.work:work-runtime:2.8.1] C:\Users\pedri\.gradle\caches\transforms-3\072ffe7dd0787d459062faa15b18a83c\transformed\work-runtime-2.8.1\AndroidManifest.xml:25:22-78
+22    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+22-->[androidx.work:work-runtime:2.8.1] C:\Users\pedri\.gradle\caches\transforms-3\072ffe7dd0787d459062faa15b18a83c\transformed\work-runtime-2.8.1\AndroidManifest.xml:26:5-77
+22-->[androidx.work:work-runtime:2.8.1] C:\Users\pedri\.gradle\caches\transforms-3\072ffe7dd0787d459062faa15b18a83c\transformed\work-runtime-2.8.1\AndroidManifest.xml:26:22-74
+23
+24    <permission
+24-->[androidx.core:core:1.10.0] C:\Users\pedri\.gradle\caches\transforms-3\6428d17bc81ab870fe289ca552814e8b\transformed\core-1.10.0\AndroidManifest.xml:22:5-24:47
+25        android:name="br.edu.puc.uteethdentista.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+25-->[androidx.core:core:1.10.0] C:\Users\pedri\.gradle\caches\transforms-3\6428d17bc81ab870fe289ca552814e8b\transformed\core-1.10.0\AndroidManifest.xml:23:9-81
+26        android:protectionLevel="signature" />
+26-->[androidx.core:core:1.10.0] C:\Users\pedri\.gradle\caches\transforms-3\6428d17bc81ab870fe289ca552814e8b\transformed\core-1.10.0\AndroidManifest.xml:24:9-44
+27
+28    <uses-permission android:name="br.edu.puc.uteethdentista.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+28-->[androidx.core:core:1.10.0] C:\Users\pedri\.gradle\caches\transforms-3\6428d17bc81ab870fe289ca552814e8b\transformed\core-1.10.0\AndroidManifest.xml:26:5-97
+28-->[androidx.core:core:1.10.0] C:\Users\pedri\.gradle\caches\transforms-3\6428d17bc81ab870fe289ca552814e8b\transformed\core-1.10.0\AndroidManifest.xml:26:22-94
+29
+30    <application
+30-->D:\Users\pedri\OneDrive\Documentos\Projeto Integrador 3\uTeethDentista\uTeeth-Dentista\uTeethDentista\app\src\main\AndroidManifest.xml:7:5-38:19
+31        android:allowBackup="true"
+31-->D:\Users\pedri\OneDrive\Documentos\Projeto Integrador 3\uTeethDentista\uTeeth-Dentista\uTeethDentista\app\src\main\AndroidManifest.xml:8:9-35
+32        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+32-->[androidx.core:core:1.10.0] C:\Users\pedri\.gradle\caches\transforms-3\6428d17bc81ab870fe289ca552814e8b\transformed\core-1.10.0\AndroidManifest.xml:28:18-86
+33        android:dataExtractionRules="@xml/data_extraction_rules"
+33-->D:\Users\pedri\OneDrive\Documentos\Projeto Integrador 3\uTeethDentista\uTeeth-Dentista\uTeethDentista\app\src\main\AndroidManifest.xml:9:9-65
+34        android:debuggable="true"
+35        android:extractNativeLibs="false"
+36        android:fullBackupContent="@xml/backup_rules"
+36-->D:\Users\pedri\OneDrive\Documentos\Projeto Integrador 3\uTeethDentista\uTeeth-Dentista\uTeethDentista\app\src\main\AndroidManifest.xml:10:9-54
+37        android:icon="@mipmap/ic_launcher"
+37-->D:\Users\pedri\OneDrive\Documentos\Projeto Integrador 3\uTeethDentista\uTeeth-Dentista\uTeethDentista\app\src\main\AndroidManifest.xml:11:9-43
+38        android:label="@string/app_name"
+38-->D:\Users\pedri\OneDrive\Documentos\Projeto Integrador 3\uTeethDentista\uTeeth-Dentista\uTeethDentista\app\src\main\AndroidManifest.xml:12:9-41
+39        android:supportsRtl="true"
+39-->D:\Users\pedri\OneDrive\Documentos\Projeto Integrador 3\uTeethDentista\uTeeth-Dentista\uTeethDentista\app\src\main\AndroidManifest.xml:13:9-35
+40        android:testOnly="true"
+41        android:theme="@style/Theme.UTeethDentista" >
+41-->D:\Users\pedri\OneDrive\Documentos\Projeto Integrador 3\uTeethDentista\uTeeth-Dentista\uTeethDentista\app\src\main\AndroidManifest.xml:14:9-52
+42        <activity
+42-->D:\Users\pedri\OneDrive\Documentos\Projeto Integrador 3\uTeethDentista\uTeeth-Dentista\uTeethDentista\app\src\main\AndroidManifest.xml:17:9-19:40
+43            android:name="br.edu.puc.uteethdentista.CriarContaFragment"
+43-->D:\Users\pedri\OneDrive\Documentos\Projeto Integrador 3\uTeethDentista\uTeeth-Dentista\uTeethDentista\app\src\main\AndroidManifest.xml:18:13-47
+44            android:exported="false" />
+44-->D:\Users\pedri\OneDrive\Documentos\Projeto Integrador 3\uTeethDentista\uTeeth-Dentista\uTeethDentista\app\src\main\AndroidManifest.xml:19:13-37
+45        <activity
+45-->D:\Users\pedri\OneDrive\Documentos\Projeto Integrador 3\uTeethDentista\uTeeth-Dentista\uTeethDentista\app\src\main\AndroidManifest.xml:20:9-22:40
+46            android:name="br.edu.puc.uteethdentista.LoginFragment"
+46-->D:\Users\pedri\OneDrive\Documentos\Projeto Integrador 3\uTeethDentista\uTeeth-Dentista\uTeethDentista\app\src\main\AndroidManifest.xml:21:13-42
+47            android:exported="false" />
+47-->D:\Users\pedri\OneDrive\Documentos\Projeto Integrador 3\uTeethDentista\uTeeth-Dentista\uTeethDentista\app\src\main\AndroidManifest.xml:22:13-37
+48        <activity
+48-->D:\Users\pedri\OneDrive\Documentos\Projeto Integrador 3\uTeethDentista\uTeeth-Dentista\uTeethDentista\app\src\main\AndroidManifest.xml:23:9-33:20
+49            android:name="br.edu.puc.uteethdentista.MainActivity"
+49-->D:\Users\pedri\OneDrive\Documentos\Projeto Integrador 3\uTeethDentista\uTeeth-Dentista\uTeethDentista\app\src\main\AndroidManifest.xml:24:13-41
+50            android:exported="true"
+50-->D:\Users\pedri\OneDrive\Documentos\Projeto Integrador 3\uTeethDentista\uTeeth-Dentista\uTeethDentista\app\src\main\AndroidManifest.xml:25:13-36
+51            android:label="@string/app_name"
+51-->D:\Users\pedri\OneDrive\Documentos\Projeto Integrador 3\uTeethDentista\uTeeth-Dentista\uTeethDentista\app\src\main\AndroidManifest.xml:26:13-45
+52            android:theme="@style/Theme.UTeethDentista.NoActionBar" >
+52-->D:\Users\pedri\OneDrive\Documentos\Projeto Integrador 3\uTeethDentista\uTeeth-Dentista\uTeethDentista\app\src\main\AndroidManifest.xml:27:13-68
+53            <intent-filter>
+53-->D:\Users\pedri\OneDrive\Documentos\Projeto Integrador 3\uTeethDentista\uTeeth-Dentista\uTeethDentista\app\src\main\AndroidManifest.xml:28:13-32:29
+54                <action android:name="android.intent.action.MAIN" />
+54-->D:\Users\pedri\OneDrive\Documentos\Projeto Integrador 3\uTeethDentista\uTeeth-Dentista\uTeethDentista\app\src\main\AndroidManifest.xml:29:17-69
+54-->D:\Users\pedri\OneDrive\Documentos\Projeto Integrador 3\uTeethDentista\uTeeth-Dentista\uTeethDentista\app\src\main\AndroidManifest.xml:29:25-66
+55
+56                <category android:name="android.intent.category.LAUNCHER" />
+56-->D:\Users\pedri\OneDrive\Documentos\Projeto Integrador 3\uTeethDentista\uTeeth-Dentista\uTeethDentista\app\src\main\AndroidManifest.xml:31:17-77
+56-->D:\Users\pedri\OneDrive\Documentos\Projeto Integrador 3\uTeethDentista\uTeeth-Dentista\uTeethDentista\app\src\main\AndroidManifest.xml:31:27-74
+57            </intent-filter>
+58        </activity>
+59
+60        <meta-data
+60-->D:\Users\pedri\OneDrive\Documentos\Projeto Integrador 3\uTeethDentista\uTeeth-Dentista\uTeethDentista\app\src\main\AndroidManifest.xml:35:9-37:57
+61            android:name="preloaded_fonts"
+61-->D:\Users\pedri\OneDrive\Documentos\Projeto Integrador 3\uTeethDentista\uTeeth-Dentista\uTeethDentista\app\src\main\AndroidManifest.xml:36:13-43
+62            android:resource="@array/preloaded_fonts" />
+62-->D:\Users\pedri\OneDrive\Documentos\Projeto Integrador 3\uTeethDentista\uTeeth-Dentista\uTeethDentista\app\src\main\AndroidManifest.xml:37:13-54
+63
+64        <service
+64-->[com.google.firebase:firebase-firestore-ktx:24.4.5] C:\Users\pedri\.gradle\caches\transforms-3\587c69422fd20543e9ea3e94e19f21fb\transformed\firebase-firestore-ktx-24.4.5\AndroidManifest.xml:11:9-17:19
+65            android:name="com.google.firebase.components.ComponentDiscoveryService"
+65-->[com.google.firebase:firebase-firestore-ktx:24.4.5] C:\Users\pedri\.gradle\caches\transforms-3\587c69422fd20543e9ea3e94e19f21fb\transformed\firebase-firestore-ktx-24.4.5\AndroidManifest.xml:12:13-84
+66            android:directBootAware="true"
+66-->[com.google.firebase:firebase-common:20.3.2] C:\Users\pedri\.gradle\caches\transforms-3\7ff5c140319dcff9fd54f9ec686bc0c3\transformed\firebase-common-20.3.2\AndroidManifest.xml:34:13-43
+67            android:exported="false" >
+67-->[com.google.firebase:firebase-firestore-ktx:24.4.5] C:\Users\pedri\.gradle\caches\transforms-3\587c69422fd20543e9ea3e94e19f21fb\transformed\firebase-firestore-ktx-24.4.5\AndroidManifest.xml:13:13-37
+68            <meta-data
+68-->[com.google.firebase:firebase-firestore-ktx:24.4.5] C:\Users\pedri\.gradle\caches\transforms-3\587c69422fd20543e9ea3e94e19f21fb\transformed\firebase-firestore-ktx-24.4.5\AndroidManifest.xml:14:13-16:85
+69                android:name="com.google.firebase.components:com.google.firebase.firestore.ktx.FirebaseFirestoreKtxRegistrar"
+69-->[com.google.firebase:firebase-firestore-ktx:24.4.5] C:\Users\pedri\.gradle\caches\transforms-3\587c69422fd20543e9ea3e94e19f21fb\transformed\firebase-firestore-ktx-24.4.5\AndroidManifest.xml:15:17-126
+70                android:value="com.google.firebase.components.ComponentRegistrar" />
+70-->[com.google.firebase:firebase-firestore-ktx:24.4.5] C:\Users\pedri\.gradle\caches\transforms-3\587c69422fd20543e9ea3e94e19f21fb\transformed\firebase-firestore-ktx-24.4.5\AndroidManifest.xml:16:17-82
+71            <meta-data
+71-->[com.google.firebase:firebase-messaging-ktx:23.1.2] C:\Users\pedri\.gradle\caches\transforms-3\e1fb4dfe86e6527a0edcfb036454d46d\transformed\firebase-messaging-ktx-23.1.2\AndroidManifest.xml:28:13-30:85
+72                android:name="com.google.firebase.components:com.google.firebase.messaging.ktx.FirebaseMessagingKtxRegistrar"
+72-->[com.google.firebase:firebase-messaging-ktx:23.1.2] C:\Users\pedri\.gradle\caches\transforms-3\e1fb4dfe86e6527a0edcfb036454d46d\transformed\firebase-messaging-ktx-23.1.2\AndroidManifest.xml:29:17-126
+73                android:value="com.google.firebase.components.ComponentRegistrar" />
+73-->[com.google.firebase:firebase-messaging-ktx:23.1.2] C:\Users\pedri\.gradle\caches\transforms-3\e1fb4dfe86e6527a0edcfb036454d46d\transformed\firebase-messaging-ktx-23.1.2\AndroidManifest.xml:30:17-82
+74            <meta-data
+74-->[com.google.firebase:firebase-appcheck-debug:16.1.2] C:\Users\pedri\.gradle\caches\transforms-3\5c4c1921fb8404cdfa8cb3baeb5c3ffd\transformed\firebase-appcheck-debug-16.1.2\AndroidManifest.xml:27:13-29:85
+75                android:name="com.google.firebase.components:com.google.firebase.appcheck.debug.FirebaseAppCheckDebugRegistrar"
+75-->[com.google.firebase:firebase-appcheck-debug:16.1.2] C:\Users\pedri\.gradle\caches\transforms-3\5c4c1921fb8404cdfa8cb3baeb5c3ffd\transformed\firebase-appcheck-debug-16.1.2\AndroidManifest.xml:28:17-128
+76                android:value="com.google.firebase.components.ComponentRegistrar" />
+76-->[com.google.firebase:firebase-appcheck-debug:16.1.2] C:\Users\pedri\.gradle\caches\transforms-3\5c4c1921fb8404cdfa8cb3baeb5c3ffd\transformed\firebase-appcheck-debug-16.1.2\AndroidManifest.xml:29:17-82
+77            <meta-data
+77-->[com.google.firebase:firebase-functions-ktx:20.2.2] C:\Users\pedri\.gradle\caches\transforms-3\453c170d83f87e5fcc9b3a610a94b93c\transformed\firebase-functions-ktx-20.2.2\AndroidManifest.xml:14:13-16:85
+78                android:name="com.google.firebase.components:com.google.firebase.functions.ktx.FirebaseFunctionsKtxRegistrar"
+78-->[com.google.firebase:firebase-functions-ktx:20.2.2] C:\Users\pedri\.gradle\caches\transforms-3\453c170d83f87e5fcc9b3a610a94b93c\transformed\firebase-functions-ktx-20.2.2\AndroidManifest.xml:15:17-126
+79                android:value="com.google.firebase.components.ComponentRegistrar" />
+79-->[com.google.firebase:firebase-functions-ktx:20.2.2] C:\Users\pedri\.gradle\caches\transforms-3\453c170d83f87e5fcc9b3a610a94b93c\transformed\firebase-functions-ktx-20.2.2\AndroidManifest.xml:16:17-82
+80            <meta-data
+80-->[com.google.firebase:firebase-analytics-ktx:21.2.1] C:\Users\pedri\.gradle\caches\transforms-3\43126f95012ac10c3cb4a73b45d060c0\transformed\firebase-analytics-ktx-21.2.1\AndroidManifest.xml:11:13-13:85
+81                android:name="com.google.firebase.components:com.google.firebase.analytics.ktx.FirebaseAnalyticsKtxRegistrar"
+81-->[com.google.firebase:firebase-analytics-ktx:21.2.1] C:\Users\pedri\.gradle\caches\transforms-3\43126f95012ac10c3cb4a73b45d060c0\transformed\firebase-analytics-ktx-21.2.1\AndroidManifest.xml:12:17-126
+82                android:value="com.google.firebase.components.ComponentRegistrar" />
+82-->[com.google.firebase:firebase-analytics-ktx:21.2.1] C:\Users\pedri\.gradle\caches\transforms-3\43126f95012ac10c3cb4a73b45d060c0\transformed\firebase-analytics-ktx-21.2.1\AndroidManifest.xml:13:17-82
+83            <meta-data
+83-->[com.google.firebase:firebase-auth-ktx:21.2.0] C:\Users\pedri\.gradle\caches\transforms-3\7e41f856d0eb7ac2fe2cf7190f23c400\transformed\firebase-auth-ktx-21.2.0\AndroidManifest.xml:11:13-13:85
+84                android:name="com.google.firebase.components:com.google.firebase.auth.ktx.FirebaseAuthKtxRegistrar"
+84-->[com.google.firebase:firebase-auth-ktx:21.2.0] C:\Users\pedri\.gradle\caches\transforms-3\7e41f856d0eb7ac2fe2cf7190f23c400\transformed\firebase-auth-ktx-21.2.0\AndroidManifest.xml:12:17-116
+85                android:value="com.google.firebase.components.ComponentRegistrar" />
+85-->[com.google.firebase:firebase-auth-ktx:21.2.0] C:\Users\pedri\.gradle\caches\transforms-3\7e41f856d0eb7ac2fe2cf7190f23c400\transformed\firebase-auth-ktx-21.2.0\AndroidManifest.xml:13:17-82
+86            <meta-data
+86-->[com.google.firebase:firebase-appcheck:16.1.2] C:\Users\pedri\.gradle\caches\transforms-3\3dac00facb8a67208be1592cc6f7ce21\transformed\firebase-appcheck-16.1.2\AndroidManifest.xml:27:13-29:85
+87                android:name="com.google.firebase.components:com.google.firebase.appcheck.FirebaseAppCheckRegistrar"
+87-->[com.google.firebase:firebase-appcheck:16.1.2] C:\Users\pedri\.gradle\caches\transforms-3\3dac00facb8a67208be1592cc6f7ce21\transformed\firebase-appcheck-16.1.2\AndroidManifest.xml:28:17-117
+88                android:value="com.google.firebase.components.ComponentRegistrar" />
+88-->[com.google.firebase:firebase-appcheck:16.1.2] C:\Users\pedri\.gradle\caches\transforms-3\3dac00facb8a67208be1592cc6f7ce21\transformed\firebase-appcheck-16.1.2\AndroidManifest.xml:29:17-82
+89            <meta-data
+89-->[com.google.firebase:firebase-common-ktx:20.3.2] C:\Users\pedri\.gradle\caches\transforms-3\0f8741ec85fa44bc650d18d3bc959e2d\transformed\firebase-common-ktx-20.3.2\AndroidManifest.xml:14:13-16:85
+90                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar"
+90-->[com.google.firebase:firebase-common-ktx:20.3.2] C:\Users\pedri\.gradle\caches\transforms-3\0f8741ec85fa44bc650d18d3bc959e2d\transformed\firebase-common-ktx-20.3.2\AndroidManifest.xml:15:17-113
+91                android:value="com.google.firebase.components.ComponentRegistrar" />
+91-->[com.google.firebase:firebase-common-ktx:20.3.2] C:\Users\pedri\.gradle\caches\transforms-3\0f8741ec85fa44bc650d18d3bc959e2d\transformed\firebase-common-ktx-20.3.2\AndroidManifest.xml:16:17-82
+92            <meta-data
+92-->[com.google.firebase:firebase-functions:20.2.2] C:\Users\pedri\.gradle\caches\transforms-3\107d4645b2b552bce7d521ef5ba0942e\transformed\firebase-functions-20.2.2\AndroidManifest.xml:17:13-19:85
+93                android:name="com.google.firebase.components:com.google.firebase.functions.FunctionsRegistrar"
+93-->[com.google.firebase:firebase-functions:20.2.2] C:\Users\pedri\.gradle\caches\transforms-3\107d4645b2b552bce7d521ef5ba0942e\transformed\firebase-functions-20.2.2\AndroidManifest.xml:18:17-111
+94                android:value="com.google.firebase.components.ComponentRegistrar" />
+94-->[com.google.firebase:firebase-functions:20.2.2] C:\Users\pedri\.gradle\caches\transforms-3\107d4645b2b552bce7d521ef5ba0942e\transformed\firebase-functions-20.2.2\AndroidManifest.xml:19:17-82
+95            <meta-data
+95-->[com.google.firebase:firebase-firestore:24.4.5] C:\Users\pedri\.gradle\caches\transforms-3\081c159aae7a057cc2a08dc9afa9bd99\transformed\firebase-firestore-24.4.5\AndroidManifest.xml:19:13-21:85
+96                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+96-->[com.google.firebase:firebase-firestore:24.4.5] C:\Users\pedri\.gradle\caches\transforms-3\081c159aae7a057cc2a08dc9afa9bd99\transformed\firebase-firestore-24.4.5\AndroidManifest.xml:20:17-111
+97                android:value="com.google.firebase.components.ComponentRegistrar" />
+97-->[com.google.firebase:firebase-firestore:24.4.5] C:\Users\pedri\.gradle\caches\transforms-3\081c159aae7a057cc2a08dc9afa9bd99\transformed\firebase-firestore-24.4.5\AndroidManifest.xml:21:17-82
+98            <meta-data
+98-->[com.google.firebase:firebase-auth:21.2.0] C:\Users\pedri\.gradle\caches\transforms-3\90b6cedb7777cde4fa81801ca0d7879c\transformed\firebase-auth-21.2.0\AndroidManifest.xml:69:13-71:85
+99                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+99-->[com.google.firebase:firebase-auth:21.2.0] C:\Users\pedri\.gradle\caches\transforms-3\90b6cedb7777cde4fa81801ca0d7879c\transformed\firebase-auth-21.2.0\AndroidManifest.xml:70:17-109
+100                android:value="com.google.firebase.components.ComponentRegistrar" />
+100-->[com.google.firebase:firebase-auth:21.2.0] C:\Users\pedri\.gradle\caches\transforms-3\90b6cedb7777cde4fa81801ca0d7879c\transformed\firebase-auth-21.2.0\AndroidManifest.xml:71:17-82
+101            <meta-data
+101-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\pedri\.gradle\caches\transforms-3\041c782344ecac780365dc72735cb60b\transformed\firebase-messaging-23.1.2\AndroidManifest.xml:55:13-57:85
+102                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+102-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\pedri\.gradle\caches\transforms-3\041c782344ecac780365dc72735cb60b\transformed\firebase-messaging-23.1.2\AndroidManifest.xml:56:17-119
+103                android:value="com.google.firebase.components.ComponentRegistrar" />
+103-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\pedri\.gradle\caches\transforms-3\041c782344ecac780365dc72735cb60b\transformed\firebase-messaging-23.1.2\AndroidManifest.xml:57:17-82
+104            <meta-data
+104-->[com.google.firebase:firebase-iid:21.1.0] C:\Users\pedri\.gradle\caches\transforms-3\b4609a0cb8c4eaa63f1d4d17f3f8fb04\transformed\firebase-iid-21.1.0\AndroidManifest.xml:32:13-34:85
+105                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+105-->[com.google.firebase:firebase-iid:21.1.0] C:\Users\pedri\.gradle\caches\transforms-3\b4609a0cb8c4eaa63f1d4d17f3f8fb04\transformed\firebase-iid-21.1.0\AndroidManifest.xml:33:17-96
+106                android:value="com.google.firebase.components.ComponentRegistrar" />
+106-->[com.google.firebase:firebase-iid:21.1.0] C:\Users\pedri\.gradle\caches\transforms-3\b4609a0cb8c4eaa63f1d4d17f3f8fb04\transformed\firebase-iid-21.1.0\AndroidManifest.xml:34:17-82
+107            <meta-data
+107-->[com.google.android.gms:play-services-measurement-api:21.2.1] C:\Users\pedri\.gradle\caches\transforms-3\9722ffa165c0268ac8cb3d7e55d4ca41\transformed\play-services-measurement-api-21.2.1\AndroidManifest.xml:31:13-33:85
+108                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+108-->[com.google.android.gms:play-services-measurement-api:21.2.1] C:\Users\pedri\.gradle\caches\transforms-3\9722ffa165c0268ac8cb3d7e55d4ca41\transformed\play-services-measurement-api-21.2.1\AndroidManifest.xml:32:17-139
+109                android:value="com.google.firebase.components.ComponentRegistrar" />
+109-->[com.google.android.gms:play-services-measurement-api:21.2.1] C:\Users\pedri\.gradle\caches\transforms-3\9722ffa165c0268ac8cb3d7e55d4ca41\transformed\play-services-measurement-api-21.2.1\AndroidManifest.xml:33:17-82
+110            <meta-data
+110-->[com.google.firebase:firebase-datatransport:18.1.7] C:\Users\pedri\.gradle\caches\transforms-3\66cf9674d2b43f0ce76d10666cd6d33f\transformed\firebase-datatransport-18.1.7\AndroidManifest.xml:27:13-29:85
+111                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+111-->[com.google.firebase:firebase-datatransport:18.1.7] C:\Users\pedri\.gradle\caches\transforms-3\66cf9674d2b43f0ce76d10666cd6d33f\transformed\firebase-datatransport-18.1.7\AndroidManifest.xml:28:17-115
+112                android:value="com.google.firebase.components.ComponentRegistrar" />
+112-->[com.google.firebase:firebase-datatransport:18.1.7] C:\Users\pedri\.gradle\caches\transforms-3\66cf9674d2b43f0ce76d10666cd6d33f\transformed\firebase-datatransport-18.1.7\AndroidManifest.xml:29:17-82
+113            <meta-data
+113-->[com.google.firebase:firebase-installations:17.1.3] C:\Users\pedri\.gradle\caches\transforms-3\4a21f20869249165592a9835f3301ed0\transformed\firebase-installations-17.1.3\AndroidManifest.xml:17:13-19:85
+114                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+114-->[com.google.firebase:firebase-installations:17.1.3] C:\Users\pedri\.gradle\caches\transforms-3\4a21f20869249165592a9835f3301ed0\transformed\firebase-installations-17.1.3\AndroidManifest.xml:18:17-127
+115                android:value="com.google.firebase.components.ComponentRegistrar" />
+115-->[com.google.firebase:firebase-installations:17.1.3] C:\Users\pedri\.gradle\caches\transforms-3\4a21f20869249165592a9835f3301ed0\transformed\firebase-installations-17.1.3\AndroidManifest.xml:19:17-82
+116        </service>
+117
+118        <activity
+118-->[com.google.firebase:firebase-auth:21.2.0] C:\Users\pedri\.gradle\caches\transforms-3\90b6cedb7777cde4fa81801ca0d7879c\transformed\firebase-auth-21.2.0\AndroidManifest.xml:29:9-46:20
+119            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+119-->[com.google.firebase:firebase-auth:21.2.0] C:\Users\pedri\.gradle\caches\transforms-3\90b6cedb7777cde4fa81801ca0d7879c\transformed\firebase-auth-21.2.0\AndroidManifest.xml:30:13-80
+120            android:excludeFromRecents="true"
+120-->[com.google.firebase:firebase-auth:21.2.0] C:\Users\pedri\.gradle\caches\transforms-3\90b6cedb7777cde4fa81801ca0d7879c\transformed\firebase-auth-21.2.0\AndroidManifest.xml:31:13-46
+121            android:exported="true"
+121-->[com.google.firebase:firebase-auth:21.2.0] C:\Users\pedri\.gradle\caches\transforms-3\90b6cedb7777cde4fa81801ca0d7879c\transformed\firebase-auth-21.2.0\AndroidManifest.xml:32:13-36
+122            android:launchMode="singleTask"
+122-->[com.google.firebase:firebase-auth:21.2.0] C:\Users\pedri\.gradle\caches\transforms-3\90b6cedb7777cde4fa81801ca0d7879c\transformed\firebase-auth-21.2.0\AndroidManifest.xml:33:13-44
+123            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+123-->[com.google.firebase:firebase-auth:21.2.0] C:\Users\pedri\.gradle\caches\transforms-3\90b6cedb7777cde4fa81801ca0d7879c\transformed\firebase-auth-21.2.0\AndroidManifest.xml:34:13-72
+124            <intent-filter>
+124-->[com.google.firebase:firebase-auth:21.2.0] C:\Users\pedri\.gradle\caches\transforms-3\90b6cedb7777cde4fa81801ca0d7879c\transformed\firebase-auth-21.2.0\AndroidManifest.xml:35:13-45:29
+125                <action android:name="android.intent.action.VIEW" />
+125-->[com.google.firebase:firebase-auth:21.2.0] C:\Users\pedri\.gradle\caches\transforms-3\90b6cedb7777cde4fa81801ca0d7879c\transformed\firebase-auth-21.2.0\AndroidManifest.xml:36:17-69
+125-->[com.google.firebase:firebase-auth:21.2.0] C:\Users\pedri\.gradle\caches\transforms-3\90b6cedb7777cde4fa81801ca0d7879c\transformed\firebase-auth-21.2.0\AndroidManifest.xml:36:25-66
+126
+127                <category android:name="android.intent.category.DEFAULT" />
+127-->[com.google.firebase:firebase-auth:21.2.0] C:\Users\pedri\.gradle\caches\transforms-3\90b6cedb7777cde4fa81801ca0d7879c\transformed\firebase-auth-21.2.0\AndroidManifest.xml:38:17-76
+127-->[com.google.firebase:firebase-auth:21.2.0] C:\Users\pedri\.gradle\caches\transforms-3\90b6cedb7777cde4fa81801ca0d7879c\transformed\firebase-auth-21.2.0\AndroidManifest.xml:38:27-73
+128                <category android:name="android.intent.category.BROWSABLE" />
+128-->[com.google.firebase:firebase-auth:21.2.0] C:\Users\pedri\.gradle\caches\transforms-3\90b6cedb7777cde4fa81801ca0d7879c\transformed\firebase-auth-21.2.0\AndroidManifest.xml:39:17-78
+128-->[com.google.firebase:firebase-auth:21.2.0] C:\Users\pedri\.gradle\caches\transforms-3\90b6cedb7777cde4fa81801ca0d7879c\transformed\firebase-auth-21.2.0\AndroidManifest.xml:39:27-75
+129
+130                <data
+130-->[com.google.firebase:firebase-auth:21.2.0] C:\Users\pedri\.gradle\caches\transforms-3\90b6cedb7777cde4fa81801ca0d7879c\transformed\firebase-auth-21.2.0\AndroidManifest.xml:41:17-44:51
+131                    android:host="firebase.auth"
+131-->[com.google.firebase:firebase-auth:21.2.0] C:\Users\pedri\.gradle\caches\transforms-3\90b6cedb7777cde4fa81801ca0d7879c\transformed\firebase-auth-21.2.0\AndroidManifest.xml:42:21-49
+132                    android:path="/"
+132-->[com.google.firebase:firebase-auth:21.2.0] C:\Users\pedri\.gradle\caches\transforms-3\90b6cedb7777cde4fa81801ca0d7879c\transformed\firebase-auth-21.2.0\AndroidManifest.xml:43:21-37
+133                    android:scheme="genericidp" />
+133-->[com.google.firebase:firebase-auth:21.2.0] C:\Users\pedri\.gradle\caches\transforms-3\90b6cedb7777cde4fa81801ca0d7879c\transformed\firebase-auth-21.2.0\AndroidManifest.xml:44:21-48
+134            </intent-filter>
+135        </activity>
+136        <activity
+136-->[com.google.firebase:firebase-auth:21.2.0] C:\Users\pedri\.gradle\caches\transforms-3\90b6cedb7777cde4fa81801ca0d7879c\transformed\firebase-auth-21.2.0\AndroidManifest.xml:47:9-64:20
+137            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+137-->[com.google.firebase:firebase-auth:21.2.0] C:\Users\pedri\.gradle\caches\transforms-3\90b6cedb7777cde4fa81801ca0d7879c\transformed\firebase-auth-21.2.0\AndroidManifest.xml:48:13-79
+138            android:excludeFromRecents="true"
+138-->[com.google.firebase:firebase-auth:21.2.0] C:\Users\pedri\.gradle\caches\transforms-3\90b6cedb7777cde4fa81801ca0d7879c\transformed\firebase-auth-21.2.0\AndroidManifest.xml:49:13-46
+139            android:exported="true"
+139-->[com.google.firebase:firebase-auth:21.2.0] C:\Users\pedri\.gradle\caches\transforms-3\90b6cedb7777cde4fa81801ca0d7879c\transformed\firebase-auth-21.2.0\AndroidManifest.xml:50:13-36
+140            android:launchMode="singleTask"
+140-->[com.google.firebase:firebase-auth:21.2.0] C:\Users\pedri\.gradle\caches\transforms-3\90b6cedb7777cde4fa81801ca0d7879c\transformed\firebase-auth-21.2.0\AndroidManifest.xml:51:13-44
+141            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+141-->[com.google.firebase:firebase-auth:21.2.0] C:\Users\pedri\.gradle\caches\transforms-3\90b6cedb7777cde4fa81801ca0d7879c\transformed\firebase-auth-21.2.0\AndroidManifest.xml:52:13-72
+142            <intent-filter>
+142-->[com.google.firebase:firebase-auth:21.2.0] C:\Users\pedri\.gradle\caches\transforms-3\90b6cedb7777cde4fa81801ca0d7879c\transformed\firebase-auth-21.2.0\AndroidManifest.xml:53:13-63:29
+143                <action android:name="android.intent.action.VIEW" />
+143-->[com.google.firebase:firebase-auth:21.2.0] C:\Users\pedri\.gradle\caches\transforms-3\90b6cedb7777cde4fa81801ca0d7879c\transformed\firebase-auth-21.2.0\AndroidManifest.xml:36:17-69
+143-->[com.google.firebase:firebase-auth:21.2.0] C:\Users\pedri\.gradle\caches\transforms-3\90b6cedb7777cde4fa81801ca0d7879c\transformed\firebase-auth-21.2.0\AndroidManifest.xml:36:25-66
+144
+145                <category android:name="android.intent.category.DEFAULT" />
+145-->[com.google.firebase:firebase-auth:21.2.0] C:\Users\pedri\.gradle\caches\transforms-3\90b6cedb7777cde4fa81801ca0d7879c\transformed\firebase-auth-21.2.0\AndroidManifest.xml:38:17-76
+145-->[com.google.firebase:firebase-auth:21.2.0] C:\Users\pedri\.gradle\caches\transforms-3\90b6cedb7777cde4fa81801ca0d7879c\transformed\firebase-auth-21.2.0\AndroidManifest.xml:38:27-73
+146                <category android:name="android.intent.category.BROWSABLE" />
+146-->[com.google.firebase:firebase-auth:21.2.0] C:\Users\pedri\.gradle\caches\transforms-3\90b6cedb7777cde4fa81801ca0d7879c\transformed\firebase-auth-21.2.0\AndroidManifest.xml:39:17-78
+146-->[com.google.firebase:firebase-auth:21.2.0] C:\Users\pedri\.gradle\caches\transforms-3\90b6cedb7777cde4fa81801ca0d7879c\transformed\firebase-auth-21.2.0\AndroidManifest.xml:39:27-75
+147
+148                <data
+148-->[com.google.firebase:firebase-auth:21.2.0] C:\Users\pedri\.gradle\caches\transforms-3\90b6cedb7777cde4fa81801ca0d7879c\transformed\firebase-auth-21.2.0\AndroidManifest.xml:41:17-44:51
+149                    android:host="firebase.auth"
+149-->[com.google.firebase:firebase-auth:21.2.0] C:\Users\pedri\.gradle\caches\transforms-3\90b6cedb7777cde4fa81801ca0d7879c\transformed\firebase-auth-21.2.0\AndroidManifest.xml:42:21-49
+150                    android:path="/"
+150-->[com.google.firebase:firebase-auth:21.2.0] C:\Users\pedri\.gradle\caches\transforms-3\90b6cedb7777cde4fa81801ca0d7879c\transformed\firebase-auth-21.2.0\AndroidManifest.xml:43:21-37
+151                    android:scheme="recaptcha" />
+151-->[com.google.firebase:firebase-auth:21.2.0] C:\Users\pedri\.gradle\caches\transforms-3\90b6cedb7777cde4fa81801ca0d7879c\transformed\firebase-auth-21.2.0\AndroidManifest.xml:44:21-48
+152            </intent-filter>
+153        </activity>
+154
+155        <receiver
+155-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\pedri\.gradle\caches\transforms-3\041c782344ecac780365dc72735cb60b\transformed\firebase-messaging-23.1.2\AndroidManifest.xml:31:9-38:20
+156            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+156-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\pedri\.gradle\caches\transforms-3\041c782344ecac780365dc72735cb60b\transformed\firebase-messaging-23.1.2\AndroidManifest.xml:32:13-78
+157            android:exported="true"
+157-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\pedri\.gradle\caches\transforms-3\041c782344ecac780365dc72735cb60b\transformed\firebase-messaging-23.1.2\AndroidManifest.xml:33:13-36
+158            android:permission="com.google.android.c2dm.permission.SEND" >
+158-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\pedri\.gradle\caches\transforms-3\041c782344ecac780365dc72735cb60b\transformed\firebase-messaging-23.1.2\AndroidManifest.xml:34:13-73
+159            <intent-filter>
+159-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\pedri\.gradle\caches\transforms-3\041c782344ecac780365dc72735cb60b\transformed\firebase-messaging-23.1.2\AndroidManifest.xml:35:13-37:29
+160                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+160-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\pedri\.gradle\caches\transforms-3\041c782344ecac780365dc72735cb60b\transformed\firebase-messaging-23.1.2\AndroidManifest.xml:36:17-81
+160-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\pedri\.gradle\caches\transforms-3\041c782344ecac780365dc72735cb60b\transformed\firebase-messaging-23.1.2\AndroidManifest.xml:36:25-78
+161            </intent-filter>
+162        </receiver>
+163        <!--
+164             FirebaseMessagingService performs security checks at runtime,
+165             but set to not exported to explicitly avoid allowing another app to call it.
+166        -->
+167        <service
+167-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\pedri\.gradle\caches\transforms-3\041c782344ecac780365dc72735cb60b\transformed\firebase-messaging-23.1.2\AndroidManifest.xml:44:9-51:19
+168            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+168-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\pedri\.gradle\caches\transforms-3\041c782344ecac780365dc72735cb60b\transformed\firebase-messaging-23.1.2\AndroidManifest.xml:45:13-82
+169            android:directBootAware="true"
+169-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\pedri\.gradle\caches\transforms-3\041c782344ecac780365dc72735cb60b\transformed\firebase-messaging-23.1.2\AndroidManifest.xml:46:13-43
+170            android:exported="false" >
+170-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\pedri\.gradle\caches\transforms-3\041c782344ecac780365dc72735cb60b\transformed\firebase-messaging-23.1.2\AndroidManifest.xml:47:13-37
+171            <intent-filter android:priority="-500" >
+171-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\pedri\.gradle\caches\transforms-3\041c782344ecac780365dc72735cb60b\transformed\firebase-messaging-23.1.2\AndroidManifest.xml:48:13-50:29
+171-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\pedri\.gradle\caches\transforms-3\041c782344ecac780365dc72735cb60b\transformed\firebase-messaging-23.1.2\AndroidManifest.xml:48:28-51
+172                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+172-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\pedri\.gradle\caches\transforms-3\041c782344ecac780365dc72735cb60b\transformed\firebase-messaging-23.1.2\AndroidManifest.xml:49:17-78
+172-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\pedri\.gradle\caches\transforms-3\041c782344ecac780365dc72735cb60b\transformed\firebase-messaging-23.1.2\AndroidManifest.xml:49:25-75
+173            </intent-filter>
+174        </service>
+175
+176        <provider
+176-->[com.google.firebase:firebase-common:20.3.2] C:\Users\pedri\.gradle\caches\transforms-3\7ff5c140319dcff9fd54f9ec686bc0c3\transformed\firebase-common-20.3.2\AndroidManifest.xml:25:9-30:39
+177            android:name="com.google.firebase.provider.FirebaseInitProvider"
+177-->[com.google.firebase:firebase-common:20.3.2] C:\Users\pedri\.gradle\caches\transforms-3\7ff5c140319dcff9fd54f9ec686bc0c3\transformed\firebase-common-20.3.2\AndroidManifest.xml:26:13-77
+178            android:authorities="br.edu.puc.uteethdentista.firebaseinitprovider"
+178-->[com.google.firebase:firebase-common:20.3.2] C:\Users\pedri\.gradle\caches\transforms-3\7ff5c140319dcff9fd54f9ec686bc0c3\transformed\firebase-common-20.3.2\AndroidManifest.xml:27:13-72
+179            android:directBootAware="true"
+179-->[com.google.firebase:firebase-common:20.3.2] C:\Users\pedri\.gradle\caches\transforms-3\7ff5c140319dcff9fd54f9ec686bc0c3\transformed\firebase-common-20.3.2\AndroidManifest.xml:28:13-43
+180            android:exported="false"
+180-->[com.google.firebase:firebase-common:20.3.2] C:\Users\pedri\.gradle\caches\transforms-3\7ff5c140319dcff9fd54f9ec686bc0c3\transformed\firebase-common-20.3.2\AndroidManifest.xml:29:13-37
+181            android:initOrder="100" />
+181-->[com.google.firebase:firebase-common:20.3.2] C:\Users\pedri\.gradle\caches\transforms-3\7ff5c140319dcff9fd54f9ec686bc0c3\transformed\firebase-common-20.3.2\AndroidManifest.xml:30:13-36
+182
+183        <activity
+183-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\pedri\.gradle\caches\transforms-3\6f026cad622696a14640ce40ceabba80\transformed\play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
+184            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+184-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\pedri\.gradle\caches\transforms-3\6f026cad622696a14640ce40ceabba80\transformed\play-services-base-18.1.0\AndroidManifest.xml:20:19-85
+185            android:exported="false"
+185-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\pedri\.gradle\caches\transforms-3\6f026cad622696a14640ce40ceabba80\transformed\play-services-base-18.1.0\AndroidManifest.xml:22:19-43
+186            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+186-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\pedri\.gradle\caches\transforms-3\6f026cad622696a14640ce40ceabba80\transformed\play-services-base-18.1.0\AndroidManifest.xml:21:19-78
+187
+188        <receiver
+188-->[com.google.android.gms:play-services-measurement:21.2.1] C:\Users\pedri\.gradle\caches\transforms-3\369fc81358055f734a418377a419bcd1\transformed\play-services-measurement-21.2.1\AndroidManifest.xml:29:9-33:20
+189            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+189-->[com.google.android.gms:play-services-measurement:21.2.1] C:\Users\pedri\.gradle\caches\transforms-3\369fc81358055f734a418377a419bcd1\transformed\play-services-measurement-21.2.1\AndroidManifest.xml:30:13-85
+190            android:enabled="true"
+190-->[com.google.android.gms:play-services-measurement:21.2.1] C:\Users\pedri\.gradle\caches\transforms-3\369fc81358055f734a418377a419bcd1\transformed\play-services-measurement-21.2.1\AndroidManifest.xml:31:13-35
+191            android:exported="false" >
+191-->[com.google.android.gms:play-services-measurement:21.2.1] C:\Users\pedri\.gradle\caches\transforms-3\369fc81358055f734a418377a419bcd1\transformed\play-services-measurement-21.2.1\AndroidManifest.xml:32:13-37
+192        </receiver>
+193
+194        <service
+194-->[com.google.android.gms:play-services-measurement:21.2.1] C:\Users\pedri\.gradle\caches\transforms-3\369fc81358055f734a418377a419bcd1\transformed\play-services-measurement-21.2.1\AndroidManifest.xml:35:9-38:40
+195            android:name="com.google.android.gms.measurement.AppMeasurementService"
+195-->[com.google.android.gms:play-services-measurement:21.2.1] C:\Users\pedri\.gradle\caches\transforms-3\369fc81358055f734a418377a419bcd1\transformed\play-services-measurement-21.2.1\AndroidManifest.xml:36:13-84
+196            android:enabled="true"
+196-->[com.google.android.gms:play-services-measurement:21.2.1] C:\Users\pedri\.gradle\caches\transforms-3\369fc81358055f734a418377a419bcd1\transformed\play-services-measurement-21.2.1\AndroidManifest.xml:37:13-35
+197            android:exported="false" />
+197-->[com.google.android.gms:play-services-measurement:21.2.1] C:\Users\pedri\.gradle\caches\transforms-3\369fc81358055f734a418377a419bcd1\transformed\play-services-measurement-21.2.1\AndroidManifest.xml:38:13-37
+198        <service
+198-->[com.google.android.gms:play-services-measurement:21.2.1] C:\Users\pedri\.gradle\caches\transforms-3\369fc81358055f734a418377a419bcd1\transformed\play-services-measurement-21.2.1\AndroidManifest.xml:39:9-43:72
+199            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+199-->[com.google.android.gms:play-services-measurement:21.2.1] C:\Users\pedri\.gradle\caches\transforms-3\369fc81358055f734a418377a419bcd1\transformed\play-services-measurement-21.2.1\AndroidManifest.xml:40:13-87
+200            android:enabled="true"
+200-->[com.google.android.gms:play-services-measurement:21.2.1] C:\Users\pedri\.gradle\caches\transforms-3\369fc81358055f734a418377a419bcd1\transformed\play-services-measurement-21.2.1\AndroidManifest.xml:41:13-35
+201            android:exported="false"
+201-->[com.google.android.gms:play-services-measurement:21.2.1] C:\Users\pedri\.gradle\caches\transforms-3\369fc81358055f734a418377a419bcd1\transformed\play-services-measurement-21.2.1\AndroidManifest.xml:42:13-37
+202            android:permission="android.permission.BIND_JOB_SERVICE" />
+202-->[com.google.android.gms:play-services-measurement:21.2.1] C:\Users\pedri\.gradle\caches\transforms-3\369fc81358055f734a418377a419bcd1\transformed\play-services-measurement-21.2.1\AndroidManifest.xml:43:13-69
+203
+204        <meta-data
+204-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\pedri\.gradle\caches\transforms-3\f5939d92c7255ef896f2f527eafa4b7b\transformed\play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+205            android:name="com.google.android.gms.version"
+205-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\pedri\.gradle\caches\transforms-3\f5939d92c7255ef896f2f527eafa4b7b\transformed\play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+206            android:value="@integer/google_play_services_version" />
+206-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\pedri\.gradle\caches\transforms-3\f5939d92c7255ef896f2f527eafa4b7b\transformed\play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+207
+208        <uses-library
+208-->[androidx.window:window:1.0.0] C:\Users\pedri\.gradle\caches\transforms-3\aca5c851182ea333fa2a3962539f0cbc\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
+209            android:name="androidx.window.extensions"
+209-->[androidx.window:window:1.0.0] C:\Users\pedri\.gradle\caches\transforms-3\aca5c851182ea333fa2a3962539f0cbc\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
+210            android:required="false" />
+210-->[androidx.window:window:1.0.0] C:\Users\pedri\.gradle\caches\transforms-3\aca5c851182ea333fa2a3962539f0cbc\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
+211        <uses-library
+211-->[androidx.window:window:1.0.0] C:\Users\pedri\.gradle\caches\transforms-3\aca5c851182ea333fa2a3962539f0cbc\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
+212            android:name="androidx.window.sidecar"
+212-->[androidx.window:window:1.0.0] C:\Users\pedri\.gradle\caches\transforms-3\aca5c851182ea333fa2a3962539f0cbc\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
+213            android:required="false" />
+213-->[androidx.window:window:1.0.0] C:\Users\pedri\.gradle\caches\transforms-3\aca5c851182ea333fa2a3962539f0cbc\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
+214
+215        <provider
+215-->[androidx.work:work-runtime:2.8.1] C:\Users\pedri\.gradle\caches\transforms-3\072ffe7dd0787d459062faa15b18a83c\transformed\work-runtime-2.8.1\AndroidManifest.xml:29:9-37:20
+216            android:name="androidx.startup.InitializationProvider"
+216-->[androidx.work:work-runtime:2.8.1] C:\Users\pedri\.gradle\caches\transforms-3\072ffe7dd0787d459062faa15b18a83c\transformed\work-runtime-2.8.1\AndroidManifest.xml:30:13-67
+217            android:authorities="br.edu.puc.uteethdentista.androidx-startup"
+217-->[androidx.work:work-runtime:2.8.1] C:\Users\pedri\.gradle\caches\transforms-3\072ffe7dd0787d459062faa15b18a83c\transformed\work-runtime-2.8.1\AndroidManifest.xml:31:13-68
+218            android:exported="false" >
+218-->[androidx.work:work-runtime:2.8.1] C:\Users\pedri\.gradle\caches\transforms-3\072ffe7dd0787d459062faa15b18a83c\transformed\work-runtime-2.8.1\AndroidManifest.xml:32:13-37
+219            <meta-data
+219-->[androidx.work:work-runtime:2.8.1] C:\Users\pedri\.gradle\caches\transforms-3\072ffe7dd0787d459062faa15b18a83c\transformed\work-runtime-2.8.1\AndroidManifest.xml:34:13-36:52
+220                android:name="androidx.work.WorkManagerInitializer"
+220-->[androidx.work:work-runtime:2.8.1] C:\Users\pedri\.gradle\caches\transforms-3\072ffe7dd0787d459062faa15b18a83c\transformed\work-runtime-2.8.1\AndroidManifest.xml:35:17-68
+221                android:value="androidx.startup" />
+221-->[androidx.work:work-runtime:2.8.1] C:\Users\pedri\.gradle\caches\transforms-3\072ffe7dd0787d459062faa15b18a83c\transformed\work-runtime-2.8.1\AndroidManifest.xml:36:17-49
+222            <meta-data
+222-->[androidx.emoji2:emoji2:1.2.0] C:\Users\pedri\.gradle\caches\transforms-3\f71f8f31cc31270c47818d655a6baafe\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+223                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+223-->[androidx.emoji2:emoji2:1.2.0] C:\Users\pedri\.gradle\caches\transforms-3\f71f8f31cc31270c47818d655a6baafe\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+224                android:value="androidx.startup" />
+224-->[androidx.emoji2:emoji2:1.2.0] C:\Users\pedri\.gradle\caches\transforms-3\f71f8f31cc31270c47818d655a6baafe\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+225            <meta-data
+225-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\pedri\.gradle\caches\transforms-3\808ab9175fed03cc8433c7bec55b969c\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+226                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+226-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\pedri\.gradle\caches\transforms-3\808ab9175fed03cc8433c7bec55b969c\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+227                android:value="androidx.startup" />
+227-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\pedri\.gradle\caches\transforms-3\808ab9175fed03cc8433c7bec55b969c\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+228        </provider>
+229
+230        <service
+230-->[androidx.work:work-runtime:2.8.1] C:\Users\pedri\.gradle\caches\transforms-3\072ffe7dd0787d459062faa15b18a83c\transformed\work-runtime-2.8.1\AndroidManifest.xml:39:9-45:35
+231            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+231-->[androidx.work:work-runtime:2.8.1] C:\Users\pedri\.gradle\caches\transforms-3\072ffe7dd0787d459062faa15b18a83c\transformed\work-runtime-2.8.1\AndroidManifest.xml:40:13-88
+232            android:directBootAware="false"
+232-->[androidx.work:work-runtime:2.8.1] C:\Users\pedri\.gradle\caches\transforms-3\072ffe7dd0787d459062faa15b18a83c\transformed\work-runtime-2.8.1\AndroidManifest.xml:41:13-44
+233            android:enabled="@bool/enable_system_alarm_service_default"
+233-->[androidx.work:work-runtime:2.8.1] C:\Users\pedri\.gradle\caches\transforms-3\072ffe7dd0787d459062faa15b18a83c\transformed\work-runtime-2.8.1\AndroidManifest.xml:42:13-72
+234            android:exported="false" />
+234-->[androidx.work:work-runtime:2.8.1] C:\Users\pedri\.gradle\caches\transforms-3\072ffe7dd0787d459062faa15b18a83c\transformed\work-runtime-2.8.1\AndroidManifest.xml:43:13-37
+235        <service
+235-->[androidx.work:work-runtime:2.8.1] C:\Users\pedri\.gradle\caches\transforms-3\072ffe7dd0787d459062faa15b18a83c\transformed\work-runtime-2.8.1\AndroidManifest.xml:46:9-52:35
+236            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+236-->[androidx.work:work-runtime:2.8.1] C:\Users\pedri\.gradle\caches\transforms-3\072ffe7dd0787d459062faa15b18a83c\transformed\work-runtime-2.8.1\AndroidManifest.xml:47:13-84
+237            android:directBootAware="false"
+237-->[androidx.work:work-runtime:2.8.1] C:\Users\pedri\.gradle\caches\transforms-3\072ffe7dd0787d459062faa15b18a83c\transformed\work-runtime-2.8.1\AndroidManifest.xml:48:13-44
+238            android:enabled="@bool/enable_system_job_service_default"
+238-->[androidx.work:work-runtime:2.8.1] C:\Users\pedri\.gradle\caches\transforms-3\072ffe7dd0787d459062faa15b18a83c\transformed\work-runtime-2.8.1\AndroidManifest.xml:49:13-70
+239            android:exported="true"
+239-->[androidx.work:work-runtime:2.8.1] C:\Users\pedri\.gradle\caches\transforms-3\072ffe7dd0787d459062faa15b18a83c\transformed\work-runtime-2.8.1\AndroidManifest.xml:50:13-36
+240            android:permission="android.permission.BIND_JOB_SERVICE" />
+240-->[androidx.work:work-runtime:2.8.1] C:\Users\pedri\.gradle\caches\transforms-3\072ffe7dd0787d459062faa15b18a83c\transformed\work-runtime-2.8.1\AndroidManifest.xml:51:13-69
+241        <service
+241-->[androidx.work:work-runtime:2.8.1] C:\Users\pedri\.gradle\caches\transforms-3\072ffe7dd0787d459062faa15b18a83c\transformed\work-runtime-2.8.1\AndroidManifest.xml:53:9-59:35
+242            android:name="androidx.work.impl.foreground.SystemForegroundService"
+242-->[androidx.work:work-runtime:2.8.1] C:\Users\pedri\.gradle\caches\transforms-3\072ffe7dd0787d459062faa15b18a83c\transformed\work-runtime-2.8.1\AndroidManifest.xml:54:13-81
+243            android:directBootAware="false"
+243-->[androidx.work:work-runtime:2.8.1] C:\Users\pedri\.gradle\caches\transforms-3\072ffe7dd0787d459062faa15b18a83c\transformed\work-runtime-2.8.1\AndroidManifest.xml:55:13-44
+244            android:enabled="@bool/enable_system_foreground_service_default"
+244-->[androidx.work:work-runtime:2.8.1] C:\Users\pedri\.gradle\caches\transforms-3\072ffe7dd0787d459062faa15b18a83c\transformed\work-runtime-2.8.1\AndroidManifest.xml:56:13-77
+245            android:exported="false" />
+245-->[androidx.work:work-runtime:2.8.1] C:\Users\pedri\.gradle\caches\transforms-3\072ffe7dd0787d459062faa15b18a83c\transformed\work-runtime-2.8.1\AndroidManifest.xml:57:13-37
+246
+247        <receiver
+247-->[androidx.work:work-runtime:2.8.1] C:\Users\pedri\.gradle\caches\transforms-3\072ffe7dd0787d459062faa15b18a83c\transformed\work-runtime-2.8.1\AndroidManifest.xml:61:9-66:35
+248            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+248-->[androidx.work:work-runtime:2.8.1] C:\Users\pedri\.gradle\caches\transforms-3\072ffe7dd0787d459062faa15b18a83c\transformed\work-runtime-2.8.1\AndroidManifest.xml:62:13-88
+249            android:directBootAware="false"
+249-->[androidx.work:work-runtime:2.8.1] C:\Users\pedri\.gradle\caches\transforms-3\072ffe7dd0787d459062faa15b18a83c\transformed\work-runtime-2.8.1\AndroidManifest.xml:63:13-44
+250            android:enabled="true"
+250-->[androidx.work:work-runtime:2.8.1] C:\Users\pedri\.gradle\caches\transforms-3\072ffe7dd0787d459062faa15b18a83c\transformed\work-runtime-2.8.1\AndroidManifest.xml:64:13-35
+251            android:exported="false" />
+251-->[androidx.work:work-runtime:2.8.1] C:\Users\pedri\.gradle\caches\transforms-3\072ffe7dd0787d459062faa15b18a83c\transformed\work-runtime-2.8.1\AndroidManifest.xml:65:13-37
+252        <receiver
+252-->[androidx.work:work-runtime:2.8.1] C:\Users\pedri\.gradle\caches\transforms-3\072ffe7dd0787d459062faa15b18a83c\transformed\work-runtime-2.8.1\AndroidManifest.xml:67:9-77:20
+253            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+253-->[androidx.work:work-runtime:2.8.1] C:\Users\pedri\.gradle\caches\transforms-3\072ffe7dd0787d459062faa15b18a83c\transformed\work-runtime-2.8.1\AndroidManifest.xml:68:13-106
+254            android:directBootAware="false"
+254-->[androidx.work:work-runtime:2.8.1] C:\Users\pedri\.gradle\caches\transforms-3\072ffe7dd0787d459062faa15b18a83c\transformed\work-runtime-2.8.1\AndroidManifest.xml:69:13-44
+255            android:enabled="false"
+255-->[androidx.work:work-runtime:2.8.1] C:\Users\pedri\.gradle\caches\transforms-3\072ffe7dd0787d459062faa15b18a83c\transformed\work-runtime-2.8.1\AndroidManifest.xml:70:13-36
+256            android:exported="false" >
+256-->[androidx.work:work-runtime:2.8.1] C:\Users\pedri\.gradle\caches\transforms-3\072ffe7dd0787d459062faa15b18a83c\transformed\work-runtime-2.8.1\AndroidManifest.xml:71:13-37
+257            <intent-filter>
+257-->[androidx.work:work-runtime:2.8.1] C:\Users\pedri\.gradle\caches\transforms-3\072ffe7dd0787d459062faa15b18a83c\transformed\work-runtime-2.8.1\AndroidManifest.xml:73:13-76:29
+258                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+258-->[androidx.work:work-runtime:2.8.1] C:\Users\pedri\.gradle\caches\transforms-3\072ffe7dd0787d459062faa15b18a83c\transformed\work-runtime-2.8.1\AndroidManifest.xml:74:17-87
+258-->[androidx.work:work-runtime:2.8.1] C:\Users\pedri\.gradle\caches\transforms-3\072ffe7dd0787d459062faa15b18a83c\transformed\work-runtime-2.8.1\AndroidManifest.xml:74:25-84
+259                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+259-->[androidx.work:work-runtime:2.8.1] C:\Users\pedri\.gradle\caches\transforms-3\072ffe7dd0787d459062faa15b18a83c\transformed\work-runtime-2.8.1\AndroidManifest.xml:75:17-90
+259-->[androidx.work:work-runtime:2.8.1] C:\Users\pedri\.gradle\caches\transforms-3\072ffe7dd0787d459062faa15b18a83c\transformed\work-runtime-2.8.1\AndroidManifest.xml:75:25-87
+260            </intent-filter>
+261        </receiver>
+262        <receiver
+262-->[androidx.work:work-runtime:2.8.1] C:\Users\pedri\.gradle\caches\transforms-3\072ffe7dd0787d459062faa15b18a83c\transformed\work-runtime-2.8.1\AndroidManifest.xml:78:9-88:20
+263            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+263-->[androidx.work:work-runtime:2.8.1] C:\Users\pedri\.gradle\caches\transforms-3\072ffe7dd0787d459062faa15b18a83c\transformed\work-runtime-2.8.1\AndroidManifest.xml:79:13-104
+264            android:directBootAware="false"
+264-->[androidx.work:work-runtime:2.8.1] C:\Users\pedri\.gradle\caches\transforms-3\072ffe7dd0787d459062faa15b18a83c\transformed\work-runtime-2.8.1\AndroidManifest.xml:80:13-44
+265            android:enabled="false"
+265-->[androidx.work:work-runtime:2.8.1] C:\Users\pedri\.gradle\caches\transforms-3\072ffe7dd0787d459062faa15b18a83c\transformed\work-runtime-2.8.1\AndroidManifest.xml:81:13-36
+266            android:exported="false" >
+266-->[androidx.work:work-runtime:2.8.1] C:\Users\pedri\.gradle\caches\transforms-3\072ffe7dd0787d459062faa15b18a83c\transformed\work-runtime-2.8.1\AndroidManifest.xml:82:13-37
+267            <intent-filter>
+267-->[androidx.work:work-runtime:2.8.1] C:\Users\pedri\.gradle\caches\transforms-3\072ffe7dd0787d459062faa15b18a83c\transformed\work-runtime-2.8.1\AndroidManifest.xml:84:13-87:29
+268                <action android:name="android.intent.action.BATTERY_OKAY" />
+268-->[androidx.work:work-runtime:2.8.1] C:\Users\pedri\.gradle\caches\transforms-3\072ffe7dd0787d459062faa15b18a83c\transformed\work-runtime-2.8.1\AndroidManifest.xml:85:17-77
+268-->[androidx.work:work-runtime:2.8.1] C:\Users\pedri\.gradle\caches\transforms-3\072ffe7dd0787d459062faa15b18a83c\transformed\work-runtime-2.8.1\AndroidManifest.xml:85:25-74
+269                <action android:name="android.intent.action.BATTERY_LOW" />
+269-->[androidx.work:work-runtime:2.8.1] C:\Users\pedri\.gradle\caches\transforms-3\072ffe7dd0787d459062faa15b18a83c\transformed\work-runtime-2.8.1\AndroidManifest.xml:86:17-76
+269-->[androidx.work:work-runtime:2.8.1] C:\Users\pedri\.gradle\caches\transforms-3\072ffe7dd0787d459062faa15b18a83c\transformed\work-runtime-2.8.1\AndroidManifest.xml:86:25-73
+270            </intent-filter>
+271        </receiver>
+272        <receiver
+272-->[androidx.work:work-runtime:2.8.1] C:\Users\pedri\.gradle\caches\transforms-3\072ffe7dd0787d459062faa15b18a83c\transformed\work-runtime-2.8.1\AndroidManifest.xml:89:9-99:20
+273            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+273-->[androidx.work:work-runtime:2.8.1] C:\Users\pedri\.gradle\caches\transforms-3\072ffe7dd0787d459062faa15b18a83c\transformed\work-runtime-2.8.1\AndroidManifest.xml:90:13-104
+274            android:directBootAware="false"
+274-->[androidx.work:work-runtime:2.8.1] C:\Users\pedri\.gradle\caches\transforms-3\072ffe7dd0787d459062faa15b18a83c\transformed\work-runtime-2.8.1\AndroidManifest.xml:91:13-44
+275            android:enabled="false"
+275-->[androidx.work:work-runtime:2.8.1] C:\Users\pedri\.gradle\caches\transforms-3\072ffe7dd0787d459062faa15b18a83c\transformed\work-runtime-2.8.1\AndroidManifest.xml:92:13-36
+276            android:exported="false" >
+276-->[androidx.work:work-runtime:2.8.1] C:\Users\pedri\.gradle\caches\transforms-3\072ffe7dd0787d459062faa15b18a83c\transformed\work-runtime-2.8.1\AndroidManifest.xml:93:13-37
+277            <intent-filter>
+277-->[androidx.work:work-runtime:2.8.1] C:\Users\pedri\.gradle\caches\transforms-3\072ffe7dd0787d459062faa15b18a83c\transformed\work-runtime-2.8.1\AndroidManifest.xml:95:13-98:29
+278                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+278-->[androidx.work:work-runtime:2.8.1] C:\Users\pedri\.gradle\caches\transforms-3\072ffe7dd0787d459062faa15b18a83c\transformed\work-runtime-2.8.1\AndroidManifest.xml:96:17-83
+278-->[androidx.work:work-runtime:2.8.1] C:\Users\pedri\.gradle\caches\transforms-3\072ffe7dd0787d459062faa15b18a83c\transformed\work-runtime-2.8.1\AndroidManifest.xml:96:25-80
+279                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+279-->[androidx.work:work-runtime:2.8.1] C:\Users\pedri\.gradle\caches\transforms-3\072ffe7dd0787d459062faa15b18a83c\transformed\work-runtime-2.8.1\AndroidManifest.xml:97:17-82
+279-->[androidx.work:work-runtime:2.8.1] C:\Users\pedri\.gradle\caches\transforms-3\072ffe7dd0787d459062faa15b18a83c\transformed\work-runtime-2.8.1\AndroidManifest.xml:97:25-79
+280            </intent-filter>
+281        </receiver>
+282        <receiver
+282-->[androidx.work:work-runtime:2.8.1] C:\Users\pedri\.gradle\caches\transforms-3\072ffe7dd0787d459062faa15b18a83c\transformed\work-runtime-2.8.1\AndroidManifest.xml:100:9-109:20
+283            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+283-->[androidx.work:work-runtime:2.8.1] C:\Users\pedri\.gradle\caches\transforms-3\072ffe7dd0787d459062faa15b18a83c\transformed\work-runtime-2.8.1\AndroidManifest.xml:101:13-103
+284            android:directBootAware="false"
+284-->[androidx.work:work-runtime:2.8.1] C:\Users\pedri\.gradle\caches\transforms-3\072ffe7dd0787d459062faa15b18a83c\transformed\work-runtime-2.8.1\AndroidManifest.xml:102:13-44
+285            android:enabled="false"
+285-->[androidx.work:work-runtime:2.8.1] C:\Users\pedri\.gradle\caches\transforms-3\072ffe7dd0787d459062faa15b18a83c\transformed\work-runtime-2.8.1\AndroidManifest.xml:103:13-36
+286            android:exported="false" >
+286-->[androidx.work:work-runtime:2.8.1] C:\Users\pedri\.gradle\caches\transforms-3\072ffe7dd0787d459062faa15b18a83c\transformed\work-runtime-2.8.1\AndroidManifest.xml:104:13-37
+287            <intent-filter>
+287-->[androidx.work:work-runtime:2.8.1] C:\Users\pedri\.gradle\caches\transforms-3\072ffe7dd0787d459062faa15b18a83c\transformed\work-runtime-2.8.1\AndroidManifest.xml:106:13-108:29
+288                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+288-->[androidx.work:work-runtime:2.8.1] C:\Users\pedri\.gradle\caches\transforms-3\072ffe7dd0787d459062faa15b18a83c\transformed\work-runtime-2.8.1\AndroidManifest.xml:107:17-79
+288-->[androidx.work:work-runtime:2.8.1] C:\Users\pedri\.gradle\caches\transforms-3\072ffe7dd0787d459062faa15b18a83c\transformed\work-runtime-2.8.1\AndroidManifest.xml:107:25-76
+289            </intent-filter>
+290        </receiver>
+291        <receiver
+291-->[androidx.work:work-runtime:2.8.1] C:\Users\pedri\.gradle\caches\transforms-3\072ffe7dd0787d459062faa15b18a83c\transformed\work-runtime-2.8.1\AndroidManifest.xml:110:9-121:20
+292            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+292-->[androidx.work:work-runtime:2.8.1] C:\Users\pedri\.gradle\caches\transforms-3\072ffe7dd0787d459062faa15b18a83c\transformed\work-runtime-2.8.1\AndroidManifest.xml:111:13-88
+293            android:directBootAware="false"
+293-->[androidx.work:work-runtime:2.8.1] C:\Users\pedri\.gradle\caches\transforms-3\072ffe7dd0787d459062faa15b18a83c\transformed\work-runtime-2.8.1\AndroidManifest.xml:112:13-44
+294            android:enabled="false"
+294-->[androidx.work:work-runtime:2.8.1] C:\Users\pedri\.gradle\caches\transforms-3\072ffe7dd0787d459062faa15b18a83c\transformed\work-runtime-2.8.1\AndroidManifest.xml:113:13-36
+295            android:exported="false" >
+295-->[androidx.work:work-runtime:2.8.1] C:\Users\pedri\.gradle\caches\transforms-3\072ffe7dd0787d459062faa15b18a83c\transformed\work-runtime-2.8.1\AndroidManifest.xml:114:13-37
+296            <intent-filter>
+296-->[androidx.work:work-runtime:2.8.1] C:\Users\pedri\.gradle\caches\transforms-3\072ffe7dd0787d459062faa15b18a83c\transformed\work-runtime-2.8.1\AndroidManifest.xml:116:13-120:29
+297                <action android:name="android.intent.action.BOOT_COMPLETED" />
+297-->[androidx.work:work-runtime:2.8.1] C:\Users\pedri\.gradle\caches\transforms-3\072ffe7dd0787d459062faa15b18a83c\transformed\work-runtime-2.8.1\AndroidManifest.xml:117:17-79
+297-->[androidx.work:work-runtime:2.8.1] C:\Users\pedri\.gradle\caches\transforms-3\072ffe7dd0787d459062faa15b18a83c\transformed\work-runtime-2.8.1\AndroidManifest.xml:117:25-76
+298                <action android:name="android.intent.action.TIME_SET" />
+298-->[androidx.work:work-runtime:2.8.1] C:\Users\pedri\.gradle\caches\transforms-3\072ffe7dd0787d459062faa15b18a83c\transformed\work-runtime-2.8.1\AndroidManifest.xml:118:17-73
+298-->[androidx.work:work-runtime:2.8.1] C:\Users\pedri\.gradle\caches\transforms-3\072ffe7dd0787d459062faa15b18a83c\transformed\work-runtime-2.8.1\AndroidManifest.xml:118:25-70
+299                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+299-->[androidx.work:work-runtime:2.8.1] C:\Users\pedri\.gradle\caches\transforms-3\072ffe7dd0787d459062faa15b18a83c\transformed\work-runtime-2.8.1\AndroidManifest.xml:119:17-81
+299-->[androidx.work:work-runtime:2.8.1] C:\Users\pedri\.gradle\caches\transforms-3\072ffe7dd0787d459062faa15b18a83c\transformed\work-runtime-2.8.1\AndroidManifest.xml:119:25-78
+300            </intent-filter>
+301        </receiver>
+302        <receiver
+302-->[androidx.work:work-runtime:2.8.1] C:\Users\pedri\.gradle\caches\transforms-3\072ffe7dd0787d459062faa15b18a83c\transformed\work-runtime-2.8.1\AndroidManifest.xml:122:9-131:20
+303            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+303-->[androidx.work:work-runtime:2.8.1] C:\Users\pedri\.gradle\caches\transforms-3\072ffe7dd0787d459062faa15b18a83c\transformed\work-runtime-2.8.1\AndroidManifest.xml:123:13-99
+304            android:directBootAware="false"
+304-->[androidx.work:work-runtime:2.8.1] C:\Users\pedri\.gradle\caches\transforms-3\072ffe7dd0787d459062faa15b18a83c\transformed\work-runtime-2.8.1\AndroidManifest.xml:124:13-44
+305            android:enabled="@bool/enable_system_alarm_service_default"
+305-->[androidx.work:work-runtime:2.8.1] C:\Users\pedri\.gradle\caches\transforms-3\072ffe7dd0787d459062faa15b18a83c\transformed\work-runtime-2.8.1\AndroidManifest.xml:125:13-72
+306            android:exported="false" >
+306-->[androidx.work:work-runtime:2.8.1] C:\Users\pedri\.gradle\caches\transforms-3\072ffe7dd0787d459062faa15b18a83c\transformed\work-runtime-2.8.1\AndroidManifest.xml:126:13-37
+307            <intent-filter>
+307-->[androidx.work:work-runtime:2.8.1] C:\Users\pedri\.gradle\caches\transforms-3\072ffe7dd0787d459062faa15b18a83c\transformed\work-runtime-2.8.1\AndroidManifest.xml:128:13-130:29
+308                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+308-->[androidx.work:work-runtime:2.8.1] C:\Users\pedri\.gradle\caches\transforms-3\072ffe7dd0787d459062faa15b18a83c\transformed\work-runtime-2.8.1\AndroidManifest.xml:129:17-98
+308-->[androidx.work:work-runtime:2.8.1] C:\Users\pedri\.gradle\caches\transforms-3\072ffe7dd0787d459062faa15b18a83c\transformed\work-runtime-2.8.1\AndroidManifest.xml:129:25-95
+309            </intent-filter>
+310        </receiver>
+311        <receiver
+311-->[androidx.work:work-runtime:2.8.1] C:\Users\pedri\.gradle\caches\transforms-3\072ffe7dd0787d459062faa15b18a83c\transformed\work-runtime-2.8.1\AndroidManifest.xml:132:9-142:20
+312            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+312-->[androidx.work:work-runtime:2.8.1] C:\Users\pedri\.gradle\caches\transforms-3\072ffe7dd0787d459062faa15b18a83c\transformed\work-runtime-2.8.1\AndroidManifest.xml:133:13-78
+313            android:directBootAware="false"
+313-->[androidx.work:work-runtime:2.8.1] C:\Users\pedri\.gradle\caches\transforms-3\072ffe7dd0787d459062faa15b18a83c\transformed\work-runtime-2.8.1\AndroidManifest.xml:134:13-44
+314            android:enabled="true"
+314-->[androidx.work:work-runtime:2.8.1] C:\Users\pedri\.gradle\caches\transforms-3\072ffe7dd0787d459062faa15b18a83c\transformed\work-runtime-2.8.1\AndroidManifest.xml:135:13-35
+315            android:exported="true"
+315-->[androidx.work:work-runtime:2.8.1] C:\Users\pedri\.gradle\caches\transforms-3\072ffe7dd0787d459062faa15b18a83c\transformed\work-runtime-2.8.1\AndroidManifest.xml:136:13-36
+316            android:permission="android.permission.DUMP" >
+316-->[androidx.work:work-runtime:2.8.1] C:\Users\pedri\.gradle\caches\transforms-3\072ffe7dd0787d459062faa15b18a83c\transformed\work-runtime-2.8.1\AndroidManifest.xml:137:13-57
+317            <intent-filter>
+317-->[androidx.work:work-runtime:2.8.1] C:\Users\pedri\.gradle\caches\transforms-3\072ffe7dd0787d459062faa15b18a83c\transformed\work-runtime-2.8.1\AndroidManifest.xml:139:13-141:29
+318                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+318-->[androidx.work:work-runtime:2.8.1] C:\Users\pedri\.gradle\caches\transforms-3\072ffe7dd0787d459062faa15b18a83c\transformed\work-runtime-2.8.1\AndroidManifest.xml:140:17-88
+318-->[androidx.work:work-runtime:2.8.1] C:\Users\pedri\.gradle\caches\transforms-3\072ffe7dd0787d459062faa15b18a83c\transformed\work-runtime-2.8.1\AndroidManifest.xml:140:25-85
+319            </intent-filter>
+320        </receiver>
+321
+322        <service
+322-->[androidx.room:room-runtime:2.5.0] C:\Users\pedri\.gradle\caches\transforms-3\5e8cf60ec91279dccf84d93e46641235\transformed\room-runtime-2.5.0\AndroidManifest.xml:24:9-28:63
+323            android:name="androidx.room.MultiInstanceInvalidationService"
+323-->[androidx.room:room-runtime:2.5.0] C:\Users\pedri\.gradle\caches\transforms-3\5e8cf60ec91279dccf84d93e46641235\transformed\room-runtime-2.5.0\AndroidManifest.xml:25:13-74
+324            android:directBootAware="true"
+324-->[androidx.room:room-runtime:2.5.0] C:\Users\pedri\.gradle\caches\transforms-3\5e8cf60ec91279dccf84d93e46641235\transformed\room-runtime-2.5.0\AndroidManifest.xml:26:13-43
+325            android:exported="false" />
+325-->[androidx.room:room-runtime:2.5.0] C:\Users\pedri\.gradle\caches\transforms-3\5e8cf60ec91279dccf84d93e46641235\transformed\room-runtime-2.5.0\AndroidManifest.xml:27:13-37
+326        <service
+326-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\pedri\.gradle\caches\transforms-3\7ce67ef4f22c201b93b6e70cff3e8412\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:28:9-34:19
+327            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+327-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\pedri\.gradle\caches\transforms-3\7ce67ef4f22c201b93b6e70cff3e8412\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:29:13-103
+328            android:exported="false" >
+328-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\pedri\.gradle\caches\transforms-3\7ce67ef4f22c201b93b6e70cff3e8412\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:30:13-37
+329            <meta-data
+329-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\pedri\.gradle\caches\transforms-3\7ce67ef4f22c201b93b6e70cff3e8412\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:31:13-33:39
+330                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+330-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\pedri\.gradle\caches\transforms-3\7ce67ef4f22c201b93b6e70cff3e8412\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:32:17-94
+331                android:value="cct" />
+331-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\pedri\.gradle\caches\transforms-3\7ce67ef4f22c201b93b6e70cff3e8412\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:33:17-36
+332        </service>
+333        <service
+333-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\pedri\.gradle\caches\transforms-3\57522a758d8edb2568e14b7f117ee363\transformed\transport-runtime-3.1.8\AndroidManifest.xml:26:9-30:19
+334            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+334-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\pedri\.gradle\caches\transforms-3\57522a758d8edb2568e14b7f117ee363\transformed\transport-runtime-3.1.8\AndroidManifest.xml:27:13-117
+335            android:exported="false"
+335-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\pedri\.gradle\caches\transforms-3\57522a758d8edb2568e14b7f117ee363\transformed\transport-runtime-3.1.8\AndroidManifest.xml:28:13-37
+336            android:permission="android.permission.BIND_JOB_SERVICE" >
+336-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\pedri\.gradle\caches\transforms-3\57522a758d8edb2568e14b7f117ee363\transformed\transport-runtime-3.1.8\AndroidManifest.xml:29:13-69
+337        </service>
+338
+339        <receiver
+339-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\pedri\.gradle\caches\transforms-3\57522a758d8edb2568e14b7f117ee363\transformed\transport-runtime-3.1.8\AndroidManifest.xml:32:9-34:40
+340            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+340-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\pedri\.gradle\caches\transforms-3\57522a758d8edb2568e14b7f117ee363\transformed\transport-runtime-3.1.8\AndroidManifest.xml:33:13-132
+341            android:exported="false" />
+341-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\pedri\.gradle\caches\transforms-3\57522a758d8edb2568e14b7f117ee363\transformed\transport-runtime-3.1.8\AndroidManifest.xml:34:13-37
+342    </application>
+343
+344</manifest>

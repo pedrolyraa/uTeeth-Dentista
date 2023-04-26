@@ -24,19 +24,22 @@ public final class FragmentLoginBinding implements ViewBinding {
   private final LinearLayout rootView;
 
   @NonNull
-  public final TextView cadastroText;
+  public final ImageView btnFacebook;
 
   @NonNull
-  public final EditText editTextEmailLogin;
+  public final ImageView btnGoogle;
 
   @NonNull
-  public final EditText editTextPasswordLogin;
+  public final AppCompatButton btnSignIn;
 
   @NonNull
-  public final ImageView facebookBtn;
+  public final TextView btnSignUp1;
 
   @NonNull
-  public final ImageView googleBtn;
+  public final EditText etEmailLogin;
+
+  @NonNull
+  public final EditText etPasswordLogin;
 
   @NonNull
   public final AppCompatImageView imgUndraw;
@@ -45,31 +48,28 @@ public final class FragmentLoginBinding implements ViewBinding {
   public final AppCompatImageView imgUteethlogo;
 
   @NonNull
-  public final TextView loginText;
+  public final TextView tvCadastro;
 
   @NonNull
-  public final AppCompatButton signInBtn;
+  public final TextView tvLogin;
 
-  @NonNull
-  public final TextView signUpBtn;
-
-  private FragmentLoginBinding(@NonNull LinearLayout rootView, @NonNull TextView cadastroText,
-      @NonNull EditText editTextEmailLogin, @NonNull EditText editTextPasswordLogin,
-      @NonNull ImageView facebookBtn, @NonNull ImageView googleBtn,
-      @NonNull AppCompatImageView imgUndraw, @NonNull AppCompatImageView imgUteethlogo,
-      @NonNull TextView loginText, @NonNull AppCompatButton signInBtn,
-      @NonNull TextView signUpBtn) {
+  private FragmentLoginBinding(@NonNull LinearLayout rootView, @NonNull ImageView btnFacebook,
+      @NonNull ImageView btnGoogle, @NonNull AppCompatButton btnSignIn,
+      @NonNull TextView btnSignUp1, @NonNull EditText etEmailLogin,
+      @NonNull EditText etPasswordLogin, @NonNull AppCompatImageView imgUndraw,
+      @NonNull AppCompatImageView imgUteethlogo, @NonNull TextView tvCadastro,
+      @NonNull TextView tvLogin) {
     this.rootView = rootView;
-    this.cadastroText = cadastroText;
-    this.editTextEmailLogin = editTextEmailLogin;
-    this.editTextPasswordLogin = editTextPasswordLogin;
-    this.facebookBtn = facebookBtn;
-    this.googleBtn = googleBtn;
+    this.btnFacebook = btnFacebook;
+    this.btnGoogle = btnGoogle;
+    this.btnSignIn = btnSignIn;
+    this.btnSignUp1 = btnSignUp1;
+    this.etEmailLogin = etEmailLogin;
+    this.etPasswordLogin = etPasswordLogin;
     this.imgUndraw = imgUndraw;
     this.imgUteethlogo = imgUteethlogo;
-    this.loginText = loginText;
-    this.signInBtn = signInBtn;
-    this.signUpBtn = signUpBtn;
+    this.tvCadastro = tvCadastro;
+    this.tvLogin = tvLogin;
   }
 
   @Override
@@ -99,33 +99,39 @@ public final class FragmentLoginBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.cadastro_text;
-      TextView cadastroText = ViewBindings.findChildViewById(rootView, id);
-      if (cadastroText == null) {
+      id = R.id.btn_facebook;
+      ImageView btnFacebook = ViewBindings.findChildViewById(rootView, id);
+      if (btnFacebook == null) {
         break missingId;
       }
 
-      id = R.id.edit_text_email_login;
-      EditText editTextEmailLogin = ViewBindings.findChildViewById(rootView, id);
-      if (editTextEmailLogin == null) {
+      id = R.id.btn_google;
+      ImageView btnGoogle = ViewBindings.findChildViewById(rootView, id);
+      if (btnGoogle == null) {
         break missingId;
       }
 
-      id = R.id.edit_text_password_login;
-      EditText editTextPasswordLogin = ViewBindings.findChildViewById(rootView, id);
-      if (editTextPasswordLogin == null) {
+      id = R.id.btn_sign_in;
+      AppCompatButton btnSignIn = ViewBindings.findChildViewById(rootView, id);
+      if (btnSignIn == null) {
         break missingId;
       }
 
-      id = R.id.facebook_btn;
-      ImageView facebookBtn = ViewBindings.findChildViewById(rootView, id);
-      if (facebookBtn == null) {
+      id = R.id.btn_sign_up1;
+      TextView btnSignUp1 = ViewBindings.findChildViewById(rootView, id);
+      if (btnSignUp1 == null) {
         break missingId;
       }
 
-      id = R.id.google_btn;
-      ImageView googleBtn = ViewBindings.findChildViewById(rootView, id);
-      if (googleBtn == null) {
+      id = R.id.et_email_login;
+      EditText etEmailLogin = ViewBindings.findChildViewById(rootView, id);
+      if (etEmailLogin == null) {
+        break missingId;
+      }
+
+      id = R.id.et_password_login;
+      EditText etPasswordLogin = ViewBindings.findChildViewById(rootView, id);
+      if (etPasswordLogin == null) {
         break missingId;
       }
 
@@ -141,27 +147,20 @@ public final class FragmentLoginBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.login_text;
-      TextView loginText = ViewBindings.findChildViewById(rootView, id);
-      if (loginText == null) {
+      id = R.id.tv_cadastro;
+      TextView tvCadastro = ViewBindings.findChildViewById(rootView, id);
+      if (tvCadastro == null) {
         break missingId;
       }
 
-      id = R.id.sign_in_btn;
-      AppCompatButton signInBtn = ViewBindings.findChildViewById(rootView, id);
-      if (signInBtn == null) {
+      id = R.id.tv_login;
+      TextView tvLogin = ViewBindings.findChildViewById(rootView, id);
+      if (tvLogin == null) {
         break missingId;
       }
 
-      id = R.id.sign_up_btn;
-      TextView signUpBtn = ViewBindings.findChildViewById(rootView, id);
-      if (signUpBtn == null) {
-        break missingId;
-      }
-
-      return new FragmentLoginBinding((LinearLayout) rootView, cadastroText, editTextEmailLogin,
-          editTextPasswordLogin, facebookBtn, googleBtn, imgUndraw, imgUteethlogo, loginText,
-          signInBtn, signUpBtn);
+      return new FragmentLoginBinding((LinearLayout) rootView, btnFacebook, btnGoogle, btnSignIn,
+          btnSignUp1, etEmailLogin, etPasswordLogin, imgUndraw, imgUteethlogo, tvCadastro, tvLogin);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

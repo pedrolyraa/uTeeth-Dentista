@@ -51,8 +51,8 @@
         tools:layout_editor_absoluteX="67dp"
         tools:layout_editor_absoluteY="244dp"/>
 
-    <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/ti_email"
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/et_email"
         android:layout_width="267dp"
         android:layout_height="wrap_content"
         app:layout_constraintEnd_toStartOf="@+id/guideline2"
@@ -72,8 +72,8 @@
         tools:layout_editor_absoluteY="312dp" />
 
 
-    <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/ti_senha"
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/et_senha"
         android:layout_width="267dp"
         android:layout_height="wrap_content"
         app:layout_constraintEnd_toStartOf="@+id/guideline2"
@@ -92,8 +92,8 @@
         tools:layout_editor_absoluteX="67dp"
         tools:layout_editor_absoluteY="380dp" />
 
-    <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/ti_confirmar_senha"
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/et_confirmar_senha"
         android:layout_width="267dp"
         android:layout_height="wrap_content"
         app:layout_constraintEnd_toStartOf="@+id/guideline2"

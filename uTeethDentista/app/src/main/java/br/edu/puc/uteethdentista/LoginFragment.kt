@@ -22,7 +22,7 @@ class LoginFragment : AppCompatActivity() {
         supportActionBar?.hide()
         window.statusBarColor= Color.parseColor("#FFFFFFFF")
 
-        binding.signUpBtn.setOnClickListener {
+        binding.btnSignUp.setOnClickListener {
             val intent = Intent(this,CriarContaFragment::class.java)
             startActivity(intent)
             finish()

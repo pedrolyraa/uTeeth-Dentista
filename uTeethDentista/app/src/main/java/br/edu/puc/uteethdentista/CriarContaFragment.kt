@@ -43,7 +43,7 @@ class CriarContaFragment : AppCompatActivity() {
                         binding.etConfirmarSenha.setText("")
                     }
                 }.addOnFailureListener{
-                    
+
                 }
                 val navegarCadastrar = Intent(this, LoginFragment::class.java)
                 startActivity(navegarCadastrar)

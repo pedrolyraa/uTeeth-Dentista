@@ -60,12 +60,20 @@
         "source": "br.edu.puc.uteethdentista.app-main-47:/font/poppins.xml"
     },
     {
+        "merged": "br.edu.puc.uteethdentista.app-merged_res-45:/drawable_facebook_logo3.png.flat",
+        "source": "br.edu.puc.uteethdentista.app-main-47:/drawable/facebook_logo3.png"
+    },
+    {
         "merged": "br.edu.puc.uteethdentista.app-merged_res-45:/drawable_gradient_background.xml.flat",
         "source": "br.edu.puc.uteethdentista.app-main-47:/drawable/gradient_background.xml"
     },
     {
         "merged": "br.edu.puc.uteethdentista.app-merged_res-45:/layout_fragment_login.xml.flat",
         "source": "br.edu.puc.uteethdentista.app-main-47:/layout/fragment_login.xml"
+    },
+    {
+        "merged": "br.edu.puc.uteethdentista.app-merged_res-45:/drawable_google_logo1.png.flat",
+        "source": "br.edu.puc.uteethdentista.app-main-47:/drawable/google_logo1.png"
     },
     {
         "merged": "br.edu.puc.uteethdentista.app-merged_res-45:/menu_menu_main.xml.flat",
@@ -84,12 +92,12 @@
         "source": "br.edu.puc.uteethdentista.app-main-47:/font/poppins_medium.xml"
     },
     {
-        "merged": "br.edu.puc.uteethdentista.app-merged_res-45:/layout_activity_main2.xml.flat",
-        "source": "br.edu.puc.uteethdentista.app-main-47:/layout/activity_main2.xml"
-    },
-    {
         "merged": "br.edu.puc.uteethdentista.app-merged_res-45:/mipmap-xxhdpi_ic_launcher.webp.flat",
         "source": "br.edu.puc.uteethdentista.app-main-47:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "br.edu.puc.uteethdentista.app-merged_res-45:/layout_activity_main2.xml.flat",
+        "source": "br.edu.puc.uteethdentista.app-main-47:/layout/activity_main2.xml"
     },
     {
         "merged": "br.edu.puc.uteethdentista.app-merged_res-45:/mipmap-mdpi_ic_launcher_round.webp.flat",
@@ -110,6 +118,10 @@
     {
         "merged": "br.edu.puc.uteethdentista.app-merged_res-45:/font_poppins_semibold.xml.flat",
         "source": "br.edu.puc.uteethdentista.app-main-47:/font/poppins_semibold.xml"
+    },
+    {
+        "merged": "br.edu.puc.uteethdentista.app-merged_res-45:/drawable_facebook_logo.png.flat",
+        "source": "br.edu.puc.uteethdentista.app-main-47:/drawable/facebook_logo.png"
     },
     {
         "merged": "br.edu.puc.uteethdentista.app-merged_res-45:/drawable_undraw_png.png.flat",

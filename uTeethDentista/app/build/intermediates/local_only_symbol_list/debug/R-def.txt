@@ -15,6 +15,9 @@ color white
 dimen fab_margin
 drawable container_components
 drawable container_white
+drawable facebook_logo
+drawable facebook_logo3
+drawable google_logo1
 drawable gradient_background
 drawable gradient_background_corners
 drawable ic_launcher_background
@@ -35,11 +38,19 @@ id action_SecondFragment_to_FirstFragment
 id action_TerceiroFragment_to_FirstFragment
 id action_settings
 id btn_criar
+id cadastro_text
+id edit_text_email_login
+id edit_text_password_login
+id facebook_btn
+id google_btn
 id guideline
 id guideline2
 id img_undraw
 id img_uteethlogo
+id login_text
 id nav_graph
+id sign_in_btn
+id sign_up_btn
 id tV_crie_sua_conta
 id ti_confirmar_senha
 id ti_email
@@ -72,5 +83,6 @@ style Theme.UTeethDentista.PopupOverlay
 style containerComponents
 style containerWhite
 style edit_text
+style google_login
 xml backup_rules
 xml data_extraction_rules

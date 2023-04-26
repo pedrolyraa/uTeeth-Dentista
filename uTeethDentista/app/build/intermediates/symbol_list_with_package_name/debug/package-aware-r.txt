@@ -2769,6 +2769,9 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable facebook_logo
+drawable facebook_logo3
+drawable google_logo1
 drawable gradient_background
 drawable gradient_background_corners
 drawable ic_arrow_back_black_24
@@ -2976,6 +2979,7 @@ id bounceStart
 id btn_criar
 id buttonPanel
 id cache_measures
+id cadastro_text
 id callMeasure
 id cancel_button
 id carryVelocity
@@ -3047,6 +3051,8 @@ id easeInOut
 id easeOut
 id east
 id edit_query
+id edit_text_email_login
+id edit_text_password_login
 id elastic
 id embed
 id end
@@ -3056,6 +3062,7 @@ id enterAlwaysCollapsed
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
+id facebook_btn
 id fade
 id fill
 id fill_horizontal
@@ -3076,6 +3083,7 @@ id fullscreen_header
 id ghost_view
 id ghost_view_holder
 id gone
+id google_btn
 id graph
 id graph_wrap
 id group_divider
@@ -3118,6 +3126,7 @@ id linear
 id listMode
 id list_item
 id locale
+id login_text
 id ltr
 id m3_side_sheet
 id marquee
@@ -3277,6 +3286,8 @@ id shortcut
 id showCustom
 id showHome
 id showTitle
+id sign_in_btn
+id sign_up_btn
 id sin
 id skipCollapsed
 id skipped
@@ -4846,6 +4857,7 @@ style Widget_Support_CoordinatorLayout
 style containerComponents
 style containerWhite
 style edit_text
+style google_login
 styleable ActionBar background backgroundSplit backgroundStacked contentInsetEnd contentInsetEndWithActions contentInsetLeft contentInsetRight contentInsetStart contentInsetStartWithNavigation customNavigationLayout displayOptions divider elevation height hideOnContentScroll homeAsUpIndicator homeLayout icon indeterminateProgressStyle itemPadding logo navigationMode popupTheme progressBarPadding progressBarStyle subtitle subtitleTextStyle title titleTextStyle
 styleable ActionBarLayout android_layout_gravity
 styleable ActionMenuItemView android_minWidth

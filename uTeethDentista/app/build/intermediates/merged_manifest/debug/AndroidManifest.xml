@@ -27,6 +27,9 @@
         android:testOnly="true"
         android:theme="@style/Theme.UTeethDentista" >
         <activity
+            android:name="br.edu.puc.uteethdentista.CriarContaFragment"
+            android:exported="false" />
+        <activity
             android:name="br.edu.puc.uteethdentista.LoginFragment"
             android:exported="false" />
         <activity

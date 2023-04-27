@@ -10,7 +10,7 @@ import androidx.appcompat.widget.AppCompatButton;
 import androidx.appcompat.widget.AppCompatEditText;
 import androidx.appcompat.widget.AppCompatImageView;
 import androidx.appcompat.widget.AppCompatTextView;
-import androidx.constraintlayout.widget.ConstraintLayout;
+import androidx.appcompat.widget.LinearLayoutCompat;
 import androidx.constraintlayout.widget.Guideline;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
@@ -21,7 +21,7 @@ import java.lang.String;
 
 public final class FragmentCriarContaBinding implements ViewBinding {
   @NonNull
-  private final ConstraintLayout rootView;
+  private final LinearLayoutCompat rootView;
 
   @NonNull
   public final AppCompatButton btnCriar;
@@ -59,7 +59,7 @@ public final class FragmentCriarContaBinding implements ViewBinding {
   @NonNull
   public final AppCompatTextView tvSenha;
 
-  private FragmentCriarContaBinding(@NonNull ConstraintLayout rootView,
+  private FragmentCriarContaBinding(@NonNull LinearLayoutCompat rootView,
       @NonNull AppCompatButton btnCriar, @NonNull AppCompatEditText etConfirmarSenha,
       @NonNull AppCompatEditText etEmail, @NonNull AppCompatEditText etSenha,
       @NonNull Guideline guideline, @NonNull Guideline guideline2,
@@ -83,7 +83,7 @@ public final class FragmentCriarContaBinding implements ViewBinding {
 
   @Override
   @NonNull
-  public ConstraintLayout getRoot() {
+  public LinearLayoutCompat getRoot() {
     return rootView;
   }
 
@@ -180,9 +180,9 @@ public final class FragmentCriarContaBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentCriarContaBinding((ConstraintLayout) rootView, btnCriar, etConfirmarSenha,
-          etEmail, etSenha, guideline, guideline2, imgUteethlogo, tVCrieSuaConta, tvConfirmarSenha,
-          tvEmail, tvOpcoesconta, tvSenha);
+      return new FragmentCriarContaBinding((LinearLayoutCompat) rootView, btnCriar,
+          etConfirmarSenha, etEmail, etSenha, guideline, guideline2, imgUteethlogo, tVCrieSuaConta,
+          tvConfirmarSenha, tvEmail, tvOpcoesconta, tvSenha);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

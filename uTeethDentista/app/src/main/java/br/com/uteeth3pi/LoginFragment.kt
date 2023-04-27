@@ -52,12 +52,12 @@ class LoginFragment : AppCompatActivity() {
                 }.addOnFailureListener{ exception ->
                     val mensagemErro = when(exception){
                         is FirebaseAuthWeakPasswordException -> "Digite uma senha com no mínimo 6 caracteres!"
-                        is FirebaseAuthInvalidCredentialsException -> "Digite um email válido!"
+                        is FirebaseAuthInvalidCredentialsException -> "Email e/ou senha inválidos"
                         is FirebaseAuthUserCollisionException -> "Esta conta já foi cadastrada!"
                         is FirebaseNetworkException -> "Sem conexão com a internet!"
                         else -> "Erro ao cadastrar usuário!"
                     }
-                    val snackbar = Snackbar.make(it, mensagemErro, Snackbar.LENGTH_SHORT)
+                    val snackbar = Snackbar.make(view, mensagemErro, Snackbar.LENGTH_SHORT)
                     snackbar.setBackgroundTint(Color.RED)
                     snackbar.show()
 

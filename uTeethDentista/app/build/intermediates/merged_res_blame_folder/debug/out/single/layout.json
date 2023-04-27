@@ -4,8 +4,8 @@
         "source": "/home/gustavo/.gradle/daemon/7.5/br.com.uteeth3pi.app-main-58:/layout/fragment_home.xml"
     },
     {
-        "merged": "br.com.uteeth3pi.app-mergeDebugResources-55:/layout/fragment_login.xml",
-        "source": "br.com.uteeth3pi.app-main-58:/layout/fragment_login.xml"
+        "merged": "br.com.uteeth3pi.app-mergeDebugResources-55:/layout/fragment_criar_conta.xml",
+        "source": "br.com.uteeth3pi.app-main-58:/layout/fragment_criar_conta.xml"
     },
     {
         "merged": "/home/gustavo/.gradle/daemon/7.5/br.com.uteeth3pi.app-mergeDebugResources-55:/layout/activity_main.xml",

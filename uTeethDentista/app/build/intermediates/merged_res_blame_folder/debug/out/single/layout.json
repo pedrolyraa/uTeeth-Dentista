@@ -1,18 +1,22 @@
 [
     {
-        "merged": "br.edu.puc.uteethdentista.app-mergeDebugResources-44:/layout/fragment_criar_conta.xml",
-        "source": "br.edu.puc.uteethdentista.app-main-47:/layout/fragment_criar_conta.xml"
+        "merged": "/home/gustavo/.gradle/daemon/7.5/br.com.uteeth3pi.app-mergeDebugResources-55:/layout/fragment_home.xml",
+        "source": "/home/gustavo/.gradle/daemon/7.5/br.com.uteeth3pi.app-main-58:/layout/fragment_home.xml"
     },
     {
-        "merged": "br.edu.puc.uteethdentista.app-mergeDebugResources-44:/layout/fragment_home.xml",
-        "source": "br.edu.puc.uteethdentista.app-main-47:/layout/fragment_home.xml"
+        "merged": "br.com.uteeth3pi.app-mergeDebugResources-55:/layout/fragment_criar_conta.xml",
+        "source": "br.com.uteeth3pi.app-main-58:/layout/fragment_criar_conta.xml"
     },
     {
-        "merged": "br.edu.puc.uteethdentista.app-mergeDebugResources-44:/layout/activity_main2.xml",
-        "source": "br.edu.puc.uteethdentista.app-main-47:/layout/activity_main2.xml"
+        "merged": "/home/gustavo/.gradle/daemon/7.5/br.com.uteeth3pi.app-mergeDebugResources-55:/layout/activity_main.xml",
+        "source": "/home/gustavo/.gradle/daemon/7.5/br.com.uteeth3pi.app-main-58:/layout/activity_main.xml"
     },
     {
-        "merged": "br.edu.puc.uteethdentista.app-mergeDebugResources-44:/layout/fragment_login.xml",
-        "source": "br.edu.puc.uteethdentista.app-main-47:/layout/fragment_login.xml"
+        "merged": "/home/gustavo/.gradle/daemon/7.5/br.com.uteeth3pi.app-mergeDebugResources-55:/layout/fragment_login.xml",
+        "source": "/home/gustavo/.gradle/daemon/7.5/br.com.uteeth3pi.app-main-58:/layout/fragment_login.xml"
+    },
+    {
+        "merged": "/home/gustavo/.gradle/daemon/7.5/br.com.uteeth3pi.app-mergeDebugResources-55:/layout/fragment_criar_conta.xml",
+        "source": "/home/gustavo/.gradle/daemon/7.5/br.com.uteeth3pi.app-main-58:/layout/fragment_criar_conta.xml"
     }
 ]

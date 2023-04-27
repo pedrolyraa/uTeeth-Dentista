@@ -1,122 +1,654 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-3    package="br.edu.puc.uteethdentista"
+3    package="br.com.uteeth3pi"
 4    android:versionCode="1"
 5    android:versionName="1.0" >
 6
 7    <uses-sdk
 8        android:minSdkVersion="29"
-8-->D:\Users\pedri\OneDrive\Documentos\Projeto Integrador 3\uTeethDentista\uTeeth-Dentista\uTeethDentista\app\src\main\AndroidManifest.xml
+8-->/home/gustavo/Documentos/Uteeth/uTeeth-Dentista/uTeethDentista/app/src/main/AndroidManifest.xml
 9        android:targetSdkVersion="33" />
-9-->D:\Users\pedri\OneDrive\Documentos\Projeto Integrador 3\uTeethDentista\uTeeth-Dentista\uTeethDentista\app\src\main\AndroidManifest.xml
+9-->/home/gustavo/Documentos/Uteeth/uTeeth-Dentista/uTeethDentista/app/src/main/AndroidManifest.xml
 10
-11    <permission
-11-->[androidx.core:core:1.9.0] C:\Users\pedri\.gradle\caches\transforms-3\c73afc1fa215d9ca128620a3c01802b0\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
-12        android:name="br.edu.puc.uteethdentista.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-12-->[androidx.core:core:1.9.0] C:\Users\pedri\.gradle\caches\transforms-3\c73afc1fa215d9ca128620a3c01802b0\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
-13        android:protectionLevel="signature" />
-13-->[androidx.core:core:1.9.0] C:\Users\pedri\.gradle\caches\transforms-3\c73afc1fa215d9ca128620a3c01802b0\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
-14
-15    <uses-permission android:name="br.edu.puc.uteethdentista.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-15-->[androidx.core:core:1.9.0] C:\Users\pedri\.gradle\caches\transforms-3\c73afc1fa215d9ca128620a3c01802b0\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
-15-->[androidx.core:core:1.9.0] C:\Users\pedri\.gradle\caches\transforms-3\c73afc1fa215d9ca128620a3c01802b0\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
-16
-17    <application
-17-->D:\Users\pedri\OneDrive\Documentos\Projeto Integrador 3\uTeethDentista\uTeeth-Dentista\uTeethDentista\app\src\main\AndroidManifest.xml:5:5-36:19
-18        android:allowBackup="true"
-18-->D:\Users\pedri\OneDrive\Documentos\Projeto Integrador 3\uTeethDentista\uTeeth-Dentista\uTeethDentista\app\src\main\AndroidManifest.xml:6:9-35
-19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-19-->[androidx.core:core:1.9.0] C:\Users\pedri\.gradle\caches\transforms-3\c73afc1fa215d9ca128620a3c01802b0\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
-20        android:dataExtractionRules="@xml/data_extraction_rules"
-20-->D:\Users\pedri\OneDrive\Documentos\Projeto Integrador 3\uTeethDentista\uTeeth-Dentista\uTeethDentista\app\src\main\AndroidManifest.xml:7:9-65
-21        android:debuggable="true"
-22        android:extractNativeLibs="false"
-23        android:fullBackupContent="@xml/backup_rules"
-23-->D:\Users\pedri\OneDrive\Documentos\Projeto Integrador 3\uTeethDentista\uTeeth-Dentista\uTeethDentista\app\src\main\AndroidManifest.xml:8:9-54
-24        android:icon="@mipmap/ic_launcher"
-24-->D:\Users\pedri\OneDrive\Documentos\Projeto Integrador 3\uTeethDentista\uTeeth-Dentista\uTeethDentista\app\src\main\AndroidManifest.xml:9:9-43
-25        android:label="@string/app_name"
-25-->D:\Users\pedri\OneDrive\Documentos\Projeto Integrador 3\uTeethDentista\uTeeth-Dentista\uTeethDentista\app\src\main\AndroidManifest.xml:10:9-41
-26        android:supportsRtl="true"
-26-->D:\Users\pedri\OneDrive\Documentos\Projeto Integrador 3\uTeethDentista\uTeeth-Dentista\uTeethDentista\app\src\main\AndroidManifest.xml:11:9-35
-27        android:testOnly="true"
-28        android:theme="@style/Theme.UTeethDentista" >
-28-->D:\Users\pedri\OneDrive\Documentos\Projeto Integrador 3\uTeethDentista\uTeeth-Dentista\uTeethDentista\app\src\main\AndroidManifest.xml:12:9-52
-29        <activity
-29-->D:\Users\pedri\OneDrive\Documentos\Projeto Integrador 3\uTeethDentista\uTeeth-Dentista\uTeethDentista\app\src\main\AndroidManifest.xml:15:9-17:40
-30            android:name="br.edu.puc.uteethdentista.CriarContaFragment"
-30-->D:\Users\pedri\OneDrive\Documentos\Projeto Integrador 3\uTeethDentista\uTeeth-Dentista\uTeethDentista\app\src\main\AndroidManifest.xml:16:13-47
-31            android:exported="false" />
-31-->D:\Users\pedri\OneDrive\Documentos\Projeto Integrador 3\uTeethDentista\uTeeth-Dentista\uTeethDentista\app\src\main\AndroidManifest.xml:17:13-37
-32        <activity
-32-->D:\Users\pedri\OneDrive\Documentos\Projeto Integrador 3\uTeethDentista\uTeeth-Dentista\uTeethDentista\app\src\main\AndroidManifest.xml:18:9-20:40
-33            android:name="br.edu.puc.uteethdentista.LoginFragment"
-33-->D:\Users\pedri\OneDrive\Documentos\Projeto Integrador 3\uTeethDentista\uTeeth-Dentista\uTeethDentista\app\src\main\AndroidManifest.xml:19:13-42
-34            android:exported="false" />
-34-->D:\Users\pedri\OneDrive\Documentos\Projeto Integrador 3\uTeethDentista\uTeeth-Dentista\uTeethDentista\app\src\main\AndroidManifest.xml:20:13-37
-35        <activity
-35-->D:\Users\pedri\OneDrive\Documentos\Projeto Integrador 3\uTeethDentista\uTeeth-Dentista\uTeethDentista\app\src\main\AndroidManifest.xml:21:9-31:20
-36            android:name="br.edu.puc.uteethdentista.MainActivity2"
-36-->D:\Users\pedri\OneDrive\Documentos\Projeto Integrador 3\uTeethDentista\uTeeth-Dentista\uTeethDentista\app\src\main\AndroidManifest.xml:22:13-42
-37            android:exported="true"
-37-->D:\Users\pedri\OneDrive\Documentos\Projeto Integrador 3\uTeethDentista\uTeeth-Dentista\uTeethDentista\app\src\main\AndroidManifest.xml:23:13-36
-38            android:label="@string/app_name"
-38-->D:\Users\pedri\OneDrive\Documentos\Projeto Integrador 3\uTeethDentista\uTeeth-Dentista\uTeethDentista\app\src\main\AndroidManifest.xml:24:13-45
-39            android:theme="@style/Theme.UTeethDentista.NoActionBar" >
-39-->D:\Users\pedri\OneDrive\Documentos\Projeto Integrador 3\uTeethDentista\uTeeth-Dentista\uTeethDentista\app\src\main\AndroidManifest.xml:25:13-68
-40            <intent-filter>
-40-->D:\Users\pedri\OneDrive\Documentos\Projeto Integrador 3\uTeethDentista\uTeeth-Dentista\uTeethDentista\app\src\main\AndroidManifest.xml:26:13-30:29
-41                <action android:name="android.intent.action.MAIN" />
-41-->D:\Users\pedri\OneDrive\Documentos\Projeto Integrador 3\uTeethDentista\uTeeth-Dentista\uTeethDentista\app\src\main\AndroidManifest.xml:27:17-69
-41-->D:\Users\pedri\OneDrive\Documentos\Projeto Integrador 3\uTeethDentista\uTeeth-Dentista\uTeethDentista\app\src\main\AndroidManifest.xml:27:25-66
-42
-43                <category android:name="android.intent.category.LAUNCHER" />
-43-->D:\Users\pedri\OneDrive\Documentos\Projeto Integrador 3\uTeethDentista\uTeeth-Dentista\uTeethDentista\app\src\main\AndroidManifest.xml:29:17-77
-43-->D:\Users\pedri\OneDrive\Documentos\Projeto Integrador 3\uTeethDentista\uTeeth-Dentista\uTeethDentista\app\src\main\AndroidManifest.xml:29:27-74
-44            </intent-filter>
-45        </activity>
-46
-47        <meta-data
-47-->D:\Users\pedri\OneDrive\Documentos\Projeto Integrador 3\uTeethDentista\uTeeth-Dentista\uTeethDentista\app\src\main\AndroidManifest.xml:33:9-35:57
-48            android:name="preloaded_fonts"
-48-->D:\Users\pedri\OneDrive\Documentos\Projeto Integrador 3\uTeethDentista\uTeeth-Dentista\uTeethDentista\app\src\main\AndroidManifest.xml:34:13-43
-49            android:resource="@array/preloaded_fonts" />
-49-->D:\Users\pedri\OneDrive\Documentos\Projeto Integrador 3\uTeethDentista\uTeeth-Dentista\uTeethDentista\app\src\main\AndroidManifest.xml:35:13-54
-50
-51        <uses-library
-51-->[androidx.window:window:1.0.0] C:\Users\pedri\.gradle\caches\transforms-3\57ca3fa706d0531e32e0a842a9463d39\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
-52            android:name="androidx.window.extensions"
-52-->[androidx.window:window:1.0.0] C:\Users\pedri\.gradle\caches\transforms-3\57ca3fa706d0531e32e0a842a9463d39\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
-53            android:required="false" />
-53-->[androidx.window:window:1.0.0] C:\Users\pedri\.gradle\caches\transforms-3\57ca3fa706d0531e32e0a842a9463d39\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
-54        <uses-library
-54-->[androidx.window:window:1.0.0] C:\Users\pedri\.gradle\caches\transforms-3\57ca3fa706d0531e32e0a842a9463d39\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
-55            android:name="androidx.window.sidecar"
-55-->[androidx.window:window:1.0.0] C:\Users\pedri\.gradle\caches\transforms-3\57ca3fa706d0531e32e0a842a9463d39\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
-56            android:required="false" />
-56-->[androidx.window:window:1.0.0] C:\Users\pedri\.gradle\caches\transforms-3\57ca3fa706d0531e32e0a842a9463d39\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
-57
-58        <provider
-58-->[androidx.emoji2:emoji2:1.2.0] C:\Users\pedri\.gradle\caches\transforms-3\66814d0c9c223a08105bc116aeb53dd5\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
-59            android:name="androidx.startup.InitializationProvider"
-59-->[androidx.emoji2:emoji2:1.2.0] C:\Users\pedri\.gradle\caches\transforms-3\66814d0c9c223a08105bc116aeb53dd5\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
-60            android:authorities="br.edu.puc.uteethdentista.androidx-startup"
-60-->[androidx.emoji2:emoji2:1.2.0] C:\Users\pedri\.gradle\caches\transforms-3\66814d0c9c223a08105bc116aeb53dd5\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
-61            android:exported="false" >
-61-->[androidx.emoji2:emoji2:1.2.0] C:\Users\pedri\.gradle\caches\transforms-3\66814d0c9c223a08105bc116aeb53dd5\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
-62            <meta-data
-62-->[androidx.emoji2:emoji2:1.2.0] C:\Users\pedri\.gradle\caches\transforms-3\66814d0c9c223a08105bc116aeb53dd5\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
-63                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-63-->[androidx.emoji2:emoji2:1.2.0] C:\Users\pedri\.gradle\caches\transforms-3\66814d0c9c223a08105bc116aeb53dd5\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
-64                android:value="androidx.startup" />
-64-->[androidx.emoji2:emoji2:1.2.0] C:\Users\pedri\.gradle\caches\transforms-3\66814d0c9c223a08105bc116aeb53dd5\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
-65            <meta-data
-65-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\pedri\.gradle\caches\transforms-3\d64e7ca6b93f4a6c092b1dd37cf249d6\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
-66                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-66-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\pedri\.gradle\caches\transforms-3\d64e7ca6b93f4a6c092b1dd37cf249d6\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
-67                android:value="androidx.startup" />
-67-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\pedri\.gradle\caches\transforms-3\d64e7ca6b93f4a6c092b1dd37cf249d6\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
-68        </provider>
-69    </application>
-70
-71</manifest>
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/home/gustavo/Documentos/Uteeth/uTeeth-Dentista/uTeethDentista/app/src/main/AndroidManifest.xml:5:5-66
+11-->/home/gustavo/Documentos/Uteeth/uTeeth-Dentista/uTeethDentista/app/src/main/AndroidManifest.xml:5:22-64
+12
+13    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+14    <!-- <uses-sdk android:minSdkVersion="14" /> -->
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->[com.google.firebase:firebase-firestore:24.4.5] /home/gustavo/.gradle/caches/transforms-3/8dd5f9d93f5266242be5fc85d93d9cf6/transformed/firebase-firestore-24.4.5/AndroidManifest.xml:12:5-79
+15-->[com.google.firebase:firebase-firestore:24.4.5] /home/gustavo/.gradle/caches/transforms-3/8dd5f9d93f5266242be5fc85d93d9cf6/transformed/firebase-firestore-24.4.5/AndroidManifest.xml:12:22-76
+16    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+16-->[com.google.firebase:firebase-messaging:23.1.2] /home/gustavo/.gradle/caches/transforms-3/f6309c9d3f8562304bd026fbbf6577f5/transformed/firebase-messaging-23.1.2/AndroidManifest.xml:25:5-77
+16-->[com.google.firebase:firebase-messaging:23.1.2] /home/gustavo/.gradle/caches/transforms-3/f6309c9d3f8562304bd026fbbf6577f5/transformed/firebase-messaging-23.1.2/AndroidManifest.xml:25:22-74
+17    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+17-->[com.google.firebase:firebase-messaging:23.1.2] /home/gustavo/.gradle/caches/transforms-3/f6309c9d3f8562304bd026fbbf6577f5/transformed/firebase-messaging-23.1.2/AndroidManifest.xml:26:5-68
+17-->[com.google.firebase:firebase-messaging:23.1.2] /home/gustavo/.gradle/caches/transforms-3/f6309c9d3f8562304bd026fbbf6577f5/transformed/firebase-messaging-23.1.2/AndroidManifest.xml:26:22-65
+18    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+18-->[com.google.firebase:firebase-messaging:23.1.2] /home/gustavo/.gradle/caches/transforms-3/f6309c9d3f8562304bd026fbbf6577f5/transformed/firebase-messaging-23.1.2/AndroidManifest.xml:28:5-82
+18-->[com.google.firebase:firebase-messaging:23.1.2] /home/gustavo/.gradle/caches/transforms-3/f6309c9d3f8562304bd026fbbf6577f5/transformed/firebase-messaging-23.1.2/AndroidManifest.xml:28:22-79
+19    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+19-->[com.google.android.gms:play-services-measurement-api:21.2.1] /home/gustavo/.gradle/caches/transforms-3/1f4a2c17a55a28fd8c56cc14066ff7ba/transformed/play-services-measurement-api-21.2.1/AndroidManifest.xml:25:5-79
+19-->[com.google.android.gms:play-services-measurement-api:21.2.1] /home/gustavo/.gradle/caches/transforms-3/1f4a2c17a55a28fd8c56cc14066ff7ba/transformed/play-services-measurement-api-21.2.1/AndroidManifest.xml:25:22-76
+20    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+20-->[com.google.android.gms:play-services-measurement:21.2.1] /home/gustavo/.gradle/caches/transforms-3/e802ccb8df6071d95ee71d0f8e5950df/transformed/play-services-measurement-21.2.1/AndroidManifest.xml:26:5-110
+20-->[com.google.android.gms:play-services-measurement:21.2.1] /home/gustavo/.gradle/caches/transforms-3/e802ccb8df6071d95ee71d0f8e5950df/transformed/play-services-measurement-21.2.1/AndroidManifest.xml:26:22-107
+21    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+21-->[androidx.work:work-runtime:2.8.1] /home/gustavo/.gradle/caches/transforms-3/90fb366de4dd6af0383b8515da3f3922/transformed/work-runtime-2.8.1/AndroidManifest.xml:25:5-81
+21-->[androidx.work:work-runtime:2.8.1] /home/gustavo/.gradle/caches/transforms-3/90fb366de4dd6af0383b8515da3f3922/transformed/work-runtime-2.8.1/AndroidManifest.xml:25:22-78
+22    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+22-->[androidx.work:work-runtime:2.8.1] /home/gustavo/.gradle/caches/transforms-3/90fb366de4dd6af0383b8515da3f3922/transformed/work-runtime-2.8.1/AndroidManifest.xml:26:5-77
+22-->[androidx.work:work-runtime:2.8.1] /home/gustavo/.gradle/caches/transforms-3/90fb366de4dd6af0383b8515da3f3922/transformed/work-runtime-2.8.1/AndroidManifest.xml:26:22-74
+23
+24    <permission
+24-->[androidx.core:core:1.10.0] /home/gustavo/.gradle/caches/transforms-3/8d952ae325ad8f3679fa31ad728f11b7/transformed/core-1.10.0/AndroidManifest.xml:22:5-24:47
+25        android:name="br.com.uteeth3pi.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+25-->[androidx.core:core:1.10.0] /home/gustavo/.gradle/caches/transforms-3/8d952ae325ad8f3679fa31ad728f11b7/transformed/core-1.10.0/AndroidManifest.xml:23:9-81
+26        android:protectionLevel="signature" />
+26-->[androidx.core:core:1.10.0] /home/gustavo/.gradle/caches/transforms-3/8d952ae325ad8f3679fa31ad728f11b7/transformed/core-1.10.0/AndroidManifest.xml:24:9-44
+27
+28    <uses-permission android:name="br.com.uteeth3pi.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+28-->[androidx.core:core:1.10.0] /home/gustavo/.gradle/caches/transforms-3/8d952ae325ad8f3679fa31ad728f11b7/transformed/core-1.10.0/AndroidManifest.xml:26:5-97
+28-->[androidx.core:core:1.10.0] /home/gustavo/.gradle/caches/transforms-3/8d952ae325ad8f3679fa31ad728f11b7/transformed/core-1.10.0/AndroidManifest.xml:26:22-94
+29
+30    <application
+30-->/home/gustavo/Documentos/Uteeth/uTeeth-Dentista/uTeethDentista/app/src/main/AndroidManifest.xml:7:5-41:19
+31        android:allowBackup="true"
+31-->/home/gustavo/Documentos/Uteeth/uTeeth-Dentista/uTeethDentista/app/src/main/AndroidManifest.xml:8:9-35
+32        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+32-->[androidx.core:core:1.10.0] /home/gustavo/.gradle/caches/transforms-3/8d952ae325ad8f3679fa31ad728f11b7/transformed/core-1.10.0/AndroidManifest.xml:28:18-86
+33        android:dataExtractionRules="@xml/data_extraction_rules"
+33-->/home/gustavo/Documentos/Uteeth/uTeeth-Dentista/uTeethDentista/app/src/main/AndroidManifest.xml:9:9-65
+34        android:debuggable="true"
+35        android:extractNativeLibs="false"
+36        android:fullBackupContent="@xml/backup_rules"
+36-->/home/gustavo/Documentos/Uteeth/uTeeth-Dentista/uTeethDentista/app/src/main/AndroidManifest.xml:10:9-54
+37        android:icon="@mipmap/ic_launcher"
+37-->/home/gustavo/Documentos/Uteeth/uTeeth-Dentista/uTeethDentista/app/src/main/AndroidManifest.xml:11:9-43
+38        android:label="@string/app_name"
+38-->/home/gustavo/Documentos/Uteeth/uTeeth-Dentista/uTeethDentista/app/src/main/AndroidManifest.xml:12:9-41
+39        android:supportsRtl="true"
+39-->/home/gustavo/Documentos/Uteeth/uTeeth-Dentista/uTeethDentista/app/src/main/AndroidManifest.xml:13:9-35
+40        android:testOnly="true"
+41        android:theme="@style/Theme.UTeethDentista" >
+41-->/home/gustavo/Documentos/Uteeth/uTeeth-Dentista/uTeethDentista/app/src/main/AndroidManifest.xml:14:9-52
+42        <activity
+42-->/home/gustavo/Documentos/Uteeth/uTeeth-Dentista/uTeethDentista/app/src/main/AndroidManifest.xml:17:9-19:40
+43            android:name="br.com.uteeth3pi.CriarContaFragment"
+43-->/home/gustavo/Documentos/Uteeth/uTeeth-Dentista/uTeethDentista/app/src/main/AndroidManifest.xml:18:13-47
+44            android:exported="false" />
+44-->/home/gustavo/Documentos/Uteeth/uTeeth-Dentista/uTeethDentista/app/src/main/AndroidManifest.xml:19:13-37
+45        <activity
+45-->/home/gustavo/Documentos/Uteeth/uTeeth-Dentista/uTeethDentista/app/src/main/AndroidManifest.xml:20:9-22:40
+46            android:name="br.com.uteeth3pi.LoginFragment"
+46-->/home/gustavo/Documentos/Uteeth/uTeeth-Dentista/uTeethDentista/app/src/main/AndroidManifest.xml:21:13-42
+47            android:exported="false" />
+47-->/home/gustavo/Documentos/Uteeth/uTeeth-Dentista/uTeethDentista/app/src/main/AndroidManifest.xml:22:13-37
+48        <activity
+48-->/home/gustavo/Documentos/Uteeth/uTeeth-Dentista/uTeethDentista/app/src/main/AndroidManifest.xml:23:9-25:40
+49            android:name="br.com.uteeth3pi.HomeFragment"
+49-->/home/gustavo/Documentos/Uteeth/uTeeth-Dentista/uTeethDentista/app/src/main/AndroidManifest.xml:24:13-41
+50            android:exported="false" />
+50-->/home/gustavo/Documentos/Uteeth/uTeeth-Dentista/uTeethDentista/app/src/main/AndroidManifest.xml:25:13-37
+51        <activity
+51-->/home/gustavo/Documentos/Uteeth/uTeeth-Dentista/uTeethDentista/app/src/main/AndroidManifest.xml:26:9-36:20
+52            android:name="br.com.uteeth3pi.MainActivity"
+52-->/home/gustavo/Documentos/Uteeth/uTeeth-Dentista/uTeethDentista/app/src/main/AndroidManifest.xml:27:13-41
+53            android:exported="true"
+53-->/home/gustavo/Documentos/Uteeth/uTeeth-Dentista/uTeethDentista/app/src/main/AndroidManifest.xml:28:13-36
+54            android:label="@string/app_name"
+54-->/home/gustavo/Documentos/Uteeth/uTeeth-Dentista/uTeethDentista/app/src/main/AndroidManifest.xml:29:13-45
+55            android:theme="@style/Theme.UTeethDentista.NoActionBar" >
+55-->/home/gustavo/Documentos/Uteeth/uTeeth-Dentista/uTeethDentista/app/src/main/AndroidManifest.xml:30:13-68
+56            <intent-filter>
+56-->/home/gustavo/Documentos/Uteeth/uTeeth-Dentista/uTeethDentista/app/src/main/AndroidManifest.xml:31:13-35:29
+57                <action android:name="android.intent.action.MAIN" />
+57-->/home/gustavo/Documentos/Uteeth/uTeeth-Dentista/uTeethDentista/app/src/main/AndroidManifest.xml:32:17-69
+57-->/home/gustavo/Documentos/Uteeth/uTeeth-Dentista/uTeethDentista/app/src/main/AndroidManifest.xml:32:25-66
+58
+59                <category android:name="android.intent.category.LAUNCHER" />
+59-->/home/gustavo/Documentos/Uteeth/uTeeth-Dentista/uTeethDentista/app/src/main/AndroidManifest.xml:34:17-77
+59-->/home/gustavo/Documentos/Uteeth/uTeeth-Dentista/uTeethDentista/app/src/main/AndroidManifest.xml:34:27-74
+60            </intent-filter>
+61        </activity>
+62
+63        <meta-data
+63-->/home/gustavo/Documentos/Uteeth/uTeeth-Dentista/uTeethDentista/app/src/main/AndroidManifest.xml:38:9-40:57
+64            android:name="preloaded_fonts"
+64-->/home/gustavo/Documentos/Uteeth/uTeeth-Dentista/uTeethDentista/app/src/main/AndroidManifest.xml:39:13-43
+65            android:resource="@array/preloaded_fonts" />
+65-->/home/gustavo/Documentos/Uteeth/uTeeth-Dentista/uTeethDentista/app/src/main/AndroidManifest.xml:40:13-54
+66
+67        <service
+67-->[com.google.firebase:firebase-firestore-ktx:24.4.5] /home/gustavo/.gradle/caches/transforms-3/2156d340341cf29f949b6c6a70bcbca8/transformed/firebase-firestore-ktx-24.4.5/AndroidManifest.xml:11:9-17:19
+68            android:name="com.google.firebase.components.ComponentDiscoveryService"
+68-->[com.google.firebase:firebase-firestore-ktx:24.4.5] /home/gustavo/.gradle/caches/transforms-3/2156d340341cf29f949b6c6a70bcbca8/transformed/firebase-firestore-ktx-24.4.5/AndroidManifest.xml:12:13-84
+69            android:directBootAware="true"
+69-->[com.google.firebase:firebase-common:20.3.2] /home/gustavo/.gradle/caches/transforms-3/c020e9cfe88c3b77730a7aa4b4346800/transformed/firebase-common-20.3.2/AndroidManifest.xml:34:13-43
+70            android:exported="false" >
+70-->[com.google.firebase:firebase-firestore-ktx:24.4.5] /home/gustavo/.gradle/caches/transforms-3/2156d340341cf29f949b6c6a70bcbca8/transformed/firebase-firestore-ktx-24.4.5/AndroidManifest.xml:13:13-37
+71            <meta-data
+71-->[com.google.firebase:firebase-firestore-ktx:24.4.5] /home/gustavo/.gradle/caches/transforms-3/2156d340341cf29f949b6c6a70bcbca8/transformed/firebase-firestore-ktx-24.4.5/AndroidManifest.xml:14:13-16:85
+72                android:name="com.google.firebase.components:com.google.firebase.firestore.ktx.FirebaseFirestoreKtxRegistrar"
+72-->[com.google.firebase:firebase-firestore-ktx:24.4.5] /home/gustavo/.gradle/caches/transforms-3/2156d340341cf29f949b6c6a70bcbca8/transformed/firebase-firestore-ktx-24.4.5/AndroidManifest.xml:15:17-126
+73                android:value="com.google.firebase.components.ComponentRegistrar" />
+73-->[com.google.firebase:firebase-firestore-ktx:24.4.5] /home/gustavo/.gradle/caches/transforms-3/2156d340341cf29f949b6c6a70bcbca8/transformed/firebase-firestore-ktx-24.4.5/AndroidManifest.xml:16:17-82
+74            <meta-data
+74-->[com.google.firebase:firebase-messaging-ktx:23.1.2] /home/gustavo/.gradle/caches/transforms-3/658dfd8501056ea3a6de2abf24c206eb/transformed/firebase-messaging-ktx-23.1.2/AndroidManifest.xml:28:13-30:85
+75                android:name="com.google.firebase.components:com.google.firebase.messaging.ktx.FirebaseMessagingKtxRegistrar"
+75-->[com.google.firebase:firebase-messaging-ktx:23.1.2] /home/gustavo/.gradle/caches/transforms-3/658dfd8501056ea3a6de2abf24c206eb/transformed/firebase-messaging-ktx-23.1.2/AndroidManifest.xml:29:17-126
+76                android:value="com.google.firebase.components.ComponentRegistrar" />
+76-->[com.google.firebase:firebase-messaging-ktx:23.1.2] /home/gustavo/.gradle/caches/transforms-3/658dfd8501056ea3a6de2abf24c206eb/transformed/firebase-messaging-ktx-23.1.2/AndroidManifest.xml:30:17-82
+77            <meta-data
+77-->[com.google.firebase:firebase-appcheck-debug:16.1.2] /home/gustavo/.gradle/caches/transforms-3/20ca0c8ce976e3b0df0a16d415f6a5c6/transformed/firebase-appcheck-debug-16.1.2/AndroidManifest.xml:27:13-29:85
+78                android:name="com.google.firebase.components:com.google.firebase.appcheck.debug.FirebaseAppCheckDebugRegistrar"
+78-->[com.google.firebase:firebase-appcheck-debug:16.1.2] /home/gustavo/.gradle/caches/transforms-3/20ca0c8ce976e3b0df0a16d415f6a5c6/transformed/firebase-appcheck-debug-16.1.2/AndroidManifest.xml:28:17-128
+79                android:value="com.google.firebase.components.ComponentRegistrar" />
+79-->[com.google.firebase:firebase-appcheck-debug:16.1.2] /home/gustavo/.gradle/caches/transforms-3/20ca0c8ce976e3b0df0a16d415f6a5c6/transformed/firebase-appcheck-debug-16.1.2/AndroidManifest.xml:29:17-82
+80            <meta-data
+80-->[com.google.firebase:firebase-functions-ktx:20.2.2] /home/gustavo/.gradle/caches/transforms-3/84742d56b843fa2b22c802a84ac5ce3c/transformed/firebase-functions-ktx-20.2.2/AndroidManifest.xml:14:13-16:85
+81                android:name="com.google.firebase.components:com.google.firebase.functions.ktx.FirebaseFunctionsKtxRegistrar"
+81-->[com.google.firebase:firebase-functions-ktx:20.2.2] /home/gustavo/.gradle/caches/transforms-3/84742d56b843fa2b22c802a84ac5ce3c/transformed/firebase-functions-ktx-20.2.2/AndroidManifest.xml:15:17-126
+82                android:value="com.google.firebase.components.ComponentRegistrar" />
+82-->[com.google.firebase:firebase-functions-ktx:20.2.2] /home/gustavo/.gradle/caches/transforms-3/84742d56b843fa2b22c802a84ac5ce3c/transformed/firebase-functions-ktx-20.2.2/AndroidManifest.xml:16:17-82
+83            <meta-data
+83-->[com.google.firebase:firebase-analytics-ktx:21.2.1] /home/gustavo/.gradle/caches/transforms-3/0d3c7cfed5feb4a14892c063704d03a9/transformed/firebase-analytics-ktx-21.2.1/AndroidManifest.xml:11:13-13:85
+84                android:name="com.google.firebase.components:com.google.firebase.analytics.ktx.FirebaseAnalyticsKtxRegistrar"
+84-->[com.google.firebase:firebase-analytics-ktx:21.2.1] /home/gustavo/.gradle/caches/transforms-3/0d3c7cfed5feb4a14892c063704d03a9/transformed/firebase-analytics-ktx-21.2.1/AndroidManifest.xml:12:17-126
+85                android:value="com.google.firebase.components.ComponentRegistrar" />
+85-->[com.google.firebase:firebase-analytics-ktx:21.2.1] /home/gustavo/.gradle/caches/transforms-3/0d3c7cfed5feb4a14892c063704d03a9/transformed/firebase-analytics-ktx-21.2.1/AndroidManifest.xml:13:17-82
+86            <meta-data
+86-->[com.google.firebase:firebase-auth-ktx:21.2.0] /home/gustavo/.gradle/caches/transforms-3/a0393a17422797f0fd3de2ae49b8af93/transformed/firebase-auth-ktx-21.2.0/AndroidManifest.xml:11:13-13:85
+87                android:name="com.google.firebase.components:com.google.firebase.auth.ktx.FirebaseAuthKtxRegistrar"
+87-->[com.google.firebase:firebase-auth-ktx:21.2.0] /home/gustavo/.gradle/caches/transforms-3/a0393a17422797f0fd3de2ae49b8af93/transformed/firebase-auth-ktx-21.2.0/AndroidManifest.xml:12:17-116
+88                android:value="com.google.firebase.components.ComponentRegistrar" />
+88-->[com.google.firebase:firebase-auth-ktx:21.2.0] /home/gustavo/.gradle/caches/transforms-3/a0393a17422797f0fd3de2ae49b8af93/transformed/firebase-auth-ktx-21.2.0/AndroidManifest.xml:13:17-82
+89            <meta-data
+89-->[com.google.firebase:firebase-appcheck:16.1.2] /home/gustavo/.gradle/caches/transforms-3/fc418f27455ae597d6023b58d390ef1d/transformed/firebase-appcheck-16.1.2/AndroidManifest.xml:27:13-29:85
+90                android:name="com.google.firebase.components:com.google.firebase.appcheck.FirebaseAppCheckRegistrar"
+90-->[com.google.firebase:firebase-appcheck:16.1.2] /home/gustavo/.gradle/caches/transforms-3/fc418f27455ae597d6023b58d390ef1d/transformed/firebase-appcheck-16.1.2/AndroidManifest.xml:28:17-117
+91                android:value="com.google.firebase.components.ComponentRegistrar" />
+91-->[com.google.firebase:firebase-appcheck:16.1.2] /home/gustavo/.gradle/caches/transforms-3/fc418f27455ae597d6023b58d390ef1d/transformed/firebase-appcheck-16.1.2/AndroidManifest.xml:29:17-82
+92            <meta-data
+92-->[com.google.firebase:firebase-common-ktx:20.3.2] /home/gustavo/.gradle/caches/transforms-3/f6e7ed483f62cebf2587e9c72480ad48/transformed/firebase-common-ktx-20.3.2/AndroidManifest.xml:14:13-16:85
+93                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar"
+93-->[com.google.firebase:firebase-common-ktx:20.3.2] /home/gustavo/.gradle/caches/transforms-3/f6e7ed483f62cebf2587e9c72480ad48/transformed/firebase-common-ktx-20.3.2/AndroidManifest.xml:15:17-113
+94                android:value="com.google.firebase.components.ComponentRegistrar" />
+94-->[com.google.firebase:firebase-common-ktx:20.3.2] /home/gustavo/.gradle/caches/transforms-3/f6e7ed483f62cebf2587e9c72480ad48/transformed/firebase-common-ktx-20.3.2/AndroidManifest.xml:16:17-82
+95            <meta-data
+95-->[com.google.firebase:firebase-functions:20.2.2] /home/gustavo/.gradle/caches/transforms-3/3ee43919b6a5d6628013c5934a494192/transformed/firebase-functions-20.2.2/AndroidManifest.xml:17:13-19:85
+96                android:name="com.google.firebase.components:com.google.firebase.functions.FunctionsRegistrar"
+96-->[com.google.firebase:firebase-functions:20.2.2] /home/gustavo/.gradle/caches/transforms-3/3ee43919b6a5d6628013c5934a494192/transformed/firebase-functions-20.2.2/AndroidManifest.xml:18:17-111
+97                android:value="com.google.firebase.components.ComponentRegistrar" />
+97-->[com.google.firebase:firebase-functions:20.2.2] /home/gustavo/.gradle/caches/transforms-3/3ee43919b6a5d6628013c5934a494192/transformed/firebase-functions-20.2.2/AndroidManifest.xml:19:17-82
+98            <meta-data
+98-->[com.google.firebase:firebase-firestore:24.4.5] /home/gustavo/.gradle/caches/transforms-3/8dd5f9d93f5266242be5fc85d93d9cf6/transformed/firebase-firestore-24.4.5/AndroidManifest.xml:19:13-21:85
+99                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+99-->[com.google.firebase:firebase-firestore:24.4.5] /home/gustavo/.gradle/caches/transforms-3/8dd5f9d93f5266242be5fc85d93d9cf6/transformed/firebase-firestore-24.4.5/AndroidManifest.xml:20:17-111
+100                android:value="com.google.firebase.components.ComponentRegistrar" />
+100-->[com.google.firebase:firebase-firestore:24.4.5] /home/gustavo/.gradle/caches/transforms-3/8dd5f9d93f5266242be5fc85d93d9cf6/transformed/firebase-firestore-24.4.5/AndroidManifest.xml:21:17-82
+101            <meta-data
+101-->[com.google.firebase:firebase-auth:21.2.0] /home/gustavo/.gradle/caches/transforms-3/67023616d20d779838c10edbafa8491d/transformed/firebase-auth-21.2.0/AndroidManifest.xml:69:13-71:85
+102                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+102-->[com.google.firebase:firebase-auth:21.2.0] /home/gustavo/.gradle/caches/transforms-3/67023616d20d779838c10edbafa8491d/transformed/firebase-auth-21.2.0/AndroidManifest.xml:70:17-109
+103                android:value="com.google.firebase.components.ComponentRegistrar" />
+103-->[com.google.firebase:firebase-auth:21.2.0] /home/gustavo/.gradle/caches/transforms-3/67023616d20d779838c10edbafa8491d/transformed/firebase-auth-21.2.0/AndroidManifest.xml:71:17-82
+104            <meta-data
+104-->[com.google.firebase:firebase-messaging:23.1.2] /home/gustavo/.gradle/caches/transforms-3/f6309c9d3f8562304bd026fbbf6577f5/transformed/firebase-messaging-23.1.2/AndroidManifest.xml:55:13-57:85
+105                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+105-->[com.google.firebase:firebase-messaging:23.1.2] /home/gustavo/.gradle/caches/transforms-3/f6309c9d3f8562304bd026fbbf6577f5/transformed/firebase-messaging-23.1.2/AndroidManifest.xml:56:17-119
+106                android:value="com.google.firebase.components.ComponentRegistrar" />
+106-->[com.google.firebase:firebase-messaging:23.1.2] /home/gustavo/.gradle/caches/transforms-3/f6309c9d3f8562304bd026fbbf6577f5/transformed/firebase-messaging-23.1.2/AndroidManifest.xml:57:17-82
+107            <meta-data
+107-->[com.google.firebase:firebase-iid:21.1.0] /home/gustavo/.gradle/caches/transforms-3/8e218284feabeb221e4f515da97c7e0f/transformed/firebase-iid-21.1.0/AndroidManifest.xml:32:13-34:85
+108                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+108-->[com.google.firebase:firebase-iid:21.1.0] /home/gustavo/.gradle/caches/transforms-3/8e218284feabeb221e4f515da97c7e0f/transformed/firebase-iid-21.1.0/AndroidManifest.xml:33:17-96
+109                android:value="com.google.firebase.components.ComponentRegistrar" />
+109-->[com.google.firebase:firebase-iid:21.1.0] /home/gustavo/.gradle/caches/transforms-3/8e218284feabeb221e4f515da97c7e0f/transformed/firebase-iid-21.1.0/AndroidManifest.xml:34:17-82
+110            <meta-data
+110-->[com.google.android.gms:play-services-measurement-api:21.2.1] /home/gustavo/.gradle/caches/transforms-3/1f4a2c17a55a28fd8c56cc14066ff7ba/transformed/play-services-measurement-api-21.2.1/AndroidManifest.xml:31:13-33:85
+111                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+111-->[com.google.android.gms:play-services-measurement-api:21.2.1] /home/gustavo/.gradle/caches/transforms-3/1f4a2c17a55a28fd8c56cc14066ff7ba/transformed/play-services-measurement-api-21.2.1/AndroidManifest.xml:32:17-139
+112                android:value="com.google.firebase.components.ComponentRegistrar" />
+112-->[com.google.android.gms:play-services-measurement-api:21.2.1] /home/gustavo/.gradle/caches/transforms-3/1f4a2c17a55a28fd8c56cc14066ff7ba/transformed/play-services-measurement-api-21.2.1/AndroidManifest.xml:33:17-82
+113            <meta-data
+113-->[com.google.firebase:firebase-datatransport:18.1.7] /home/gustavo/.gradle/caches/transforms-3/224825f740084ee2f8d3e16f49c37053/transformed/firebase-datatransport-18.1.7/AndroidManifest.xml:27:13-29:85
+114                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+114-->[com.google.firebase:firebase-datatransport:18.1.7] /home/gustavo/.gradle/caches/transforms-3/224825f740084ee2f8d3e16f49c37053/transformed/firebase-datatransport-18.1.7/AndroidManifest.xml:28:17-115
+115                android:value="com.google.firebase.components.ComponentRegistrar" />
+115-->[com.google.firebase:firebase-datatransport:18.1.7] /home/gustavo/.gradle/caches/transforms-3/224825f740084ee2f8d3e16f49c37053/transformed/firebase-datatransport-18.1.7/AndroidManifest.xml:29:17-82
+116            <meta-data
+116-->[com.google.firebase:firebase-installations:17.1.3] /home/gustavo/.gradle/caches/transforms-3/c8b9af796c6abbf8e3bd5a4f7b9ecd8f/transformed/firebase-installations-17.1.3/AndroidManifest.xml:17:13-19:85
+117                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+117-->[com.google.firebase:firebase-installations:17.1.3] /home/gustavo/.gradle/caches/transforms-3/c8b9af796c6abbf8e3bd5a4f7b9ecd8f/transformed/firebase-installations-17.1.3/AndroidManifest.xml:18:17-127
+118                android:value="com.google.firebase.components.ComponentRegistrar" />
+118-->[com.google.firebase:firebase-installations:17.1.3] /home/gustavo/.gradle/caches/transforms-3/c8b9af796c6abbf8e3bd5a4f7b9ecd8f/transformed/firebase-installations-17.1.3/AndroidManifest.xml:19:17-82
+119        </service>
+120
+121        <activity
+121-->[com.google.firebase:firebase-auth:21.2.0] /home/gustavo/.gradle/caches/transforms-3/67023616d20d779838c10edbafa8491d/transformed/firebase-auth-21.2.0/AndroidManifest.xml:29:9-46:20
+122            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+122-->[com.google.firebase:firebase-auth:21.2.0] /home/gustavo/.gradle/caches/transforms-3/67023616d20d779838c10edbafa8491d/transformed/firebase-auth-21.2.0/AndroidManifest.xml:30:13-80
+123            android:excludeFromRecents="true"
+123-->[com.google.firebase:firebase-auth:21.2.0] /home/gustavo/.gradle/caches/transforms-3/67023616d20d779838c10edbafa8491d/transformed/firebase-auth-21.2.0/AndroidManifest.xml:31:13-46
+124            android:exported="true"
+124-->[com.google.firebase:firebase-auth:21.2.0] /home/gustavo/.gradle/caches/transforms-3/67023616d20d779838c10edbafa8491d/transformed/firebase-auth-21.2.0/AndroidManifest.xml:32:13-36
+125            android:launchMode="singleTask"
+125-->[com.google.firebase:firebase-auth:21.2.0] /home/gustavo/.gradle/caches/transforms-3/67023616d20d779838c10edbafa8491d/transformed/firebase-auth-21.2.0/AndroidManifest.xml:33:13-44
+126            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+126-->[com.google.firebase:firebase-auth:21.2.0] /home/gustavo/.gradle/caches/transforms-3/67023616d20d779838c10edbafa8491d/transformed/firebase-auth-21.2.0/AndroidManifest.xml:34:13-72
+127            <intent-filter>
+127-->[com.google.firebase:firebase-auth:21.2.0] /home/gustavo/.gradle/caches/transforms-3/67023616d20d779838c10edbafa8491d/transformed/firebase-auth-21.2.0/AndroidManifest.xml:35:13-45:29
+128                <action android:name="android.intent.action.VIEW" />
+128-->[com.google.firebase:firebase-auth:21.2.0] /home/gustavo/.gradle/caches/transforms-3/67023616d20d779838c10edbafa8491d/transformed/firebase-auth-21.2.0/AndroidManifest.xml:36:17-69
+128-->[com.google.firebase:firebase-auth:21.2.0] /home/gustavo/.gradle/caches/transforms-3/67023616d20d779838c10edbafa8491d/transformed/firebase-auth-21.2.0/AndroidManifest.xml:36:25-66
+129
+130                <category android:name="android.intent.category.DEFAULT" />
+130-->[com.google.firebase:firebase-auth:21.2.0] /home/gustavo/.gradle/caches/transforms-3/67023616d20d779838c10edbafa8491d/transformed/firebase-auth-21.2.0/AndroidManifest.xml:38:17-76
+130-->[com.google.firebase:firebase-auth:21.2.0] /home/gustavo/.gradle/caches/transforms-3/67023616d20d779838c10edbafa8491d/transformed/firebase-auth-21.2.0/AndroidManifest.xml:38:27-73
+131                <category android:name="android.intent.category.BROWSABLE" />
+131-->[com.google.firebase:firebase-auth:21.2.0] /home/gustavo/.gradle/caches/transforms-3/67023616d20d779838c10edbafa8491d/transformed/firebase-auth-21.2.0/AndroidManifest.xml:39:17-78
+131-->[com.google.firebase:firebase-auth:21.2.0] /home/gustavo/.gradle/caches/transforms-3/67023616d20d779838c10edbafa8491d/transformed/firebase-auth-21.2.0/AndroidManifest.xml:39:27-75
+132
+133                <data
+133-->[com.google.firebase:firebase-auth:21.2.0] /home/gustavo/.gradle/caches/transforms-3/67023616d20d779838c10edbafa8491d/transformed/firebase-auth-21.2.0/AndroidManifest.xml:41:17-44:51
+134                    android:host="firebase.auth"
+134-->[com.google.firebase:firebase-auth:21.2.0] /home/gustavo/.gradle/caches/transforms-3/67023616d20d779838c10edbafa8491d/transformed/firebase-auth-21.2.0/AndroidManifest.xml:42:21-49
+135                    android:path="/"
+135-->[com.google.firebase:firebase-auth:21.2.0] /home/gustavo/.gradle/caches/transforms-3/67023616d20d779838c10edbafa8491d/transformed/firebase-auth-21.2.0/AndroidManifest.xml:43:21-37
+136                    android:scheme="genericidp" />
+136-->[com.google.firebase:firebase-auth:21.2.0] /home/gustavo/.gradle/caches/transforms-3/67023616d20d779838c10edbafa8491d/transformed/firebase-auth-21.2.0/AndroidManifest.xml:44:21-48
+137            </intent-filter>
+138        </activity>
+139        <activity
+139-->[com.google.firebase:firebase-auth:21.2.0] /home/gustavo/.gradle/caches/transforms-3/67023616d20d779838c10edbafa8491d/transformed/firebase-auth-21.2.0/AndroidManifest.xml:47:9-64:20
+140            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+140-->[com.google.firebase:firebase-auth:21.2.0] /home/gustavo/.gradle/caches/transforms-3/67023616d20d779838c10edbafa8491d/transformed/firebase-auth-21.2.0/AndroidManifest.xml:48:13-79
+141            android:excludeFromRecents="true"
+141-->[com.google.firebase:firebase-auth:21.2.0] /home/gustavo/.gradle/caches/transforms-3/67023616d20d779838c10edbafa8491d/transformed/firebase-auth-21.2.0/AndroidManifest.xml:49:13-46
+142            android:exported="true"
+142-->[com.google.firebase:firebase-auth:21.2.0] /home/gustavo/.gradle/caches/transforms-3/67023616d20d779838c10edbafa8491d/transformed/firebase-auth-21.2.0/AndroidManifest.xml:50:13-36
+143            android:launchMode="singleTask"
+143-->[com.google.firebase:firebase-auth:21.2.0] /home/gustavo/.gradle/caches/transforms-3/67023616d20d779838c10edbafa8491d/transformed/firebase-auth-21.2.0/AndroidManifest.xml:51:13-44
+144            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+144-->[com.google.firebase:firebase-auth:21.2.0] /home/gustavo/.gradle/caches/transforms-3/67023616d20d779838c10edbafa8491d/transformed/firebase-auth-21.2.0/AndroidManifest.xml:52:13-72
+145            <intent-filter>
+145-->[com.google.firebase:firebase-auth:21.2.0] /home/gustavo/.gradle/caches/transforms-3/67023616d20d779838c10edbafa8491d/transformed/firebase-auth-21.2.0/AndroidManifest.xml:53:13-63:29
+146                <action android:name="android.intent.action.VIEW" />
+146-->[com.google.firebase:firebase-auth:21.2.0] /home/gustavo/.gradle/caches/transforms-3/67023616d20d779838c10edbafa8491d/transformed/firebase-auth-21.2.0/AndroidManifest.xml:36:17-69
+146-->[com.google.firebase:firebase-auth:21.2.0] /home/gustavo/.gradle/caches/transforms-3/67023616d20d779838c10edbafa8491d/transformed/firebase-auth-21.2.0/AndroidManifest.xml:36:25-66
+147
+148                <category android:name="android.intent.category.DEFAULT" />
+148-->[com.google.firebase:firebase-auth:21.2.0] /home/gustavo/.gradle/caches/transforms-3/67023616d20d779838c10edbafa8491d/transformed/firebase-auth-21.2.0/AndroidManifest.xml:38:17-76
+148-->[com.google.firebase:firebase-auth:21.2.0] /home/gustavo/.gradle/caches/transforms-3/67023616d20d779838c10edbafa8491d/transformed/firebase-auth-21.2.0/AndroidManifest.xml:38:27-73
+149                <category android:name="android.intent.category.BROWSABLE" />
+149-->[com.google.firebase:firebase-auth:21.2.0] /home/gustavo/.gradle/caches/transforms-3/67023616d20d779838c10edbafa8491d/transformed/firebase-auth-21.2.0/AndroidManifest.xml:39:17-78
+149-->[com.google.firebase:firebase-auth:21.2.0] /home/gustavo/.gradle/caches/transforms-3/67023616d20d779838c10edbafa8491d/transformed/firebase-auth-21.2.0/AndroidManifest.xml:39:27-75
+150
+151                <data
+151-->[com.google.firebase:firebase-auth:21.2.0] /home/gustavo/.gradle/caches/transforms-3/67023616d20d779838c10edbafa8491d/transformed/firebase-auth-21.2.0/AndroidManifest.xml:41:17-44:51
+152                    android:host="firebase.auth"
+152-->[com.google.firebase:firebase-auth:21.2.0] /home/gustavo/.gradle/caches/transforms-3/67023616d20d779838c10edbafa8491d/transformed/firebase-auth-21.2.0/AndroidManifest.xml:42:21-49
+153                    android:path="/"
+153-->[com.google.firebase:firebase-auth:21.2.0] /home/gustavo/.gradle/caches/transforms-3/67023616d20d779838c10edbafa8491d/transformed/firebase-auth-21.2.0/AndroidManifest.xml:43:21-37
+154                    android:scheme="recaptcha" />
+154-->[com.google.firebase:firebase-auth:21.2.0] /home/gustavo/.gradle/caches/transforms-3/67023616d20d779838c10edbafa8491d/transformed/firebase-auth-21.2.0/AndroidManifest.xml:44:21-48
+155            </intent-filter>
+156        </activity>
+157
+158        <receiver
+158-->[com.google.firebase:firebase-messaging:23.1.2] /home/gustavo/.gradle/caches/transforms-3/f6309c9d3f8562304bd026fbbf6577f5/transformed/firebase-messaging-23.1.2/AndroidManifest.xml:31:9-38:20
+159            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+159-->[com.google.firebase:firebase-messaging:23.1.2] /home/gustavo/.gradle/caches/transforms-3/f6309c9d3f8562304bd026fbbf6577f5/transformed/firebase-messaging-23.1.2/AndroidManifest.xml:32:13-78
+160            android:exported="true"
+160-->[com.google.firebase:firebase-messaging:23.1.2] /home/gustavo/.gradle/caches/transforms-3/f6309c9d3f8562304bd026fbbf6577f5/transformed/firebase-messaging-23.1.2/AndroidManifest.xml:33:13-36
+161            android:permission="com.google.android.c2dm.permission.SEND" >
+161-->[com.google.firebase:firebase-messaging:23.1.2] /home/gustavo/.gradle/caches/transforms-3/f6309c9d3f8562304bd026fbbf6577f5/transformed/firebase-messaging-23.1.2/AndroidManifest.xml:34:13-73
+162            <intent-filter>
+162-->[com.google.firebase:firebase-messaging:23.1.2] /home/gustavo/.gradle/caches/transforms-3/f6309c9d3f8562304bd026fbbf6577f5/transformed/firebase-messaging-23.1.2/AndroidManifest.xml:35:13-37:29
+163                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+163-->[com.google.firebase:firebase-messaging:23.1.2] /home/gustavo/.gradle/caches/transforms-3/f6309c9d3f8562304bd026fbbf6577f5/transformed/firebase-messaging-23.1.2/AndroidManifest.xml:36:17-81
+163-->[com.google.firebase:firebase-messaging:23.1.2] /home/gustavo/.gradle/caches/transforms-3/f6309c9d3f8562304bd026fbbf6577f5/transformed/firebase-messaging-23.1.2/AndroidManifest.xml:36:25-78
+164            </intent-filter>
+165        </receiver>
+166        <!--
+167             FirebaseMessagingService performs security checks at runtime,
+168             but set to not exported to explicitly avoid allowing another app to call it.
+169        -->
+170        <service
+170-->[com.google.firebase:firebase-messaging:23.1.2] /home/gustavo/.gradle/caches/transforms-3/f6309c9d3f8562304bd026fbbf6577f5/transformed/firebase-messaging-23.1.2/AndroidManifest.xml:44:9-51:19
+171            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+171-->[com.google.firebase:firebase-messaging:23.1.2] /home/gustavo/.gradle/caches/transforms-3/f6309c9d3f8562304bd026fbbf6577f5/transformed/firebase-messaging-23.1.2/AndroidManifest.xml:45:13-82
+172            android:directBootAware="true"
+172-->[com.google.firebase:firebase-messaging:23.1.2] /home/gustavo/.gradle/caches/transforms-3/f6309c9d3f8562304bd026fbbf6577f5/transformed/firebase-messaging-23.1.2/AndroidManifest.xml:46:13-43
+173            android:exported="false" >
+173-->[com.google.firebase:firebase-messaging:23.1.2] /home/gustavo/.gradle/caches/transforms-3/f6309c9d3f8562304bd026fbbf6577f5/transformed/firebase-messaging-23.1.2/AndroidManifest.xml:47:13-37
+174            <intent-filter android:priority="-500" >
+174-->[com.google.firebase:firebase-messaging:23.1.2] /home/gustavo/.gradle/caches/transforms-3/f6309c9d3f8562304bd026fbbf6577f5/transformed/firebase-messaging-23.1.2/AndroidManifest.xml:48:13-50:29
+174-->[com.google.firebase:firebase-messaging:23.1.2] /home/gustavo/.gradle/caches/transforms-3/f6309c9d3f8562304bd026fbbf6577f5/transformed/firebase-messaging-23.1.2/AndroidManifest.xml:48:28-51
+175                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+175-->[com.google.firebase:firebase-messaging:23.1.2] /home/gustavo/.gradle/caches/transforms-3/f6309c9d3f8562304bd026fbbf6577f5/transformed/firebase-messaging-23.1.2/AndroidManifest.xml:49:17-78
+175-->[com.google.firebase:firebase-messaging:23.1.2] /home/gustavo/.gradle/caches/transforms-3/f6309c9d3f8562304bd026fbbf6577f5/transformed/firebase-messaging-23.1.2/AndroidManifest.xml:49:25-75
+176            </intent-filter>
+177        </service>
+178
+179        <provider
+179-->[com.google.firebase:firebase-common:20.3.2] /home/gustavo/.gradle/caches/transforms-3/c020e9cfe88c3b77730a7aa4b4346800/transformed/firebase-common-20.3.2/AndroidManifest.xml:25:9-30:39
+180            android:name="com.google.firebase.provider.FirebaseInitProvider"
+180-->[com.google.firebase:firebase-common:20.3.2] /home/gustavo/.gradle/caches/transforms-3/c020e9cfe88c3b77730a7aa4b4346800/transformed/firebase-common-20.3.2/AndroidManifest.xml:26:13-77
+181            android:authorities="br.com.uteeth3pi.firebaseinitprovider"
+181-->[com.google.firebase:firebase-common:20.3.2] /home/gustavo/.gradle/caches/transforms-3/c020e9cfe88c3b77730a7aa4b4346800/transformed/firebase-common-20.3.2/AndroidManifest.xml:27:13-72
+182            android:directBootAware="true"
+182-->[com.google.firebase:firebase-common:20.3.2] /home/gustavo/.gradle/caches/transforms-3/c020e9cfe88c3b77730a7aa4b4346800/transformed/firebase-common-20.3.2/AndroidManifest.xml:28:13-43
+183            android:exported="false"
+183-->[com.google.firebase:firebase-common:20.3.2] /home/gustavo/.gradle/caches/transforms-3/c020e9cfe88c3b77730a7aa4b4346800/transformed/firebase-common-20.3.2/AndroidManifest.xml:29:13-37
+184            android:initOrder="100" />
+184-->[com.google.firebase:firebase-common:20.3.2] /home/gustavo/.gradle/caches/transforms-3/c020e9cfe88c3b77730a7aa4b4346800/transformed/firebase-common-20.3.2/AndroidManifest.xml:30:13-36
+185
+186        <activity
+186-->[com.google.android.gms:play-services-base:18.1.0] /home/gustavo/.gradle/caches/transforms-3/e82b5d03a143d0f5020c8907cad1b44f/transformed/play-services-base-18.1.0/AndroidManifest.xml:20:9-22:45
+187            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+187-->[com.google.android.gms:play-services-base:18.1.0] /home/gustavo/.gradle/caches/transforms-3/e82b5d03a143d0f5020c8907cad1b44f/transformed/play-services-base-18.1.0/AndroidManifest.xml:20:19-85
+188            android:exported="false"
+188-->[com.google.android.gms:play-services-base:18.1.0] /home/gustavo/.gradle/caches/transforms-3/e82b5d03a143d0f5020c8907cad1b44f/transformed/play-services-base-18.1.0/AndroidManifest.xml:22:19-43
+189            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+189-->[com.google.android.gms:play-services-base:18.1.0] /home/gustavo/.gradle/caches/transforms-3/e82b5d03a143d0f5020c8907cad1b44f/transformed/play-services-base-18.1.0/AndroidManifest.xml:21:19-78
+190
+191        <receiver
+191-->[com.google.android.gms:play-services-measurement:21.2.1] /home/gustavo/.gradle/caches/transforms-3/e802ccb8df6071d95ee71d0f8e5950df/transformed/play-services-measurement-21.2.1/AndroidManifest.xml:29:9-33:20
+192            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+192-->[com.google.android.gms:play-services-measurement:21.2.1] /home/gustavo/.gradle/caches/transforms-3/e802ccb8df6071d95ee71d0f8e5950df/transformed/play-services-measurement-21.2.1/AndroidManifest.xml:30:13-85
+193            android:enabled="true"
+193-->[com.google.android.gms:play-services-measurement:21.2.1] /home/gustavo/.gradle/caches/transforms-3/e802ccb8df6071d95ee71d0f8e5950df/transformed/play-services-measurement-21.2.1/AndroidManifest.xml:31:13-35
+194            android:exported="false" >
+194-->[com.google.android.gms:play-services-measurement:21.2.1] /home/gustavo/.gradle/caches/transforms-3/e802ccb8df6071d95ee71d0f8e5950df/transformed/play-services-measurement-21.2.1/AndroidManifest.xml:32:13-37
+195        </receiver>
+196
+197        <service
+197-->[com.google.android.gms:play-services-measurement:21.2.1] /home/gustavo/.gradle/caches/transforms-3/e802ccb8df6071d95ee71d0f8e5950df/transformed/play-services-measurement-21.2.1/AndroidManifest.xml:35:9-38:40
+198            android:name="com.google.android.gms.measurement.AppMeasurementService"
+198-->[com.google.android.gms:play-services-measurement:21.2.1] /home/gustavo/.gradle/caches/transforms-3/e802ccb8df6071d95ee71d0f8e5950df/transformed/play-services-measurement-21.2.1/AndroidManifest.xml:36:13-84
+199            android:enabled="true"
+199-->[com.google.android.gms:play-services-measurement:21.2.1] /home/gustavo/.gradle/caches/transforms-3/e802ccb8df6071d95ee71d0f8e5950df/transformed/play-services-measurement-21.2.1/AndroidManifest.xml:37:13-35
+200            android:exported="false" />
+200-->[com.google.android.gms:play-services-measurement:21.2.1] /home/gustavo/.gradle/caches/transforms-3/e802ccb8df6071d95ee71d0f8e5950df/transformed/play-services-measurement-21.2.1/AndroidManifest.xml:38:13-37
+201        <service
+201-->[com.google.android.gms:play-services-measurement:21.2.1] /home/gustavo/.gradle/caches/transforms-3/e802ccb8df6071d95ee71d0f8e5950df/transformed/play-services-measurement-21.2.1/AndroidManifest.xml:39:9-43:72
+202            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+202-->[com.google.android.gms:play-services-measurement:21.2.1] /home/gustavo/.gradle/caches/transforms-3/e802ccb8df6071d95ee71d0f8e5950df/transformed/play-services-measurement-21.2.1/AndroidManifest.xml:40:13-87
+203            android:enabled="true"
+203-->[com.google.android.gms:play-services-measurement:21.2.1] /home/gustavo/.gradle/caches/transforms-3/e802ccb8df6071d95ee71d0f8e5950df/transformed/play-services-measurement-21.2.1/AndroidManifest.xml:41:13-35
+204            android:exported="false"
+204-->[com.google.android.gms:play-services-measurement:21.2.1] /home/gustavo/.gradle/caches/transforms-3/e802ccb8df6071d95ee71d0f8e5950df/transformed/play-services-measurement-21.2.1/AndroidManifest.xml:42:13-37
+205            android:permission="android.permission.BIND_JOB_SERVICE" />
+205-->[com.google.android.gms:play-services-measurement:21.2.1] /home/gustavo/.gradle/caches/transforms-3/e802ccb8df6071d95ee71d0f8e5950df/transformed/play-services-measurement-21.2.1/AndroidManifest.xml:43:13-69
+206
+207        <meta-data
+207-->[com.google.android.gms:play-services-basement:18.1.0] /home/gustavo/.gradle/caches/transforms-3/8706ba57e183e31046c2268988a0e26e/transformed/play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+208            android:name="com.google.android.gms.version"
+208-->[com.google.android.gms:play-services-basement:18.1.0] /home/gustavo/.gradle/caches/transforms-3/8706ba57e183e31046c2268988a0e26e/transformed/play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+209            android:value="@integer/google_play_services_version" />
+209-->[com.google.android.gms:play-services-basement:18.1.0] /home/gustavo/.gradle/caches/transforms-3/8706ba57e183e31046c2268988a0e26e/transformed/play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+210
+211        <uses-library
+211-->[androidx.window:window:1.0.0] /home/gustavo/.gradle/caches/transforms-3/bdfb58e27681777f3b2b8ab9e4976182/transformed/window-1.0.0/AndroidManifest.xml:25:9-27:40
+212            android:name="androidx.window.extensions"
+212-->[androidx.window:window:1.0.0] /home/gustavo/.gradle/caches/transforms-3/bdfb58e27681777f3b2b8ab9e4976182/transformed/window-1.0.0/AndroidManifest.xml:26:13-54
+213            android:required="false" />
+213-->[androidx.window:window:1.0.0] /home/gustavo/.gradle/caches/transforms-3/bdfb58e27681777f3b2b8ab9e4976182/transformed/window-1.0.0/AndroidManifest.xml:27:13-37
+214        <uses-library
+214-->[androidx.window:window:1.0.0] /home/gustavo/.gradle/caches/transforms-3/bdfb58e27681777f3b2b8ab9e4976182/transformed/window-1.0.0/AndroidManifest.xml:28:9-30:40
+215            android:name="androidx.window.sidecar"
+215-->[androidx.window:window:1.0.0] /home/gustavo/.gradle/caches/transforms-3/bdfb58e27681777f3b2b8ab9e4976182/transformed/window-1.0.0/AndroidManifest.xml:29:13-51
+216            android:required="false" />
+216-->[androidx.window:window:1.0.0] /home/gustavo/.gradle/caches/transforms-3/bdfb58e27681777f3b2b8ab9e4976182/transformed/window-1.0.0/AndroidManifest.xml:30:13-37
+217
+218        <provider
+218-->[androidx.work:work-runtime:2.8.1] /home/gustavo/.gradle/caches/transforms-3/90fb366de4dd6af0383b8515da3f3922/transformed/work-runtime-2.8.1/AndroidManifest.xml:29:9-37:20
+219            android:name="androidx.startup.InitializationProvider"
+219-->[androidx.work:work-runtime:2.8.1] /home/gustavo/.gradle/caches/transforms-3/90fb366de4dd6af0383b8515da3f3922/transformed/work-runtime-2.8.1/AndroidManifest.xml:30:13-67
+220            android:authorities="br.com.uteeth3pi.androidx-startup"
+220-->[androidx.work:work-runtime:2.8.1] /home/gustavo/.gradle/caches/transforms-3/90fb366de4dd6af0383b8515da3f3922/transformed/work-runtime-2.8.1/AndroidManifest.xml:31:13-68
+221            android:exported="false" >
+221-->[androidx.work:work-runtime:2.8.1] /home/gustavo/.gradle/caches/transforms-3/90fb366de4dd6af0383b8515da3f3922/transformed/work-runtime-2.8.1/AndroidManifest.xml:32:13-37
+222            <meta-data
+222-->[androidx.work:work-runtime:2.8.1] /home/gustavo/.gradle/caches/transforms-3/90fb366de4dd6af0383b8515da3f3922/transformed/work-runtime-2.8.1/AndroidManifest.xml:34:13-36:52
+223                android:name="androidx.work.WorkManagerInitializer"
+223-->[androidx.work:work-runtime:2.8.1] /home/gustavo/.gradle/caches/transforms-3/90fb366de4dd6af0383b8515da3f3922/transformed/work-runtime-2.8.1/AndroidManifest.xml:35:17-68
+224                android:value="androidx.startup" />
+224-->[androidx.work:work-runtime:2.8.1] /home/gustavo/.gradle/caches/transforms-3/90fb366de4dd6af0383b8515da3f3922/transformed/work-runtime-2.8.1/AndroidManifest.xml:36:17-49
+225            <meta-data
+225-->[androidx.emoji2:emoji2:1.2.0] /home/gustavo/.gradle/caches/transforms-3/23934c25c6843d004f9cbb1e2b80e24f/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+226                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+226-->[androidx.emoji2:emoji2:1.2.0] /home/gustavo/.gradle/caches/transforms-3/23934c25c6843d004f9cbb1e2b80e24f/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+227                android:value="androidx.startup" />
+227-->[androidx.emoji2:emoji2:1.2.0] /home/gustavo/.gradle/caches/transforms-3/23934c25c6843d004f9cbb1e2b80e24f/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+228            <meta-data
+228-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/gustavo/.gradle/caches/transforms-3/c2722155e5f98a6577872cbc42090981/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+229                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+229-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/gustavo/.gradle/caches/transforms-3/c2722155e5f98a6577872cbc42090981/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+230                android:value="androidx.startup" />
+230-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/gustavo/.gradle/caches/transforms-3/c2722155e5f98a6577872cbc42090981/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+231        </provider>
+232
+233        <service
+233-->[androidx.work:work-runtime:2.8.1] /home/gustavo/.gradle/caches/transforms-3/90fb366de4dd6af0383b8515da3f3922/transformed/work-runtime-2.8.1/AndroidManifest.xml:39:9-45:35
+234            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+234-->[androidx.work:work-runtime:2.8.1] /home/gustavo/.gradle/caches/transforms-3/90fb366de4dd6af0383b8515da3f3922/transformed/work-runtime-2.8.1/AndroidManifest.xml:40:13-88
+235            android:directBootAware="false"
+235-->[androidx.work:work-runtime:2.8.1] /home/gustavo/.gradle/caches/transforms-3/90fb366de4dd6af0383b8515da3f3922/transformed/work-runtime-2.8.1/AndroidManifest.xml:41:13-44
+236            android:enabled="@bool/enable_system_alarm_service_default"
+236-->[androidx.work:work-runtime:2.8.1] /home/gustavo/.gradle/caches/transforms-3/90fb366de4dd6af0383b8515da3f3922/transformed/work-runtime-2.8.1/AndroidManifest.xml:42:13-72
+237            android:exported="false" />
+237-->[androidx.work:work-runtime:2.8.1] /home/gustavo/.gradle/caches/transforms-3/90fb366de4dd6af0383b8515da3f3922/transformed/work-runtime-2.8.1/AndroidManifest.xml:43:13-37
+238        <service
+238-->[androidx.work:work-runtime:2.8.1] /home/gustavo/.gradle/caches/transforms-3/90fb366de4dd6af0383b8515da3f3922/transformed/work-runtime-2.8.1/AndroidManifest.xml:46:9-52:35
+239            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+239-->[androidx.work:work-runtime:2.8.1] /home/gustavo/.gradle/caches/transforms-3/90fb366de4dd6af0383b8515da3f3922/transformed/work-runtime-2.8.1/AndroidManifest.xml:47:13-84
+240            android:directBootAware="false"
+240-->[androidx.work:work-runtime:2.8.1] /home/gustavo/.gradle/caches/transforms-3/90fb366de4dd6af0383b8515da3f3922/transformed/work-runtime-2.8.1/AndroidManifest.xml:48:13-44
+241            android:enabled="@bool/enable_system_job_service_default"
+241-->[androidx.work:work-runtime:2.8.1] /home/gustavo/.gradle/caches/transforms-3/90fb366de4dd6af0383b8515da3f3922/transformed/work-runtime-2.8.1/AndroidManifest.xml:49:13-70
+242            android:exported="true"
+242-->[androidx.work:work-runtime:2.8.1] /home/gustavo/.gradle/caches/transforms-3/90fb366de4dd6af0383b8515da3f3922/transformed/work-runtime-2.8.1/AndroidManifest.xml:50:13-36
+243            android:permission="android.permission.BIND_JOB_SERVICE" />
+243-->[androidx.work:work-runtime:2.8.1] /home/gustavo/.gradle/caches/transforms-3/90fb366de4dd6af0383b8515da3f3922/transformed/work-runtime-2.8.1/AndroidManifest.xml:51:13-69
+244        <service
+244-->[androidx.work:work-runtime:2.8.1] /home/gustavo/.gradle/caches/transforms-3/90fb366de4dd6af0383b8515da3f3922/transformed/work-runtime-2.8.1/AndroidManifest.xml:53:9-59:35
+245            android:name="androidx.work.impl.foreground.SystemForegroundService"
+245-->[androidx.work:work-runtime:2.8.1] /home/gustavo/.gradle/caches/transforms-3/90fb366de4dd6af0383b8515da3f3922/transformed/work-runtime-2.8.1/AndroidManifest.xml:54:13-81
+246            android:directBootAware="false"
+246-->[androidx.work:work-runtime:2.8.1] /home/gustavo/.gradle/caches/transforms-3/90fb366de4dd6af0383b8515da3f3922/transformed/work-runtime-2.8.1/AndroidManifest.xml:55:13-44
+247            android:enabled="@bool/enable_system_foreground_service_default"
+247-->[androidx.work:work-runtime:2.8.1] /home/gustavo/.gradle/caches/transforms-3/90fb366de4dd6af0383b8515da3f3922/transformed/work-runtime-2.8.1/AndroidManifest.xml:56:13-77
+248            android:exported="false" />
+248-->[androidx.work:work-runtime:2.8.1] /home/gustavo/.gradle/caches/transforms-3/90fb366de4dd6af0383b8515da3f3922/transformed/work-runtime-2.8.1/AndroidManifest.xml:57:13-37
+249
+250        <receiver
+250-->[androidx.work:work-runtime:2.8.1] /home/gustavo/.gradle/caches/transforms-3/90fb366de4dd6af0383b8515da3f3922/transformed/work-runtime-2.8.1/AndroidManifest.xml:61:9-66:35
+251            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+251-->[androidx.work:work-runtime:2.8.1] /home/gustavo/.gradle/caches/transforms-3/90fb366de4dd6af0383b8515da3f3922/transformed/work-runtime-2.8.1/AndroidManifest.xml:62:13-88
+252            android:directBootAware="false"
+252-->[androidx.work:work-runtime:2.8.1] /home/gustavo/.gradle/caches/transforms-3/90fb366de4dd6af0383b8515da3f3922/transformed/work-runtime-2.8.1/AndroidManifest.xml:63:13-44
+253            android:enabled="true"
+253-->[androidx.work:work-runtime:2.8.1] /home/gustavo/.gradle/caches/transforms-3/90fb366de4dd6af0383b8515da3f3922/transformed/work-runtime-2.8.1/AndroidManifest.xml:64:13-35
+254            android:exported="false" />
+254-->[androidx.work:work-runtime:2.8.1] /home/gustavo/.gradle/caches/transforms-3/90fb366de4dd6af0383b8515da3f3922/transformed/work-runtime-2.8.1/AndroidManifest.xml:65:13-37
+255        <receiver
+255-->[androidx.work:work-runtime:2.8.1] /home/gustavo/.gradle/caches/transforms-3/90fb366de4dd6af0383b8515da3f3922/transformed/work-runtime-2.8.1/AndroidManifest.xml:67:9-77:20
+256            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+256-->[androidx.work:work-runtime:2.8.1] /home/gustavo/.gradle/caches/transforms-3/90fb366de4dd6af0383b8515da3f3922/transformed/work-runtime-2.8.1/AndroidManifest.xml:68:13-106
+257            android:directBootAware="false"
+257-->[androidx.work:work-runtime:2.8.1] /home/gustavo/.gradle/caches/transforms-3/90fb366de4dd6af0383b8515da3f3922/transformed/work-runtime-2.8.1/AndroidManifest.xml:69:13-44
+258            android:enabled="false"
+258-->[androidx.work:work-runtime:2.8.1] /home/gustavo/.gradle/caches/transforms-3/90fb366de4dd6af0383b8515da3f3922/transformed/work-runtime-2.8.1/AndroidManifest.xml:70:13-36
+259            android:exported="false" >
+259-->[androidx.work:work-runtime:2.8.1] /home/gustavo/.gradle/caches/transforms-3/90fb366de4dd6af0383b8515da3f3922/transformed/work-runtime-2.8.1/AndroidManifest.xml:71:13-37
+260            <intent-filter>
+260-->[androidx.work:work-runtime:2.8.1] /home/gustavo/.gradle/caches/transforms-3/90fb366de4dd6af0383b8515da3f3922/transformed/work-runtime-2.8.1/AndroidManifest.xml:73:13-76:29
+261                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+261-->[androidx.work:work-runtime:2.8.1] /home/gustavo/.gradle/caches/transforms-3/90fb366de4dd6af0383b8515da3f3922/transformed/work-runtime-2.8.1/AndroidManifest.xml:74:17-87
+261-->[androidx.work:work-runtime:2.8.1] /home/gustavo/.gradle/caches/transforms-3/90fb366de4dd6af0383b8515da3f3922/transformed/work-runtime-2.8.1/AndroidManifest.xml:74:25-84
+262                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+262-->[androidx.work:work-runtime:2.8.1] /home/gustavo/.gradle/caches/transforms-3/90fb366de4dd6af0383b8515da3f3922/transformed/work-runtime-2.8.1/AndroidManifest.xml:75:17-90
+262-->[androidx.work:work-runtime:2.8.1] /home/gustavo/.gradle/caches/transforms-3/90fb366de4dd6af0383b8515da3f3922/transformed/work-runtime-2.8.1/AndroidManifest.xml:75:25-87
+263            </intent-filter>
+264        </receiver>
+265        <receiver
+265-->[androidx.work:work-runtime:2.8.1] /home/gustavo/.gradle/caches/transforms-3/90fb366de4dd6af0383b8515da3f3922/transformed/work-runtime-2.8.1/AndroidManifest.xml:78:9-88:20
+266            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+266-->[androidx.work:work-runtime:2.8.1] /home/gustavo/.gradle/caches/transforms-3/90fb366de4dd6af0383b8515da3f3922/transformed/work-runtime-2.8.1/AndroidManifest.xml:79:13-104
+267            android:directBootAware="false"
+267-->[androidx.work:work-runtime:2.8.1] /home/gustavo/.gradle/caches/transforms-3/90fb366de4dd6af0383b8515da3f3922/transformed/work-runtime-2.8.1/AndroidManifest.xml:80:13-44
+268            android:enabled="false"
+268-->[androidx.work:work-runtime:2.8.1] /home/gustavo/.gradle/caches/transforms-3/90fb366de4dd6af0383b8515da3f3922/transformed/work-runtime-2.8.1/AndroidManifest.xml:81:13-36
+269            android:exported="false" >
+269-->[androidx.work:work-runtime:2.8.1] /home/gustavo/.gradle/caches/transforms-3/90fb366de4dd6af0383b8515da3f3922/transformed/work-runtime-2.8.1/AndroidManifest.xml:82:13-37
+270            <intent-filter>
+270-->[androidx.work:work-runtime:2.8.1] /home/gustavo/.gradle/caches/transforms-3/90fb366de4dd6af0383b8515da3f3922/transformed/work-runtime-2.8.1/AndroidManifest.xml:84:13-87:29
+271                <action android:name="android.intent.action.BATTERY_OKAY" />
+271-->[androidx.work:work-runtime:2.8.1] /home/gustavo/.gradle/caches/transforms-3/90fb366de4dd6af0383b8515da3f3922/transformed/work-runtime-2.8.1/AndroidManifest.xml:85:17-77
+271-->[androidx.work:work-runtime:2.8.1] /home/gustavo/.gradle/caches/transforms-3/90fb366de4dd6af0383b8515da3f3922/transformed/work-runtime-2.8.1/AndroidManifest.xml:85:25-74
+272                <action android:name="android.intent.action.BATTERY_LOW" />
+272-->[androidx.work:work-runtime:2.8.1] /home/gustavo/.gradle/caches/transforms-3/90fb366de4dd6af0383b8515da3f3922/transformed/work-runtime-2.8.1/AndroidManifest.xml:86:17-76
+272-->[androidx.work:work-runtime:2.8.1] /home/gustavo/.gradle/caches/transforms-3/90fb366de4dd6af0383b8515da3f3922/transformed/work-runtime-2.8.1/AndroidManifest.xml:86:25-73
+273            </intent-filter>
+274        </receiver>
+275        <receiver
+275-->[androidx.work:work-runtime:2.8.1] /home/gustavo/.gradle/caches/transforms-3/90fb366de4dd6af0383b8515da3f3922/transformed/work-runtime-2.8.1/AndroidManifest.xml:89:9-99:20
+276            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+276-->[androidx.work:work-runtime:2.8.1] /home/gustavo/.gradle/caches/transforms-3/90fb366de4dd6af0383b8515da3f3922/transformed/work-runtime-2.8.1/AndroidManifest.xml:90:13-104
+277            android:directBootAware="false"
+277-->[androidx.work:work-runtime:2.8.1] /home/gustavo/.gradle/caches/transforms-3/90fb366de4dd6af0383b8515da3f3922/transformed/work-runtime-2.8.1/AndroidManifest.xml:91:13-44
+278            android:enabled="false"
+278-->[androidx.work:work-runtime:2.8.1] /home/gustavo/.gradle/caches/transforms-3/90fb366de4dd6af0383b8515da3f3922/transformed/work-runtime-2.8.1/AndroidManifest.xml:92:13-36
+279            android:exported="false" >
+279-->[androidx.work:work-runtime:2.8.1] /home/gustavo/.gradle/caches/transforms-3/90fb366de4dd6af0383b8515da3f3922/transformed/work-runtime-2.8.1/AndroidManifest.xml:93:13-37
+280            <intent-filter>
+280-->[androidx.work:work-runtime:2.8.1] /home/gustavo/.gradle/caches/transforms-3/90fb366de4dd6af0383b8515da3f3922/transformed/work-runtime-2.8.1/AndroidManifest.xml:95:13-98:29
+281                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+281-->[androidx.work:work-runtime:2.8.1] /home/gustavo/.gradle/caches/transforms-3/90fb366de4dd6af0383b8515da3f3922/transformed/work-runtime-2.8.1/AndroidManifest.xml:96:17-83
+281-->[androidx.work:work-runtime:2.8.1] /home/gustavo/.gradle/caches/transforms-3/90fb366de4dd6af0383b8515da3f3922/transformed/work-runtime-2.8.1/AndroidManifest.xml:96:25-80
+282                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+282-->[androidx.work:work-runtime:2.8.1] /home/gustavo/.gradle/caches/transforms-3/90fb366de4dd6af0383b8515da3f3922/transformed/work-runtime-2.8.1/AndroidManifest.xml:97:17-82
+282-->[androidx.work:work-runtime:2.8.1] /home/gustavo/.gradle/caches/transforms-3/90fb366de4dd6af0383b8515da3f3922/transformed/work-runtime-2.8.1/AndroidManifest.xml:97:25-79
+283            </intent-filter>
+284        </receiver>
+285        <receiver
+285-->[androidx.work:work-runtime:2.8.1] /home/gustavo/.gradle/caches/transforms-3/90fb366de4dd6af0383b8515da3f3922/transformed/work-runtime-2.8.1/AndroidManifest.xml:100:9-109:20
+286            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+286-->[androidx.work:work-runtime:2.8.1] /home/gustavo/.gradle/caches/transforms-3/90fb366de4dd6af0383b8515da3f3922/transformed/work-runtime-2.8.1/AndroidManifest.xml:101:13-103
+287            android:directBootAware="false"
+287-->[androidx.work:work-runtime:2.8.1] /home/gustavo/.gradle/caches/transforms-3/90fb366de4dd6af0383b8515da3f3922/transformed/work-runtime-2.8.1/AndroidManifest.xml:102:13-44
+288            android:enabled="false"
+288-->[androidx.work:work-runtime:2.8.1] /home/gustavo/.gradle/caches/transforms-3/90fb366de4dd6af0383b8515da3f3922/transformed/work-runtime-2.8.1/AndroidManifest.xml:103:13-36
+289            android:exported="false" >
+289-->[androidx.work:work-runtime:2.8.1] /home/gustavo/.gradle/caches/transforms-3/90fb366de4dd6af0383b8515da3f3922/transformed/work-runtime-2.8.1/AndroidManifest.xml:104:13-37
+290            <intent-filter>
+290-->[androidx.work:work-runtime:2.8.1] /home/gustavo/.gradle/caches/transforms-3/90fb366de4dd6af0383b8515da3f3922/transformed/work-runtime-2.8.1/AndroidManifest.xml:106:13-108:29
+291                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+291-->[androidx.work:work-runtime:2.8.1] /home/gustavo/.gradle/caches/transforms-3/90fb366de4dd6af0383b8515da3f3922/transformed/work-runtime-2.8.1/AndroidManifest.xml:107:17-79
+291-->[androidx.work:work-runtime:2.8.1] /home/gustavo/.gradle/caches/transforms-3/90fb366de4dd6af0383b8515da3f3922/transformed/work-runtime-2.8.1/AndroidManifest.xml:107:25-76
+292            </intent-filter>
+293        </receiver>
+294        <receiver
+294-->[androidx.work:work-runtime:2.8.1] /home/gustavo/.gradle/caches/transforms-3/90fb366de4dd6af0383b8515da3f3922/transformed/work-runtime-2.8.1/AndroidManifest.xml:110:9-121:20
+295            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+295-->[androidx.work:work-runtime:2.8.1] /home/gustavo/.gradle/caches/transforms-3/90fb366de4dd6af0383b8515da3f3922/transformed/work-runtime-2.8.1/AndroidManifest.xml:111:13-88
+296            android:directBootAware="false"
+296-->[androidx.work:work-runtime:2.8.1] /home/gustavo/.gradle/caches/transforms-3/90fb366de4dd6af0383b8515da3f3922/transformed/work-runtime-2.8.1/AndroidManifest.xml:112:13-44
+297            android:enabled="false"
+297-->[androidx.work:work-runtime:2.8.1] /home/gustavo/.gradle/caches/transforms-3/90fb366de4dd6af0383b8515da3f3922/transformed/work-runtime-2.8.1/AndroidManifest.xml:113:13-36
+298            android:exported="false" >
+298-->[androidx.work:work-runtime:2.8.1] /home/gustavo/.gradle/caches/transforms-3/90fb366de4dd6af0383b8515da3f3922/transformed/work-runtime-2.8.1/AndroidManifest.xml:114:13-37
+299            <intent-filter>
+299-->[androidx.work:work-runtime:2.8.1] /home/gustavo/.gradle/caches/transforms-3/90fb366de4dd6af0383b8515da3f3922/transformed/work-runtime-2.8.1/AndroidManifest.xml:116:13-120:29
+300                <action android:name="android.intent.action.BOOT_COMPLETED" />
+300-->[androidx.work:work-runtime:2.8.1] /home/gustavo/.gradle/caches/transforms-3/90fb366de4dd6af0383b8515da3f3922/transformed/work-runtime-2.8.1/AndroidManifest.xml:117:17-79
+300-->[androidx.work:work-runtime:2.8.1] /home/gustavo/.gradle/caches/transforms-3/90fb366de4dd6af0383b8515da3f3922/transformed/work-runtime-2.8.1/AndroidManifest.xml:117:25-76
+301                <action android:name="android.intent.action.TIME_SET" />
+301-->[androidx.work:work-runtime:2.8.1] /home/gustavo/.gradle/caches/transforms-3/90fb366de4dd6af0383b8515da3f3922/transformed/work-runtime-2.8.1/AndroidManifest.xml:118:17-73
+301-->[androidx.work:work-runtime:2.8.1] /home/gustavo/.gradle/caches/transforms-3/90fb366de4dd6af0383b8515da3f3922/transformed/work-runtime-2.8.1/AndroidManifest.xml:118:25-70
+302                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+302-->[androidx.work:work-runtime:2.8.1] /home/gustavo/.gradle/caches/transforms-3/90fb366de4dd6af0383b8515da3f3922/transformed/work-runtime-2.8.1/AndroidManifest.xml:119:17-81
+302-->[androidx.work:work-runtime:2.8.1] /home/gustavo/.gradle/caches/transforms-3/90fb366de4dd6af0383b8515da3f3922/transformed/work-runtime-2.8.1/AndroidManifest.xml:119:25-78
+303            </intent-filter>
+304        </receiver>
+305        <receiver
+305-->[androidx.work:work-runtime:2.8.1] /home/gustavo/.gradle/caches/transforms-3/90fb366de4dd6af0383b8515da3f3922/transformed/work-runtime-2.8.1/AndroidManifest.xml:122:9-131:20
+306            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+306-->[androidx.work:work-runtime:2.8.1] /home/gustavo/.gradle/caches/transforms-3/90fb366de4dd6af0383b8515da3f3922/transformed/work-runtime-2.8.1/AndroidManifest.xml:123:13-99
+307            android:directBootAware="false"
+307-->[androidx.work:work-runtime:2.8.1] /home/gustavo/.gradle/caches/transforms-3/90fb366de4dd6af0383b8515da3f3922/transformed/work-runtime-2.8.1/AndroidManifest.xml:124:13-44
+308            android:enabled="@bool/enable_system_alarm_service_default"
+308-->[androidx.work:work-runtime:2.8.1] /home/gustavo/.gradle/caches/transforms-3/90fb366de4dd6af0383b8515da3f3922/transformed/work-runtime-2.8.1/AndroidManifest.xml:125:13-72
+309            android:exported="false" >
+309-->[androidx.work:work-runtime:2.8.1] /home/gustavo/.gradle/caches/transforms-3/90fb366de4dd6af0383b8515da3f3922/transformed/work-runtime-2.8.1/AndroidManifest.xml:126:13-37
+310            <intent-filter>
+310-->[androidx.work:work-runtime:2.8.1] /home/gustavo/.gradle/caches/transforms-3/90fb366de4dd6af0383b8515da3f3922/transformed/work-runtime-2.8.1/AndroidManifest.xml:128:13-130:29
+311                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+311-->[androidx.work:work-runtime:2.8.1] /home/gustavo/.gradle/caches/transforms-3/90fb366de4dd6af0383b8515da3f3922/transformed/work-runtime-2.8.1/AndroidManifest.xml:129:17-98
+311-->[androidx.work:work-runtime:2.8.1] /home/gustavo/.gradle/caches/transforms-3/90fb366de4dd6af0383b8515da3f3922/transformed/work-runtime-2.8.1/AndroidManifest.xml:129:25-95
+312            </intent-filter>
+313        </receiver>
+314        <receiver
+314-->[androidx.work:work-runtime:2.8.1] /home/gustavo/.gradle/caches/transforms-3/90fb366de4dd6af0383b8515da3f3922/transformed/work-runtime-2.8.1/AndroidManifest.xml:132:9-142:20
+315            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+315-->[androidx.work:work-runtime:2.8.1] /home/gustavo/.gradle/caches/transforms-3/90fb366de4dd6af0383b8515da3f3922/transformed/work-runtime-2.8.1/AndroidManifest.xml:133:13-78
+316            android:directBootAware="false"
+316-->[androidx.work:work-runtime:2.8.1] /home/gustavo/.gradle/caches/transforms-3/90fb366de4dd6af0383b8515da3f3922/transformed/work-runtime-2.8.1/AndroidManifest.xml:134:13-44
+317            android:enabled="true"
+317-->[androidx.work:work-runtime:2.8.1] /home/gustavo/.gradle/caches/transforms-3/90fb366de4dd6af0383b8515da3f3922/transformed/work-runtime-2.8.1/AndroidManifest.xml:135:13-35
+318            android:exported="true"
+318-->[androidx.work:work-runtime:2.8.1] /home/gustavo/.gradle/caches/transforms-3/90fb366de4dd6af0383b8515da3f3922/transformed/work-runtime-2.8.1/AndroidManifest.xml:136:13-36
+319            android:permission="android.permission.DUMP" >
+319-->[androidx.work:work-runtime:2.8.1] /home/gustavo/.gradle/caches/transforms-3/90fb366de4dd6af0383b8515da3f3922/transformed/work-runtime-2.8.1/AndroidManifest.xml:137:13-57
+320            <intent-filter>
+320-->[androidx.work:work-runtime:2.8.1] /home/gustavo/.gradle/caches/transforms-3/90fb366de4dd6af0383b8515da3f3922/transformed/work-runtime-2.8.1/AndroidManifest.xml:139:13-141:29
+321                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+321-->[androidx.work:work-runtime:2.8.1] /home/gustavo/.gradle/caches/transforms-3/90fb366de4dd6af0383b8515da3f3922/transformed/work-runtime-2.8.1/AndroidManifest.xml:140:17-88
+321-->[androidx.work:work-runtime:2.8.1] /home/gustavo/.gradle/caches/transforms-3/90fb366de4dd6af0383b8515da3f3922/transformed/work-runtime-2.8.1/AndroidManifest.xml:140:25-85
+322            </intent-filter>
+323        </receiver>
+324
+325        <service
+325-->[androidx.room:room-runtime:2.5.0] /home/gustavo/.gradle/caches/transforms-3/891eae750e273cc00c52fe6143fc65aa/transformed/room-runtime-2.5.0/AndroidManifest.xml:24:9-28:63
+326            android:name="androidx.room.MultiInstanceInvalidationService"
+326-->[androidx.room:room-runtime:2.5.0] /home/gustavo/.gradle/caches/transforms-3/891eae750e273cc00c52fe6143fc65aa/transformed/room-runtime-2.5.0/AndroidManifest.xml:25:13-74
+327            android:directBootAware="true"
+327-->[androidx.room:room-runtime:2.5.0] /home/gustavo/.gradle/caches/transforms-3/891eae750e273cc00c52fe6143fc65aa/transformed/room-runtime-2.5.0/AndroidManifest.xml:26:13-43
+328            android:exported="false" />
+328-->[androidx.room:room-runtime:2.5.0] /home/gustavo/.gradle/caches/transforms-3/891eae750e273cc00c52fe6143fc65aa/transformed/room-runtime-2.5.0/AndroidManifest.xml:27:13-37
+329        <service
+329-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /home/gustavo/.gradle/caches/transforms-3/351c809617d82a693deffdc6795fdcf8/transformed/transport-backend-cct-3.1.8/AndroidManifest.xml:28:9-34:19
+330            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+330-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /home/gustavo/.gradle/caches/transforms-3/351c809617d82a693deffdc6795fdcf8/transformed/transport-backend-cct-3.1.8/AndroidManifest.xml:29:13-103
+331            android:exported="false" >
+331-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /home/gustavo/.gradle/caches/transforms-3/351c809617d82a693deffdc6795fdcf8/transformed/transport-backend-cct-3.1.8/AndroidManifest.xml:30:13-37
+332            <meta-data
+332-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /home/gustavo/.gradle/caches/transforms-3/351c809617d82a693deffdc6795fdcf8/transformed/transport-backend-cct-3.1.8/AndroidManifest.xml:31:13-33:39
+333                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+333-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /home/gustavo/.gradle/caches/transforms-3/351c809617d82a693deffdc6795fdcf8/transformed/transport-backend-cct-3.1.8/AndroidManifest.xml:32:17-94
+334                android:value="cct" />
+334-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /home/gustavo/.gradle/caches/transforms-3/351c809617d82a693deffdc6795fdcf8/transformed/transport-backend-cct-3.1.8/AndroidManifest.xml:33:17-36
+335        </service>
+336        <service
+336-->[com.google.android.datatransport:transport-runtime:3.1.8] /home/gustavo/.gradle/caches/transforms-3/126037e1d8463691dd79e8ac467d5d6e/transformed/transport-runtime-3.1.8/AndroidManifest.xml:26:9-30:19
+337            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+337-->[com.google.android.datatransport:transport-runtime:3.1.8] /home/gustavo/.gradle/caches/transforms-3/126037e1d8463691dd79e8ac467d5d6e/transformed/transport-runtime-3.1.8/AndroidManifest.xml:27:13-117
+338            android:exported="false"
+338-->[com.google.android.datatransport:transport-runtime:3.1.8] /home/gustavo/.gradle/caches/transforms-3/126037e1d8463691dd79e8ac467d5d6e/transformed/transport-runtime-3.1.8/AndroidManifest.xml:28:13-37
+339            android:permission="android.permission.BIND_JOB_SERVICE" >
+339-->[com.google.android.datatransport:transport-runtime:3.1.8] /home/gustavo/.gradle/caches/transforms-3/126037e1d8463691dd79e8ac467d5d6e/transformed/transport-runtime-3.1.8/AndroidManifest.xml:29:13-69
+340        </service>
+341
+342        <receiver
+342-->[com.google.android.datatransport:transport-runtime:3.1.8] /home/gustavo/.gradle/caches/transforms-3/126037e1d8463691dd79e8ac467d5d6e/transformed/transport-runtime-3.1.8/AndroidManifest.xml:32:9-34:40
+343            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+343-->[com.google.android.datatransport:transport-runtime:3.1.8] /home/gustavo/.gradle/caches/transforms-3/126037e1d8463691dd79e8ac467d5d6e/transformed/transport-runtime-3.1.8/AndroidManifest.xml:33:13-132
+344            android:exported="false" />
+344-->[com.google.android.datatransport:transport-runtime:3.1.8] /home/gustavo/.gradle/caches/transforms-3/126037e1d8463691dd79e8ac467d5d6e/transformed/transport-runtime-3.1.8/AndroidManifest.xml:34:13-37
+345    </application>
+346
+347</manifest>

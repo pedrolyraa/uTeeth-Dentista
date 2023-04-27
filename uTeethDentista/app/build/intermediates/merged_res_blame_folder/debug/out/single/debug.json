@@ -1,154 +1,158 @@
 [
     {
-        "merged": "br.edu.puc.uteethdentista.app-merged_res-45:/drawable_uteeth_png.png.flat",
-        "source": "br.edu.puc.uteethdentista.app-main-47:/drawable/uteeth_png.png"
+        "merged": "/home/gustavo/.gradle/daemon/7.5/br.com.uteeth3pi.app-merged_res-56:/layout_activity_main.xml.flat",
+        "source": "/home/gustavo/.gradle/daemon/7.5/br.com.uteeth3pi.app-main-58:/layout/activity_main.xml"
     },
     {
-        "merged": "br.edu.puc.uteethdentista.app-merged_res-45:/mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "br.edu.puc.uteethdentista.app-main-47:/mipmap-xxxhdpi/ic_launcher.webp"
+        "merged": "/home/gustavo/.gradle/daemon/7.5/br.com.uteeth3pi.app-merged_res-56:/drawable_logo_a2.webp.flat",
+        "source": "/home/gustavo/.gradle/daemon/7.5/br.com.uteeth3pi.app-main-58:/drawable/logo_a2.webp"
     },
     {
-        "merged": "br.edu.puc.uteethdentista.app-merged_res-45:/drawable_gradient_background_corners.xml.flat",
-        "source": "br.edu.puc.uteethdentista.app-main-47:/drawable/gradient_background_corners.xml"
+        "merged": "/home/gustavo/.gradle/daemon/7.5/br.com.uteeth3pi.app-merged_res-56:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "/home/gustavo/.gradle/daemon/7.5/br.com.uteeth3pi.app-main-58:/mipmap-xhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "br.edu.puc.uteethdentista.app-merged_res-45:/drawable_container_components.xml.flat",
-        "source": "br.edu.puc.uteethdentista.app-main-47:/drawable/container_components.xml"
+        "merged": "/home/gustavo/.gradle/daemon/7.5/br.com.uteeth3pi.app-merged_res-56:/xml_backup_rules.xml.flat",
+        "source": "/home/gustavo/.gradle/daemon/7.5/br.com.uteeth3pi.app-main-58:/xml/backup_rules.xml"
     },
     {
-        "merged": "br.edu.puc.uteethdentista.app-merged_res-45:/layout_fragment_criar_conta.xml.flat",
-        "source": "br.edu.puc.uteethdentista.app-main-47:/layout/fragment_criar_conta.xml"
+        "merged": "/home/gustavo/.gradle/daemon/7.5/br.com.uteeth3pi.app-merged_res-56:/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "/home/gustavo/.gradle/daemon/7.5/br.com.uteeth3pi.app-main-58:/drawable-v24/ic_launcher_foreground.xml"
     },
     {
-        "merged": "br.edu.puc.uteethdentista.app-merged_res-45:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "br.edu.puc.uteethdentista.app-main-47:/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "/home/gustavo/.gradle/daemon/7.5/br.com.uteeth3pi.app-merged_res-56:/drawable_container_components.xml.flat",
+        "source": "/home/gustavo/.gradle/daemon/7.5/br.com.uteeth3pi.app-main-58:/drawable/container_components.xml"
     },
     {
-        "merged": "br.edu.puc.uteethdentista.app-merged_res-45:/drawable_logo_a2.webp.flat",
-        "source": "br.edu.puc.uteethdentista.app-main-47:/drawable/logo_a2.webp"
+        "merged": "/home/gustavo/.gradle/daemon/7.5/br.com.uteeth3pi.app-merged_res-56:/layout_fragment_criar_conta.xml.flat",
+        "source": "/home/gustavo/.gradle/daemon/7.5/br.com.uteeth3pi.app-main-58:/layout/fragment_criar_conta.xml"
     },
     {
-        "merged": "br.edu.puc.uteethdentista.app-merged_res-45:/font_poppins_light.xml.flat",
-        "source": "br.edu.puc.uteethdentista.app-main-47:/font/poppins_light.xml"
+        "merged": "/home/gustavo/.gradle/daemon/7.5/br.com.uteeth3pi.app-merged_res-56:/drawable_gradient_background_corners.xml.flat",
+        "source": "/home/gustavo/.gradle/daemon/7.5/br.com.uteeth3pi.app-main-58:/drawable/gradient_background_corners.xml"
     },
     {
-        "merged": "br.edu.puc.uteethdentista.app-merged_res-45:/xml_backup_rules.xml.flat",
-        "source": "br.edu.puc.uteethdentista.app-main-47:/xml/backup_rules.xml"
+        "merged": "/home/gustavo/.gradle/daemon/7.5/br.com.uteeth3pi.app-merged_res-56:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "/home/gustavo/.gradle/daemon/7.5/br.com.uteeth3pi.app-main-58:/mipmap-hdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "br.edu.puc.uteethdentista.app-merged_res-45:/drawable-v24_ic_launcher_foreground.xml.flat",
-        "source": "br.edu.puc.uteethdentista.app-main-47:/drawable-v24/ic_launcher_foreground.xml"
+        "merged": "/home/gustavo/.gradle/daemon/7.5/br.com.uteeth3pi.app-merged_res-56:/font_poppins.xml.flat",
+        "source": "/home/gustavo/.gradle/daemon/7.5/br.com.uteeth3pi.app-main-58:/font/poppins.xml"
     },
     {
-        "merged": "br.edu.puc.uteethdentista.app-merged_res-45:/xml_data_extraction_rules.xml.flat",
-        "source": "br.edu.puc.uteethdentista.app-main-47:/xml/data_extraction_rules.xml"
+        "merged": "/home/gustavo/.gradle/daemon/7.5/br.com.uteeth3pi.app-merged_res-56:/navigation_nav_graph.xml.flat",
+        "source": "/home/gustavo/.gradle/daemon/7.5/br.com.uteeth3pi.app-main-58:/navigation/nav_graph.xml"
     },
     {
-        "merged": "br.edu.puc.uteethdentista.app-merged_res-45:/mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "br.edu.puc.uteethdentista.app-main-47:/mipmap-mdpi/ic_launcher.webp"
+        "merged": "/home/gustavo/.gradle/daemon/7.5/br.com.uteeth3pi.app-merged_res-56:/drawable_google_logo1.png.flat",
+        "source": "/home/gustavo/.gradle/daemon/7.5/br.com.uteeth3pi.app-main-58:/drawable/google_logo1.png"
     },
     {
-        "merged": "br.edu.puc.uteethdentista.app-merged_res-45:/mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "br.edu.puc.uteethdentista.app-main-47:/mipmap-xhdpi/ic_launcher.webp"
+        "merged": "/home/gustavo/.gradle/daemon/7.5/br.com.uteeth3pi.app-merged_res-56:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "/home/gustavo/.gradle/daemon/7.5/br.com.uteeth3pi.app-main-58:/mipmap-xxxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "br.edu.puc.uteethdentista.app-merged_res-45:/navigation_nav_graph.xml.flat",
-        "source": "br.edu.puc.uteethdentista.app-main-47:/navigation/nav_graph.xml"
+        "merged": "/home/gustavo/.gradle/daemon/7.5/br.com.uteeth3pi.app-merged_res-56:/drawable_uteeth_png.png.flat",
+        "source": "/home/gustavo/.gradle/daemon/7.5/br.com.uteeth3pi.app-main-58:/drawable/uteeth_png.png"
     },
     {
-        "merged": "br.edu.puc.uteethdentista.app-merged_res-45:/font_poppins.xml.flat",
-        "source": "br.edu.puc.uteethdentista.app-main-47:/font/poppins.xml"
+        "merged": "/home/gustavo/.gradle/daemon/7.5/br.com.uteeth3pi.app-merged_res-56:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "/home/gustavo/.gradle/daemon/7.5/br.com.uteeth3pi.app-main-58:/mipmap-xhdpi/ic_launcher.webp"
     },
     {
-        "merged": "br.edu.puc.uteethdentista.app-merged_res-45:/drawable_facebook_logo3.png.flat",
-        "source": "br.edu.puc.uteethdentista.app-main-47:/drawable/facebook_logo3.png"
+        "merged": "/home/gustavo/.gradle/daemon/7.5/br.com.uteeth3pi.app-merged_res-56:/drawable_undraw_png.png.flat",
+        "source": "/home/gustavo/.gradle/daemon/7.5/br.com.uteeth3pi.app-main-58:/drawable/undraw_png.png"
     },
     {
-        "merged": "br.edu.puc.uteethdentista.app-merged_res-45:/drawable_gradient_background.xml.flat",
-        "source": "br.edu.puc.uteethdentista.app-main-47:/drawable/gradient_background.xml"
+        "merged": "/home/gustavo/.gradle/daemon/7.5/br.com.uteeth3pi.app-merged_res-56:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "/home/gustavo/.gradle/daemon/7.5/br.com.uteeth3pi.app-main-58:/mipmap-xxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "br.edu.puc.uteethdentista.app-merged_res-45:/layout_fragment_login.xml.flat",
-        "source": "br.edu.puc.uteethdentista.app-main-47:/layout/fragment_login.xml"
+        "merged": "/home/gustavo/.gradle/daemon/7.5/br.com.uteeth3pi.app-merged_res-56:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "/home/gustavo/.gradle/daemon/7.5/br.com.uteeth3pi.app-main-58:/mipmap-mdpi/ic_launcher.webp"
     },
     {
-        "merged": "br.edu.puc.uteethdentista.app-merged_res-45:/drawable_google_logo1.png.flat",
-        "source": "br.edu.puc.uteethdentista.app-main-47:/drawable/google_logo1.png"
+        "merged": "/home/gustavo/.gradle/daemon/7.5/br.com.uteeth3pi.app-merged_res-56:/drawable_container_white.xml.flat",
+        "source": "/home/gustavo/.gradle/daemon/7.5/br.com.uteeth3pi.app-main-58:/drawable/container_white.xml"
     },
     {
-        "merged": "br.edu.puc.uteethdentista.app-merged_res-45:/menu_menu_main.xml.flat",
-        "source": "br.edu.puc.uteethdentista.app-main-47:/menu/menu_main.xml"
+        "merged": "/home/gustavo/.gradle/daemon/7.5/br.com.uteeth3pi.app-merged_res-56:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/home/gustavo/.gradle/daemon/7.5/br.com.uteeth3pi.app-main-58:/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "br.edu.puc.uteethdentista.app-merged_res-45:/mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "br.edu.puc.uteethdentista.app-main-47:/mipmap-xhdpi/ic_launcher_round.webp"
+        "merged": "/home/gustavo/.gradle/daemon/7.5/br.com.uteeth3pi.app-merged_res-56:/drawable_facebook_logo.png.flat",
+        "source": "/home/gustavo/.gradle/daemon/7.5/br.com.uteeth3pi.app-main-58:/drawable/facebook_logo.png"
     },
     {
-        "merged": "br.edu.puc.uteethdentista.app-merged_res-45:/mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "br.edu.puc.uteethdentista.app-main-47:/mipmap-hdpi/ic_launcher.webp"
+        "merged": "/home/gustavo/.gradle/daemon/7.5/br.com.uteeth3pi.app-merged_res-56:/menu_menu_main.xml.flat",
+        "source": "/home/gustavo/.gradle/daemon/7.5/br.com.uteeth3pi.app-main-58:/menu/menu_main.xml"
     },
     {
-        "merged": "br.edu.puc.uteethdentista.app-merged_res-45:/font_poppins_medium.xml.flat",
-        "source": "br.edu.puc.uteethdentista.app-main-47:/font/poppins_medium.xml"
+        "merged": "/home/gustavo/.gradle/daemon/7.5/br.com.uteeth3pi.app-merged_res-56:/layout_fragment_home.xml.flat",
+        "source": "/home/gustavo/.gradle/daemon/7.5/br.com.uteeth3pi.app-main-58:/layout/fragment_home.xml"
     },
     {
-        "merged": "br.edu.puc.uteethdentista.app-merged_res-45:/mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "br.edu.puc.uteethdentista.app-main-47:/mipmap-xxhdpi/ic_launcher.webp"
+        "merged": "/home/gustavo/.gradle/daemon/7.5/br.com.uteeth3pi.app-merged_res-56:/mipmap-anydpi-v33_ic_launcher.xml.flat",
+        "source": "/home/gustavo/.gradle/daemon/7.5/br.com.uteeth3pi.app-main-58:/mipmap-anydpi-v33/ic_launcher.xml"
     },
     {
-        "merged": "br.edu.puc.uteethdentista.app-merged_res-45:/layout_activity_main2.xml.flat",
-        "source": "br.edu.puc.uteethdentista.app-main-47:/layout/activity_main2.xml"
+        "merged": "/home/gustavo/.gradle/daemon/7.5/br.com.uteeth3pi.app-merged_res-56:/drawable_logo_azul.png.flat",
+        "source": "/home/gustavo/.gradle/daemon/7.5/br.com.uteeth3pi.app-main-58:/drawable/logo_azul.png"
     },
     {
-        "merged": "br.edu.puc.uteethdentista.app-merged_res-45:/mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "br.edu.puc.uteethdentista.app-main-47:/mipmap-mdpi/ic_launcher_round.webp"
+        "merged": "/home/gustavo/.gradle/daemon/7.5/br.com.uteeth3pi.app-merged_res-56:/drawable_gradient_background.xml.flat",
+        "source": "/home/gustavo/.gradle/daemon/7.5/br.com.uteeth3pi.app-main-58:/drawable/gradient_background.xml"
     },
     {
-        "merged": "br.edu.puc.uteethdentista.app-merged_res-45:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "br.edu.puc.uteethdentista.app-main-47:/mipmap-xxhdpi/ic_launcher_round.webp"
+        "merged": "/home/gustavo/.gradle/daemon/7.5/br.com.uteeth3pi.app-merged_res-56:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "/home/gustavo/.gradle/daemon/7.5/br.com.uteeth3pi.app-main-58:/mipmap-mdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "br.edu.puc.uteethdentista.app-merged_res-45:/drawable_logo_azul.png.flat",
-        "source": "br.edu.puc.uteethdentista.app-main-47:/drawable/logo_azul.png"
+        "merged": "/home/gustavo/.gradle/daemon/7.5/br.com.uteeth3pi.app-merged_res-56:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "/home/gustavo/.gradle/daemon/7.5/br.com.uteeth3pi.app-main-58:/mipmap-xxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "br.edu.puc.uteethdentista.app-merged_res-45:/drawable_container_white.xml.flat",
-        "source": "br.edu.puc.uteethdentista.app-main-47:/drawable/container_white.xml"
+        "merged": "/home/gustavo/.gradle/daemon/7.5/br.com.uteeth3pi.app-merged_res-56:/layout_fragment_login.xml.flat",
+        "source": "/home/gustavo/.gradle/daemon/7.5/br.com.uteeth3pi.app-main-58:/layout/fragment_login.xml"
     },
     {
-        "merged": "br.edu.puc.uteethdentista.app-merged_res-45:/font_poppins_semibold.xml.flat",
-        "source": "br.edu.puc.uteethdentista.app-main-47:/font/poppins_semibold.xml"
+        "merged": "/home/gustavo/.gradle/daemon/7.5/br.com.uteeth3pi.app-merged_res-56:/font_poppins_medium.xml.flat",
+        "source": "/home/gustavo/.gradle/daemon/7.5/br.com.uteeth3pi.app-main-58:/font/poppins_medium.xml"
     },
     {
-        "merged": "br.edu.puc.uteethdentista.app-merged_res-45:/drawable_facebook_logo.png.flat",
-        "source": "br.edu.puc.uteethdentista.app-main-47:/drawable/facebook_logo.png"
+        "merged": "/home/gustavo/.gradle/daemon/7.5/br.com.uteeth3pi.app-merged_res-56:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "/home/gustavo/.gradle/daemon/7.5/br.com.uteeth3pi.app-main-58:/mipmap-xxxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "br.edu.puc.uteethdentista.app-merged_res-45:/drawable_undraw_png.png.flat",
-        "source": "br.edu.puc.uteethdentista.app-main-47:/drawable/undraw_png.png"
+        "merged": "br.com.uteeth3pi.app-merged_res-56:/layout_fragment_login.xml.flat",
+        "source": "br.com.uteeth3pi.app-main-58:/layout/fragment_login.xml"
     },
     {
-        "merged": "br.edu.puc.uteethdentista.app-merged_res-45:/drawable_ic_launcher_background.xml.flat",
-        "source": "br.edu.puc.uteethdentista.app-main-47:/drawable/ic_launcher_background.xml"
+        "merged": "/home/gustavo/.gradle/daemon/7.5/br.com.uteeth3pi.app-merged_res-56:/drawable_facebook_logo3.png.flat",
+        "source": "/home/gustavo/.gradle/daemon/7.5/br.com.uteeth3pi.app-main-58:/drawable/facebook_logo3.png"
     },
     {
-        "merged": "br.edu.puc.uteethdentista.app-merged_res-45:/mipmap-anydpi-v33_ic_launcher.xml.flat",
-        "source": "br.edu.puc.uteethdentista.app-main-47:/mipmap-anydpi-v33/ic_launcher.xml"
+        "merged": "/home/gustavo/.gradle/daemon/7.5/br.com.uteeth3pi.app-merged_res-56:/drawable_ic_launcher_background.xml.flat",
+        "source": "/home/gustavo/.gradle/daemon/7.5/br.com.uteeth3pi.app-main-58:/drawable/ic_launcher_background.xml"
     },
     {
-        "merged": "br.edu.puc.uteethdentista.app-merged_res-45:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "br.edu.puc.uteethdentista.app-main-47:/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "/home/gustavo/.gradle/daemon/7.5/br.com.uteeth3pi.app-merged_res-56:/font_poppins_light.xml.flat",
+        "source": "/home/gustavo/.gradle/daemon/7.5/br.com.uteeth3pi.app-main-58:/font/poppins_light.xml"
     },
     {
-        "merged": "br.edu.puc.uteethdentista.app-merged_res-45:/mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "br.edu.puc.uteethdentista.app-main-47:/mipmap-hdpi/ic_launcher_round.webp"
+        "merged": "/home/gustavo/.gradle/daemon/7.5/br.com.uteeth3pi.app-merged_res-56:/xml_data_extraction_rules.xml.flat",
+        "source": "/home/gustavo/.gradle/daemon/7.5/br.com.uteeth3pi.app-main-58:/xml/data_extraction_rules.xml"
     },
     {
-        "merged": "br.edu.puc.uteethdentista.app-merged_res-45:/layout_fragment_home.xml.flat",
-        "source": "br.edu.puc.uteethdentista.app-main-47:/layout/fragment_home.xml"
+        "merged": "/home/gustavo/.gradle/daemon/7.5/br.com.uteeth3pi.app-merged_res-56:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "/home/gustavo/.gradle/daemon/7.5/br.com.uteeth3pi.app-main-58:/mipmap-hdpi/ic_launcher.webp"
     },
     {
-        "merged": "br.edu.puc.uteethdentista.app-merged_res-45:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "br.edu.puc.uteethdentista.app-main-47:/mipmap-xxxhdpi/ic_launcher_round.webp"
+        "merged": "/home/gustavo/.gradle/daemon/7.5/br.com.uteeth3pi.app-merged_res-56:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/home/gustavo/.gradle/daemon/7.5/br.com.uteeth3pi.app-main-58:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/home/gustavo/.gradle/daemon/7.5/br.com.uteeth3pi.app-merged_res-56:/font_poppins_semibold.xml.flat",
+        "source": "/home/gustavo/.gradle/daemon/7.5/br.com.uteeth3pi.app-main-58:/font/poppins_semibold.xml"
     }
 ]

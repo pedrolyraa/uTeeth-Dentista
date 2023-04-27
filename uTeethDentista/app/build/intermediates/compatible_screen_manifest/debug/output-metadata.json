@@ -4,7 +4,7 @@
     "type": "COMPATIBLE_SCREEN_MANIFEST",
     "kind": "Directory"
   },
-  "applicationId": "br.edu.puc.uteethdentista",
+  "applicationId": "br.com.uteeth3pi",
   "variantName": "debug",
   "elements": []
 }

@@ -13,7 +13,7 @@
         android:layout_width="307dp"
         android:layout_height="151dp"
         android:layout_gravity="center"
-        android:contentDescription="logo"
+        android:contentDescription="logo2"
         android:scaleType="centerCrop"
         android:src="@drawable/logo_azul" />
 
